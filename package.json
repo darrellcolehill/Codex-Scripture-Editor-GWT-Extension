@@ -45,5 +45,8 @@
     "typescript": "^5.3.3",
     "@vscode/test-cli": "^0.0.8",
     "@vscode/test-electron": "^2.3.9"
-  }
+  },
+  "extensionDependencies": [
+    "project-accelerate.shared-state-store"
+]
 }
