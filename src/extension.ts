@@ -47,13 +47,13 @@ export function activate(context: vscode.ExtensionContext) {
 						// const fileContent = fs.readFileSync(onDiskPath.fsPath, 'utf8');
 
 
-						parseXml(xmlData)
-						.then((result) => {
-							console.log(result);
-						})
-						.catch((err) => {
-							console.error(err);
-						});
+						// parseXml(xmlData)
+						// .then((result) => {
+						// 	console.log(result);
+						// })
+						// .catch((err) => {
+						// 	console.error(err);
+						// });
 
                         console.log("Showing value " + value.verseRef);
                         updateWebviewContent(currentPanel!!, value.verseRef);
@@ -93,7 +93,17 @@ function updateWebviewContent(panel: vscode.WebviewPanel, verseRef: string) {
 }
 
 
-
+function padStrongsWithZeros(words: WordData[]): void {
+    words.forEach((word) => {
+        if (word.strongs && word.strongs.startsWith('G')) {
+            const num = parseInt(word.strongs.substring(1));
+            if (num < 1000) {
+                const paddedStrong = `G${num.toString().padStart(4, '0')}`;
+                word.strongs = paddedStrong;
+            }
+        }
+    });
+}
 
 function parseXml(xmlData: string): Promise<WordData[]> {
     return new Promise((resolve, reject) => {
@@ -114,6 +124,7 @@ function parseXml(xmlData: string): Promise<WordData[]> {
                     });
                 }
 
+                padStrongsWithZeros(words);
                 resolve(words);
             }
         });
@@ -130,7 +141,7 @@ const xmlData = `
                 <w OGNTsort="083219" strongs="G1401" morph="N-NSM" lemma="δοῦλος" text="δοῦλος">a servant</w>
                 <w OGNTsort="083221" strongs="G2424" morph="N-GSM-P" lemma="Ἰησοῦς" text="Ἰησοῦ">of Jesus</w>
                 <w OGNTsort="083220" strongs="G5547" morph="N-GSM-T" lemma="Χριστός" text="Χριστοῦ">Christ,</w>
-                <w OGNTsort="083222" strongs="G2822" morph="A-NSM" lemma="κλητός" text="κλητὸς">called</w>
+                <w OGNTsort="083222" strongs="G2" morph="A-NSM" lemma="κλητός" text="κλητὸς">called</w>
             </verse>
         </chapter>
     </book>
