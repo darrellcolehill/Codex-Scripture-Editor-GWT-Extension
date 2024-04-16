@@ -2,6 +2,7 @@ import * as vscode from 'vscode';
 import { initializeStateStore } from './stateStore';
 import * as fs from 'fs';
 import * as xml2js from 'xml2js';
+import { bookNameMap } from './newTestamentBookNameMap';
 
 interface WordData {
     text: string;
@@ -11,7 +12,6 @@ interface WordData {
 export function activate(context: vscode.ExtensionContext) {
     let currentPanel: vscode.WebviewPanel | undefined = undefined;
     let disposeFunction: (() => void) | undefined = undefined;
-
     context.subscriptions.push(
         vscode.commands.registerCommand('greek-words-for-translators.start', async () => {
             console.log("starting");
@@ -33,7 +33,9 @@ export function activate(context: vscode.ExtensionContext) {
                 disposeFunction = storeListener("verseRef", (value) => {
                     if (value) {
 
+						const scribeBookeName = value.verseRef.substring(0, 3);
 						
+
 						// TODO: have this grab the specific CSV entries for the specific verse
 
 
