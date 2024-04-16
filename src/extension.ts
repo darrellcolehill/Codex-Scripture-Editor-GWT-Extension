@@ -1,5 +1,7 @@
 import * as vscode from 'vscode';
 import { initializeStateStore } from './stateStore';
+import * as fs from 'fs';
+
 
 export function activate(context: vscode.ExtensionContext) {
     let currentPanel: vscode.WebviewPanel | undefined = undefined;
@@ -25,6 +27,19 @@ export function activate(context: vscode.ExtensionContext) {
 				const { storeListener } = await initializeStateStore();
                 disposeFunction = storeListener("verseRef", (value) => {
                     if (value) {
+
+						// TODO: have this grab the specific CSV entries for the specific verse
+
+
+						// // Get path to resource on disk
+						// const onDiskPath = vscode.Uri.joinPath(context.extensionUri, 'media', 'g0000.txt');
+
+						// // Get the special URI to use with the webview
+						// const textSrc = currentPanel?.webview.asWebviewUri(onDiskPath);
+
+						// // Read the text file synchronously
+						// const fileContent = fs.readFileSync(onDiskPath.fsPath, 'utf8');
+
                         console.log("Showing value " + value.verseRef);
                         updateWebviewContent(currentPanel!!, value.verseRef);
                     }
