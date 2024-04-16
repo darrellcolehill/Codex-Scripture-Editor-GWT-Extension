@@ -1,6 +1,8 @@
 import * as vscode from 'vscode';
 import { initializeStateStore } from './stateStore';
 import * as fs from 'fs';
+import axios from 'axios';
+import cheerio from 'cheerio';
 
 
 export function activate(context: vscode.ExtensionContext) {
@@ -28,6 +30,15 @@ export function activate(context: vscode.ExtensionContext) {
                 disposeFunction = storeListener("verseRef", (value) => {
                     if (value) {
 
+						fetchMDContent(xmlData)
+						.then((results) => {
+							console.log(results);
+							// Process or display the MD content as needed
+						})
+						.catch((error) => {
+							console.error('Error fetching MD content:', error);
+						});
+						
 						// TODO: have this grab the specific CSV entries for the specific verse
 
 
@@ -76,3 +87,37 @@ function getWebviewContent(verseRef: string): string {
 function updateWebviewContent(panel: vscode.WebviewPanel, verseRef: string) {
     panel.webview.html = getWebviewContent(verseRef);
 }
+
+
+
+
+async function fetchMDContent(xmlData: string): Promise<string[]> {
+    const $ = cheerio.load(xmlData, { xmlMode: true });
+    const wTags = $('w');
+    const results: Promise<string>[] = [];
+
+    wTags.each((index, element) => {
+        const strongs = $(element).attr('strongs');
+        if (strongs) {
+            const mdUrl = `https://content.bibletranslationtools.org/WycliffeAssociates/en_gwt/src/branch/master/start.-,end/${strongs}.md`;
+            const promise = axios.get(mdUrl).then((response) => response.data);
+            results.push(promise);
+        }
+    });
+
+    return Promise.all(results);
+}
+
+// Example usage
+const xmlData = `<?xml version="1.0" standalone="yes" ?>
+<xml xsi:schemaLocation="wa_ulb.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <book osisID="rom">
+        <chapter osisID="rom.1">
+            <verse name="Romans 1:1">
+                <w OGNTsort="083218" strongs="G3972" morph="N-NSM-P" lemma="Παῦλος" text="Παῦλος">Paul,</w>
+                <w OGNTsort="083219" strongs="G1401" morph="N-NSM" lemma="δοῦλος" text="δοῦλος">a servant</w>
+                <!-- More <w> tags here -->
+            </verse>
+        </chapter>
+    </book>
+</xml>`;
