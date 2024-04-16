@@ -2,52 +2,48 @@ import * as vscode from 'vscode';
 import { initializeStateStore } from './stateStore';
 
 export function activate(context: vscode.ExtensionContext) {
-	// Track the current panel with a webview
-	let currentPanel: vscode.WebviewPanel | undefined = undefined;
-  
-	context.subscriptions.push(
-	  vscode.commands.registerCommand('greek-words-for-translators.start', () => {
-		console.log("starting");
-		const columnToShowIn = vscode.window.activeTextEditor
-		  ? vscode.window.activeTextEditor.viewColumn
-		  : undefined;
-  
-		if (currentPanel) {
-		  // If we already have a panel, show it in the target column
-		  currentPanel.reveal(columnToShowIn);
-		} else {
-		  console.log("initializing state store");
+    let currentPanel: vscode.WebviewPanel | undefined = undefined;
+    let disposeFunction: (() => void) | undefined = undefined;
 
-		  initializeStateStore().then(({ storeListener }) => {
-            const disposeFunction = storeListener("verseRef", (value) => {
-                if (value) {
-                    console.log("Showing value " + value.verseRef);
-                }
-            });
-          });
+    context.subscriptions.push(
+        vscode.commands.registerCommand('greek-words-for-translators.start', async () => {
+            console.log("starting");
+            const columnToShowIn = vscode.window.activeTextEditor
+                ? vscode.window.activeTextEditor.viewColumn
+                : undefined;
 
-		  // Otherwise, create a new panel
-		  currentPanel = vscode.window.createWebviewPanel(
-			'greek-words-view',
-			'Greek Words for Translators',
-			columnToShowIn || vscode.ViewColumn.One,
-			{}
-		  );
-		  currentPanel.webview.html = getWebviewContent();
-  
-		  // Reset when the current panel is closed
-		  currentPanel.onDidDispose(
-			() => {
-			  currentPanel = undefined;
-			},
-			null,
-			context.subscriptions
-		  );
-		}
+            if (!currentPanel) {
+                console.log("initializing state store");
 
-	  })
-	);
-  }
+                const { storeListener } = await initializeStateStore();
+                disposeFunction = storeListener("verseRef", (value) => {
+                    if (value) {
+                        console.log("Showing value " + value.verseRef);
+                        currentPanel?.webview.postMessage({
+                            command: "reload",
+                            data: { verseRef: value.verseRef, uri: value.uri },
+                        });
+                    }
+                });
+
+                currentPanel = vscode.window.createWebviewPanel(
+                    'greek-words-view',
+                    'Greek Words for Translators',
+                    columnToShowIn || vscode.ViewColumn.One,
+                    {}
+                );
+                currentPanel.webview.html = getWebviewContent();
+
+                currentPanel.onDidDispose(() => {
+                    currentPanel = undefined;
+                    disposeFunction?.();
+                }, null, context.subscriptions);
+            } else {
+                currentPanel.reveal(columnToShowIn);
+            }
+        })
+    );
+}
 
 function getWebviewContent() {
     return `<!DOCTYPE html>
