@@ -34,19 +34,34 @@ export function activate(context: vscode.ExtensionContext) {
                     if (value) {
 
 						const scribeBookeName = value.verseRef.substring(0, 3);
-						
+						console.log("Scribe book name: " + scribeBookeName);
+						let bookMap: any | null = null;
 
-						// TODO: have this grab the specific CSV entries for the specific verse
+						// Iterate over the bookNameMap to find the first object with scribe equal to "REV"
+						for (const key in bookNameMap) {
+							if (Object.prototype.hasOwnProperty.call(bookNameMap, key)) {
+								const book = bookNameMap[key];
+								if (book.scribe === scribeBookeName) {
+									bookMap = book;
+									break; // Stop searching once the first match is found
+								}
+							}
+						}
 
+                        console.log("Showing value " + value.verseRef + " " + bookMap.enULBTagged);
+
+						// TODO: fetch corresponding book XML file here. 
 
 						// // Get path to resource on disk
-						// const onDiskPath = vscode.Uri.joinPath(context.extensionUri, 'media', 'g0000.txt');
+						const onDiskPath = vscode.Uri.joinPath(context.extensionUri, 'media/ulb_tagged_checked', bookMap.enULBTagged.xml);
 
 						// // Get the special URI to use with the webview
-						// const textSrc = currentPanel?.webview.asWebviewUri(onDiskPath);
+						const textSrc = currentPanel?.webview.asWebviewUri(onDiskPath);
 
 						// // Read the text file synchronously
-						// const fileContent = fs.readFileSync(onDiskPath.fsPath, 'utf8');
+						const fileContent = fs.readFileSync(onDiskPath.fsPath, 'utf8');
+
+						console.log(fileContent);
 
 
 						// parseXml(xmlData)
@@ -57,7 +72,7 @@ export function activate(context: vscode.ExtensionContext) {
 						// 	console.error(err);
 						// });
 
-                        console.log("Showing value " + value.verseRef);
+
                         updateWebviewContent(currentPanel!!, value.verseRef);
                     }
                 });
