@@ -1,0 +1,49 @@
+{
+  "name": "greek-words-for-translators",
+  "displayName": "Greek Words for Translators",
+  "description": "Utilizes Codex Scripture Editor's global verse state to show GWT data for that verse reference.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": ["Other"],
+  "main": "./out/extension.js",
+  "contributes": {
+    "views": {
+      "greek-words-view": [
+        {
+            "type": "webview",
+            "id": "greek-words-view",
+            "name": "Greek Wrods for Translators",
+            "icon": "$(eye)",
+            "contextualTitle": "GWT"
+        }
+    ]
+    },
+    "commands": [
+      {
+        "command": "greek-words-for-translators.start",
+        "title": "Open GWT"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.88.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@typescript-eslint/eslint-plugin": "^7.4.0",
+    "@typescript-eslint/parser": "^7.4.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.3.3",
+    "@vscode/test-cli": "^0.0.8",
+    "@vscode/test-electron": "^2.3.9"
+  }
+}
