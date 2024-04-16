@@ -13,13 +13,13 @@ let bookNameMap: any = {
 		enULBTagged: "48-2CO",
 		scribe: "2CO",
 	},
-	Galatians: { enULBTagged: "49-GAL",  },
-	Ephesians: { enULBTagged: "50-EPH",  },
+	Galatians: { enULBTagged: "49-GAL", scribe: "GAL"},
+	Ephesians: { enULBTagged: "50-EPH", scribe: "EPH"},
 	Philippians: {
 		enULBTagged: "51-PHP",
 		scribe: "PHP",
 	},
-	Colossians: { enULBTagged: "52-COL",  },
+	Colossians: { enULBTagged: "52-COL", scribe: "COL"},
 	"1 Thessalonians": {
 		enULBTagged: "53-1TH",
 		scribe: "1TH",
