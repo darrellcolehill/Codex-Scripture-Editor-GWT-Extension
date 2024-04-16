@@ -66,10 +66,12 @@ export function activate(context: vscode.ExtensionContext) {
 
 						// Use the exec() method to extract chapter and verse numbers
 						const match = regex.exec(value.verseRef);
+						var chapter: number | undefined;
+						var verse: number | undefined; 
 
 						if (match !== null) {
-							const chapter = match[1]; // Extracted chapter number
-							const verse = match[2]; // Extracted verse number
+							chapter = parseInt(match[1]); // Extracted chapter number
+							verse = parseInt(match[2]); // Extracted verse number
 							console.log("Chapter:", chapter);
 							console.log("Verse:", verse);
 						} else {
@@ -77,7 +79,7 @@ export function activate(context: vscode.ExtensionContext) {
 						}
 
 
-						parseXml(xmlFileContent)
+						parseXml(xmlFileContent, chapter, verse)
 						.then((result) => {
 							console.log(result);
 						})
@@ -135,18 +137,18 @@ function padStrongsWithZeros(words: WordData[]): void {
     });
 }
 
-function parseXml(xmlData: string): Promise<WordData[]> {
+function parseXml(xmlData: string, chapter?: number, verse?: number): Promise<WordData[]> {
     return new Promise((resolve, reject) => {
         const parser = new xml2js.Parser();
 
         parser.parseString(xmlData, (err, result) => {
-            if (err) {
+            if (err || chapter === undefined || verse === undefined) {
                 reject(err);
             } else {
                 const words: WordData[] = [];
 
 				// TODO: have this go to the correct chapter/verse that is passed in. 
-                const wTags = result.xml.book[0].chapter[0].verse[0].w;
+                const wTags = result.xml.book[0].chapter[chapter - 1].verse[verse - 1].w;
 
                 if (wTags) {
                     wTags.forEach((wTag: any) => {
