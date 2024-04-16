@@ -1,4 +1,4 @@
-let books: any = {
+let bookNameMap: any = {
 	Matthew: { enULBTagged: "41-MAT", scribe: "MAT" },
 	Mark: { enULBTagged: "42-MRK", scribe: "MRK"},
 	Luke: { enULBTagged: "43-LUK", scribe: "LUK"},
@@ -52,4 +52,4 @@ let books: any = {
 	},
 };
 
-export { books };
+export { bookNameMap };
