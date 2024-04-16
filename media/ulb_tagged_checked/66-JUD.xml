@@ -1,0 +1,693 @@
+<?xml version="1.0" standalone="yes" ?>
+<xml xsi:schemaLocation="wa_ulb.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<book osisID="jud">
+		<chapter osisID="jud.1">
+			<verse name="Jude 1:1">
+				<Greek>Ἰούδας Ἰησοῦ Χριστοῦ δοῦλος ἀδελφὸς δὲ Ἰακώβου Τοῖς ἐν Θεῷ Πατρὶ ἠγαπημένοις καὶ Ἰησοῦ Χριστῷ τετηρημένοις κλητοῖς</Greek>
+				<preText>\s5 \c 1 \p \v 1</preText>
+				<ULB>Jude, a servant of Jesus Christ and brother of James, to those who are called, beloved in God the Father, and kept for Jesus Christ:</ULB>
+				<residue>Jude, a  of  and  of  , to those who are  ,  in  the  , and  for  :</residue>
+				<w OGNTsort="127705" strongs="G2455" morph="N-NSM-P" lemma="Ἰούδας" text="Ἰούδας">Jude,</w>
+				<w OGNTsort="127708" strongs="G1401" morph="N-NSM" lemma="δοῦλος" text="δοῦλος">a servant</w>
+				<w OGNTsort="127706" strongs="G2424" morph="N-GSM-P" lemma="Ἰησοῦς" text="Ἰησοῦ">of Jesus</w>
+				<w OGNTsort="127707" strongs="G5547" morph="N-GSM-T" lemma="Χριστός" text="Χριστοῦ">Christ</w>
+				<w OGNTsort="127710" strongs="G1161" morph="CONJ" lemma="δέ" text="δὲ">and</w>
+				<w OGNTsort="127709" strongs="G80" morph="N-NSM" lemma="ἀδελφός" text="ἀδελφὸς">brother</w>
+				<w OGNTsort="127711" strongs="G2385" morph="N-GSM-P" lemma="Ἰάκωβος" text="Ἰακώβου">of James,</w>
+				<w OGNTsort="127712" strongs="G3588" morph="T-DPM" lemma="ὁ" text="Τοῖς">to those who</w>
+				<w OGNTsort="127721" strongs="G2822" morph="A-DPM" lemma="κλητός" text="κλητοῖς">are called,</w>
+				<w OGNTsort="127716" strongs="G25" morph="V-RPP-DPM" lemma="ἀγαπάω" text="ἠγαπημένοις">beloved</w>
+				<w OGNTsort="127713" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">in</w>
+				<w OGNTsort="127714" strongs="G2316" morph="N-DSM" lemma="θεός" text="Θεῷ">God</w>
+				<w OGNTsort="127715" strongs="G3962" morph="N-DSM" lemma="πατήρ" text="Πατρὶ">the Father,</w>
+				<w OGNTsort="127717" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="127720" strongs="G5083" morph="V-RPP-DPM" lemma="τηρέω" text="τετηρημένοις">kept</w>
+				<w OGNTsort="127718" strongs="G2424" morph="N-DSM-P" lemma="Ἰησοῦς" text="Ἰησοῦ">for Jesus</w>
+				<w OGNTsort="127719" strongs="G5547" morph="N-DSM-T" lemma="Χριστός" text="Χριστῷ">Christ:</w>
+			</verse>
+			<verse name="Jude 1:2">
+				<Greek>Ἔλεος ὑμῖν καὶ εἰρήνη καὶ ἀγάπη πληθυνθείη</Greek>
+				<preText>\p \v 2</preText>
+				<ULB>May mercy and peace and love be multiplied to you.</ULB>
+				<residue>May  and  and  be  to you.</residue>
+				<w OGNTsort="127722" strongs="G1656" morph="N-NSN" lemma="ἔλεος" sub="[1]" text="Ἔλεος">mercy</w>
+				<w OGNTsort="127724" strongs="G2532" morph="CONJ" lemma="καί" sub="[2]" text="καὶ">and</w>
+				<w OGNTsort="127725" strongs="G1515" morph="N-NSF" lemma="εἰρήνη" sub="[3]" text="εἰρήνη">peace</w>
+				<w OGNTsort="127726" strongs="G2532" morph="CONJ" lemma="καί" sub="[4]" text="καὶ">and</w>
+				<w OGNTsort="127727" strongs="G26" morph="N-NSF" lemma="ἀγάπη" sub="[5]" text="ἀγάπη">love</w>
+				<w OGNTsort="127728" strongs="G4129" morph="V-APO-3S" lemma="πληθύνω" text="πληθυνθείη">May [1] [2] [3] [4] [5] be multiplied</w>
+				<w OGNTsort="127723" strongs="G4771" morph="P-2DP" lemma="σύ" text="ὑμῖν">to you.</w>
+			</verse>
+			<verse name="Jude 1:3">
+				<Greek>Ἀγαπητοί πᾶσαν σπουδὴν ποιούμενος γράφειν ὑμῖν περὶ τῆς κοινῆς ἡμῶν σωτηρίας ἀνάγκην ἔσχον γράψαι ὑμῖν παρακαλῶν ἐπαγωνίζεσθαι τῇ ἅπαξ παραδοθείσῃ τοῖς ἁγίοις πίστει</Greek>
+				<preText>\s5 \p \v 3</preText>
+				<ULB>Beloved, while I was making every effort to write to you about our common salvation, I had to write to you to exhort you to struggle earnestly for the faith that was entrusted once for all to God's holy people.</ULB>
+				<residue>Beloved, while I was  every  to write to you about our common  , I had to write to you to  you to struggle earnestly for the  that was  once for all to God's  people.</residue>
+				<w OGNTsort="127729" strongs="G27" morph="A-VPM" lemma="ἀγαπητός" text="Ἀγαπητοί">Beloved,</w>
+				<w OGNTsort="127730" strongs="G3956" morph="A-ASF" lemma="πᾶς" sub="[1]" text="πᾶσαν">every</w>
+				<phrase>
+					<w OGNTsort="127732" strongs="G4160" morph="V-PMP-NSM" lemma="ποιέω" text="ποιούμενος">√</w>
+					<w OGNTsort="127731" strongs="G4710" morph="N-ASF" lemma="σπουδή" text="σπουδὴν">√</w>
+					<phraseWords>while I was making [1] effort</phraseWords>
+				</phrase>
+				<w OGNTsort="127733" strongs="G1125" morph="V-PAN" lemma="γράφω" text="γράφειν">to write</w>
+				<w OGNTsort="127734" strongs="G4771" morph="P-2DP" lemma="σύ" text="ὑμῖν">to you</w>
+				<w OGNTsort="127735" strongs="G4012" morph="PREP" lemma="περί" text="περὶ">about</w>
+				<w OGNTsort="127738" strongs="G1473" morph="P-1GP" lemma="ἐγώ" text="ἡμῶν">our</w>
+				<w OGNTsort="127736" strongs="G3588" morph="T-GSF" lemma="ὁ" text="τῆς">√</w>
+				<w OGNTsort="127737" strongs="G2839" morph="A-GSF" lemma="κοινός" text="κοινῆς">common</w>
+				<w OGNTsort="127739" strongs="G4991" morph="N-GSF" lemma="σωτηρία" text="σωτηρίας">salvation,</w>
+				<phrase>
+					<w OGNTsort="127740" strongs="G318" morph="N-ASF" lemma="ἀνάγκη" text="ἀνάγκην">√</w>
+					<w OGNTsort="127741" strongs="G2192" morph="V-2AAI-1S" lemma="ἔχω" text="ἔσχον">√</w>
+					<phraseWords>I had</phraseWords>
+				</phrase>
+				<w OGNTsort="127742" strongs="G1125" morph="V-AAN" lemma="γράφω" text="γράψαι">to write</w>
+				<w OGNTsort="127743" strongs="G4771" morph="P-2DP" lemma="σύ" text="ὑμῖν">to you</w>
+				<w OGNTsort="127744" strongs="G3870" morph="V-PAP-NSM" lemma="παρακαλέω" text="παρακαλῶν">to exhort</w>
+				<w>you</w>
+				<w OGNTsort="127745" strongs="G1864" morph="V-PNN" lemma="ἐπαγωνίζομαι" text="ἐπαγωνίζεσθαι">to struggle earnestly</w>
+				<w OGNTsort="127746" strongs="G3588" morph="T-DSF" lemma="ὁ" text="τῇ">for the</w>
+				<w OGNTsort="127751" strongs="G4102" morph="N-DSF" lemma="πίστις" text="πίστει">faith</w>
+				<w OGNTsort="127748" strongs="G3860" morph="V-APP-DSF" lemma="παραδίδωμι" text="παραδοθείσῃ">that was entrusted</w>
+				<w OGNTsort="127747" strongs="G530" morph="ADV" lemma="ἅπαξ" text="ἅπαξ">once</w>
+				<w>for all</w>
+				<phrase>
+					<w OGNTsort="127749" strongs="G3588" morph="T-DPM" lemma="ὁ" text="τοῖς">√</w>
+					<w OGNTsort="127750" strongs="G40" morph="A-DPM" lemma="ἅγιος" text="ἁγίοις">√</w>
+					<phraseWords>to God's holy people.</phraseWords>
+				</phrase>
+			</verse>
+			<verse name="Jude 1:4">
+				<Greek>παρεισέδυσαν γάρ τινες ἄνθρωποι οἱ πάλαι προγεγραμμένοι εἰς τοῦτο τὸ κρίμα ἀσεβεῖς τὴν τοῦ Θεοῦ ἡμῶν χάριτα μετατιθέντες εἰς ἀσέλγειαν καὶ τὸν μόνον Δεσπότην καὶ Κύριον ἡμῶν Ἰησοῦν Χριστὸν ἀρνούμενοι</Greek>
+				<preText>\v 4</preText>
+				<ULB>For certain men have slipped in secretly among you. These men were marked out for condemnation. They are ungodly men who have changed the grace of our God into sensuality, and who deny our only Master and Lord, Jesus Christ.</ULB>
+				<residue>For certain men have slipped in secretly among you. These men were marked out for  . They are  men who have changed the  of our  into  , and who  our only Master and  ,  .</residue>
+				<w OGNTsort="127753" strongs="G1063" morph="CONJ" lemma="γάρ" text="γάρ">For</w>
+				<w OGNTsort="127754" strongs="G5100" morph="X-NPM" lemma="τις" text="τινες">certain</w>
+				<w OGNTsort="127755" strongs="G444" morph="N-NPM" lemma="ἄνθρωπος" text="ἄνθρωποι">men</w>
+				<w OGNTsort="127752" strongs="G3921" morph="V-2AAI-3P" lemma="παρεισδύνω" text="παρεισέδυσαν">have slipped in secretly</w>
+				<w>among you.</w>
+				<w OGNTsort="127756" strongs="G3588" morph="T-NPM" lemma="ὁ" text="οἱ">These men</w>
+				<w OGNTsort="127758" strongs="G4270" morph="V-RPP-NPM" lemma="προγράφω" text="προγεγραμμένοι">were marked out</w>
+				<w OGNTsort="127757" strongs="G3819" morph="ADV" lemma="πάλαι" text="πάλαι">√</w>
+				<phrase>
+					<w OGNTsort="127759" strongs="G1519" morph="PREP" lemma="εἰς" text="εἰς">√</w>
+					<w OGNTsort="127760" strongs="G3778" morph="D-ASN" lemma="οὗτος" text="τοῦτο">√</w>
+					<w OGNTsort="127761" strongs="G3588" morph="T-ASN" lemma="ὁ" text="τὸ">√</w>
+					<w OGNTsort="127762" strongs="G2917" morph="N-ASN" lemma="κρίμα" text="κρίμα">√</w>
+					<phraseWords>for condemnation.</phraseWords>
+				</phrase>
+				<w>They are</w>
+				<w OGNTsort="127763" strongs="G765" morph="A-NPM" lemma="ἀσεβής" text="ἀσεβεῖς">ungodly men</w>
+				<w OGNTsort="127769" strongs="G3346" morph="V-PAP-NPM" lemma="μετατίθημι" text="μετατιθέντες">who have changed</w>
+				<w OGNTsort="127764" strongs="G3588" morph="T-ASF" lemma="ὁ" text="τὴν">the</w>
+				<w OGNTsort="127768" strongs="G5485" morph="N-ASF" lemma="χάρις" text="χάριτα">grace</w>
+				<w OGNTsort="127767" strongs="G1473" morph="P-1GP" lemma="ἐγώ" sub="[1]" text="ἡμῶν">our</w>
+				<w OGNTsort="127765" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="127766" strongs="G2316" morph="N-GSM" lemma="θεός" text="Θεοῦ">of [1] God</w>
+				<w OGNTsort="127770" strongs="G1519" morph="PREP" lemma="εἰς" text="εἰς">into</w>
+				<w OGNTsort="127771" strongs="G766" morph="N-ASF" lemma="ἀσέλγεια" text="ἀσέλγειαν">sensuality,</w>
+				<w OGNTsort="127772" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="127781" strongs="G720" morph="V-PNP-NPM" lemma="ἀρνέομαι" text="ἀρνούμενοι">who deny</w>
+				<w OGNTsort="127778" strongs="G1473" morph="P-1GP" lemma="ἐγώ" text="ἡμῶν">our</w>
+				<w OGNTsort="127773" strongs="G3588" morph="T-ASM" lemma="ὁ" text="τὸν">√</w>
+				<w OGNTsort="127774" strongs="G3441" morph="A-ASM" lemma="μόνος" text="μόνον">only</w>
+				<w OGNTsort="127775" strongs="G1203" morph="N-ASM" lemma="δεσπότης" text="Δεσπότην">Master</w>
+				<w OGNTsort="127776" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="127777" strongs="G2962" morph="N-ASM" lemma="κύριος" text="Κύριον">Lord,</w>
+				<w OGNTsort="127779" strongs="G2424" morph="N-ASM-P" lemma="Ἰησοῦς" text="Ἰησοῦν">Jesus</w>
+				<w OGNTsort="127780" strongs="G5547" morph="N-ASM-T" lemma="Χριστός" text="Χριστὸν">Christ.</w>
+			</verse>
+			<verse name="Jude 1:5">
+				<Greek>Ὑπομνῆσαι δὲ ὑμᾶς βούλομαι εἰδότας ὑμᾶς ἅπαξ πάντα ὅτι Ἰησοῦς λαὸν ἐκ γῆς Αἰγύπτου σώσας τὸ δεύτερον τοὺς μὴ πιστεύσαντας ἀπώλεσεν</Greek>
+				<preText>\s5 \p \v 5</preText>
+				<ULB>Now I wish to remind you—although once you fully knew it—that the Lord saved a people out of the land of Egypt, but that afterward he destroyed those who did not believe.</ULB>
+				<residue>Now I wish to remind you—although once you fully  it—that the Lord  a  out of the  of  , but that afterward he  those who did not  .</residue>
+				<w OGNTsort="127783" strongs="G1161" morph="CONJ" lemma="δέ" text="δὲ">Now</w>
+				<w OGNTsort="127785" strongs="G1014" morph="V-PNI-1S" lemma="βούλομαι" text="βούλομαι">I wish</w>
+				<w OGNTsort="127782" strongs="G5279" morph="V-AAN" lemma="ὑπομιμνήσκω" text="Ὑπομνῆσαι">to remind</w>
+				<w OGNTsort="127784" strongs="G4771" morph="P-2AP" lemma="σύ" text="ὑμᾶς">you—</w>
+				<phrase>
+					<w OGNTsort="127786" strongs="G1492" morph="V-RAP-APM" lemma="εἴδω" text="εἰδότας">√</w>
+					<w OGNTsort="127787" strongs="G4771" morph="P-2AP" lemma="σύ" text="ὑμᾶς">√</w>
+					<w OGNTsort="127788" strongs="G530" morph="ADV" lemma="ἅπαξ" text="ἅπαξ">√</w>
+					<w OGNTsort="127789" strongs="G3956" morph="A-APN" lemma="πᾶς" text="πάντα">√</w>
+					<phraseWords>although once you fully knew it—</phraseWords>
+				</phrase>
+				<w OGNTsort="127790" strongs="G3754" morph="CONJ" lemma="ὅτι" text="ὅτι">that</w>
+				<w>the Lord</w>
+				<w OGNTsort="127791" strongs="G2424" morph="N-NSM-P" lemma="Ἰησοῦς" text="Ἰησοῦς">√</w>
+				<w OGNTsort="127796" strongs="G4982" morph="V-AAP-NSM" lemma="σῴζω" text="σώσας">saved</w>
+				<w OGNTsort="127792" strongs="G2992" morph="N-ASM" lemma="λαός" text="λαὸν">a people</w>
+				<w OGNTsort="127793" strongs="G1537" morph="PREP" lemma="ἐκ" text="ἐκ">out of</w>
+				<w OGNTsort="127794" strongs="G1093" morph="N-GSF" lemma="γῆ" text="γῆς">the land</w>
+				<w OGNTsort="127795" strongs="G125" morph="N-GSF-L" lemma="Αἴγυπτος" text="Αἰγύπτου">of Egypt,</w>
+				<phrase>
+					<w OGNTsort="127797" strongs="G3588" morph="T-ASN" lemma="ὁ" text="τὸ">√</w>
+					<w OGNTsort="127798" strongs="G1208" morph="A-ASN" lemma="δεύτερος" text="δεύτερον">√</w>
+					<phraseWords>but that afterward</phraseWords>
+				</phrase>
+				<w OGNTsort="127802" strongs="G622" morph="V-AAI-3S" lemma="ἀπολλύω" text="ἀπώλεσεν">he destroyed</w>
+				<w OGNTsort="127799" strongs="G3588" morph="T-APM" lemma="ὁ" text="τοὺς">those who</w>
+				<w OGNTsort="127800" strongs="G3361" morph="PRT-N" lemma="μή" sub="[1]" text="μὴ">not</w>
+				<w OGNTsort="127801" strongs="G4100" morph="V-AAP-APM" lemma="πιστεύω" text="πιστεύσαντας">did [1] believe.</w>
+			</verse>
+			<verse name="Jude 1:6">
+				<Greek>ἀγγέλους τε τοὺς μὴ τηρήσαντας τὴν ἑαυτῶν ἀρχὴν ἀλλὰ ἀπολιπόντας τὸ ἴδιον οἰκητήριον εἰς κρίσιν μεγάλης ἡμέρας δεσμοῖς ἀϊδίοις ὑπὸ ζόφον τετήρηκεν</Greek>
+				<preText>\v 6</preText>
+				<ULB>Also, angels who did not keep to their own position of authority, but who left their proper dwelling place—God has kept them in everlasting chains, in utter darkness, for the judgment on the great day.</ULB>
+				<residue>Also,  who did not  to their own position of authority, but who left their proper  —God has  them in  , in utter  , for the  on the  .</residue>
+				<w OGNTsort="127804" strongs="G5037" morph="CONJ" lemma="τε" text="τε">Also,</w>
+				<w OGNTsort="127803" strongs="G32" morph="N-APM" lemma="ἄγγελος" text="ἀγγέλους">angels</w>
+				<w OGNTsort="127805" strongs="G3588" morph="T-APM" lemma="ὁ" text="τοὺς">who</w>
+				<w OGNTsort="127806" strongs="G3361" morph="PRT-N" lemma="μή" sub="[1]" text="μὴ">not</w>
+				<w OGNTsort="127807" strongs="G5083" morph="V-AAP-APM" lemma="τηρέω" text="τηρήσαντας">did [1] keep to</w>
+				<w OGNTsort="127808" strongs="G3588" morph="T-ASF" lemma="ὁ" text="τὴν">√</w>
+				<w OGNTsort="127809" strongs="G1438" morph="F-3GPM" lemma="ἑαυτοῦ" text="ἑαυτῶν">their own</w>
+				<w OGNTsort="127810" strongs="G746" morph="N-ASF" lemma="ἀρχή" text="ἀρχὴν">position of authority,</w>
+				<w OGNTsort="127811" strongs="G235" morph="CONJ" lemma="ἀλλά" text="ἀλλὰ">but</w>
+				<w OGNTsort="127812" strongs="G620" morph="V-2AAP-APM" lemma="ἀπολείπω" text="ἀπολιπόντας">who left</w>
+				<w OGNTsort="127813" strongs="G3588" morph="T-ASN" lemma="ὁ" text="τὸ">√</w>
+				<w OGNTsort="127814" strongs="G2398" morph="A-ASN" lemma="ἴδιος" text="ἴδιον">their proper</w>
+				<w OGNTsort="127815" strongs="G3613" morph="N-ASN" lemma="οἰκητήριον" text="οἰκητήριον">dwelling place—</w>
+				<w>God</w>
+				<w OGNTsort="127824" strongs="G5083" morph="V-RAI-3S" lemma="τηρέω" text="τετήρηκεν">has kept</w>
+				<w>them</w>
+				<w OGNTsort="127821" strongs="G126" morph="A-DPM" lemma="ἀΐδιος" sub="[2]" text="ἀϊδίοις">everlasting</w>
+				<w OGNTsort="127820" strongs="G1199" morph="N-DPM" lemma="δεσμός" text="δεσμοῖς">in [2] chains,</w>
+				<w OGNTsort="127822" strongs="G5259" morph="PREP" lemma="ὑπό" text="ὑπὸ">in</w>
+				<w OGNTsort="127823" strongs="G2217" morph="N-ASM" lemma="ζόφος" text="ζόφον">utter darkness,</w>
+				<w OGNTsort="127816" strongs="G1519" morph="PREP" lemma="εἰς" text="εἰς">for</w>
+				<w OGNTsort="127817" strongs="G2920" morph="N-ASF" lemma="κρίσις" text="κρίσιν">the judgment</w>
+				<w OGNTsort="127818" strongs="G3173" morph="A-GSF" lemma="μέγας" sub="[3]" text="μεγάλης">great</w>
+				<w OGNTsort="127819" strongs="G2250" morph="N-GSF" lemma="ἡμέρα" text="ἡμέρας">on the [3] day.</w>
+			</verse>
+			<verse name="Jude 1:7">
+				<Greek>ὡς Σόδομα καὶ Γόμορρα καὶ αἱ περὶ αὐτὰς πόλεις τὸν ὅμοιον τρόπον τούτοις ἐκπορνεύσασαι καὶ ἀπελθοῦσαι ὀπίσω σαρκὸς ἑτέρας πρόκεινται δεῖγμα πυρὸς αἰωνίου δίκην ὑπέχουσαι</Greek>
+				<preText>\s5 \v 7</preText>
+				<ULB>So also Sodom and Gomorrah and the cities around them gave themselves over to sexual immorality and perverse sexual acts. They serve as an example of those who suffer the punishment of eternal fire.</ULB>
+				<residue>So also  and Gomorrah and the cities around them gave themselves over to  and perverse sexual acts. They serve  an example of those who suffer the  of  .</residue>
+				<w OGNTsort="127825" strongs="G5613" morph="CONJ" lemma="ὡς" text="ὡς">So also</w>
+				<w OGNTsort="127826" strongs="G4670" morph="N-NPN-L" lemma="Σόδομα" text="Σόδομα">Sodom</w>
+				<w OGNTsort="127827" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="127828" strongs="G1116" morph="N-NSF-L" lemma="Γόμορρα" text="Γόμορρα">Gomorrah</w>
+				<w OGNTsort="127829" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="127830" strongs="G3588" morph="T-NPF" lemma="ὁ" text="αἱ">the</w>
+				<w OGNTsort="127833" strongs="G4172" morph="N-NPF" lemma="πόλις" text="πόλεις">cities</w>
+				<w OGNTsort="127831" strongs="G4012" morph="PREP" lemma="περί" text="περὶ">around</w>
+				<w OGNTsort="127832" strongs="G846" morph="P-APF" lemma="αὐτός" text="αὐτὰς">them</w>
+				<w OGNTsort="127834" strongs="G3588" morph="T-ASM" lemma="ὁ" text="τὸν">√</w>
+				<w OGNTsort="127835" strongs="G3664" morph="A-ASM" lemma="ὅμοιος" text="ὅμοιον">√</w>
+				<w OGNTsort="127836" strongs="G5158" morph="N-ASM" lemma="τρόπος" text="τρόπον">√</w>
+				<w OGNTsort="127837" strongs="G3778" morph="D-DPM" lemma="οὗτος" text="τούτοις">√</w>
+				<w OGNTsort="127838" strongs="G1608" morph="V-AAP-NPF" lemma="ἐκπορνεύω" text="ἐκπορνεύσασαι">gave themselves over to sexual immorality</w>
+				<w OGNTsort="127839" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<phrase>
+					<w OGNTsort="127840" strongs="G565" morph="V-2AAP-NPF" lemma="ἀπέρχομαι" text="ἀπελθοῦσαι">√</w>
+					<w OGNTsort="127841" strongs="G3694" morph="PREP" lemma="ὀπίσω" text="ὀπίσω">√</w>
+					<w OGNTsort="127842" strongs="G4561" morph="N-GSF" lemma="σάρξ" text="σαρκὸς">√</w>
+					<w OGNTsort="127843" strongs="G2087" morph="A-GSF" lemma="ἕτερος" text="ἑτέρας">√</w>
+					<phraseWords>perverse sexual acts.</phraseWords>
+				</phrase>
+				<phrase>
+					<w OGNTsort="127844" strongs="G4295" morph="V-PNI-3P" lemma="πρόκειμαι" text="πρόκεινται">√</w>
+					<w OGNTsort="127845" strongs="G1164" morph="N-ASN" lemma="δεῖγμα" text="δεῖγμα">√</w>
+					<phraseWords>They serve as an example</phraseWords>
+				</phrase>
+				<w OGNTsort="127849" strongs="G5254" morph="V-PAP-NPF" lemma="ὑπέχω" text="ὑπέχουσαι">of those who suffer</w>
+				<w OGNTsort="127848" strongs="G1349" morph="N-ASF" lemma="δίκη" text="δίκην">the punishment</w>
+				<w OGNTsort="127847" strongs="G166" morph="A-GSN" lemma="αἰώνιος" sub="[1]" text="αἰωνίου">eternal</w>
+				<w OGNTsort="127846" strongs="G4442" morph="N-GSN" lemma="πῦρ" text="πυρὸς">of [1] fire.</w>
+			</verse>
+			<verse name="Jude 1:8">
+				<Greek>Ὁμοίως μέντοι καὶ οὗτοι ἐνυπνιαζόμενοι σάρκα μὲν μιαίνουσιν κυριότητα δὲ ἀθετοῦσιν δόξας δὲ βλασφημοῦσιν</Greek>
+				<preText>\v 8</preText>
+				<ULB>Yet in the same way, these dreamers also defile their bodies. They reject authority and they slander the glorious ones.</ULB>
+				<residue>Yet  , these  also  their  . They  and they  the  ones.</residue>
+				<w OGNTsort="127851" strongs="G3305" morph="CONJ" lemma="μέντοι" text="μέντοι">Yet</w>
+				<w OGNTsort="127850" strongs="G3668" morph="ADV" lemma="ὁμοίως" text="Ὁμοίως">in the same way,</w>
+				<w OGNTsort="127853" strongs="G3778" morph="D-NPM" lemma="οὗτος" text="οὗτοι">these</w>
+				<w OGNTsort="127854" strongs="G1797" morph="V-PNP-NPM" lemma="ἐνυπνιάζω" text="ἐνυπνιαζόμενοι">dreamers</w>
+				<phrase>
+					<w OGNTsort="127852" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">√</w>
+					<w OGNTsort="127856" strongs="G3303" morph="PRT" lemma="μέν" text="μὲν">√</w>
+					<phraseWords>also</phraseWords>
+				</phrase>
+				<w OGNTsort="127857" strongs="G3392" morph="V-PAI-3P" lemma="μιαίνω" text="μιαίνουσιν">defile</w>
+				<w>their</w>
+				<w OGNTsort="127855" strongs="G4561" morph="N-ASF" lemma="σάρξ" text="σάρκα">bodies.</w>
+				<w OGNTsort="127859" strongs="G1161" morph="CONJ" lemma="δέ" text="δὲ">√</w>
+				<w OGNTsort="127860" strongs="G114" morph="V-PAI-3P" lemma="ἀθετέω" text="ἀθετοῦσιν">They reject</w>
+				<w OGNTsort="127858" strongs="G2963" morph="N-ASF" lemma="κυριότης" text="κυριότητα">authority</w>
+				<w OGNTsort="127862" strongs="G1161" morph="CONJ" lemma="δέ" text="δὲ">and</w>
+				<w OGNTsort="127863" strongs="G987" morph="V-PAI-3P" lemma="βλασφημέω" text="βλασφημοῦσιν">they slander</w>
+				<w OGNTsort="127861" strongs="G1391" morph="N-APF" lemma="δόξα" text="δόξας">the glorious ones.</w>
+			</verse>
+			<verse name="Jude 1:9">
+				<Greek>ὁ δὲ Μιχαὴλ ὁ ἀρχάγγελος ὅτε τῷ διαβόλῳ διακρινόμενος διελέγετο περὶ τοῦ Μωϋσέως σώματος οὐκ ἐτόλμησεν κρίσιν ἐπενεγκεῖν βλασφημίας ἀλλὰ εἶπεν Ἐπιτιμήσαι σοι Κύριος</Greek>
+				<preText>\s5 \v 9</preText>
+				<ULB>But even Michael the archangel, when he was arguing with the devil and disputing with him about the body of Moses, did not dare to bring a slanderous judgment against him, but he said, "May the Lord rebuke you!"</ULB>
+				<residue>But even  the  , when he was  with the devil and disputing with him about the  of  , did not  to  him for  , but he said, "May the  you!"</residue>
+				<w OGNTsort="127865" strongs="G1161" morph="CONJ" lemma="δέ" text="δὲ">But</w>
+				<w>even</w>
+				<w OGNTsort="127864" strongs="G3588" morph="T-NSM" lemma="ὁ" text="ὁ">√</w>
+				<w OGNTsort="127866" strongs="G3413" morph="N-NSM-P" lemma="Μιχαήλ" text="Μιχαὴλ">Michael</w>
+				<w OGNTsort="127867" strongs="G3588" morph="T-NSM" lemma="ὁ" text="ὁ">the</w>
+				<w OGNTsort="127868" strongs="G743" morph="N-NSM" lemma="ἀρχάγγελος" text="ἀρχάγγελος">archangel,</w>
+				<w OGNTsort="127869" strongs="G3753" morph="CONJ" lemma="ὅτε" text="ὅτε">when</w>
+				<w OGNTsort="127873" strongs="G1256" morph="V-INI-3S" lemma="διαλέγω" text="διελέγετο">he was arguing</w>
+				<w OGNTsort="127870" strongs="G3588" morph="T-DSM" lemma="ὁ" text="τῷ">with the</w>
+				<w OGNTsort="127871" strongs="G1228" morph="A-DSM" lemma="διάβολος" text="διαβόλῳ">devil</w>
+				<w>and</w>
+				<w OGNTsort="127872" strongs="G1252" morph="V-PMP-NSM" lemma="διακρίνω" text="διακρινόμενος">disputing</w>
+				<w>with him</w>
+				<w OGNTsort="127874" strongs="G4012" morph="PREP" lemma="περί" text="περὶ">about</w>
+				<w OGNTsort="127875" strongs="G3588" morph="T-GSN" lemma="ὁ" text="τοῦ">the</w>
+				<w OGNTsort="127877" strongs="G4983" morph="N-GSN" lemma="σῶμα" text="σώματος">body</w>
+				<w OGNTsort="127876" strongs="G3475" morph="N-GSM-P" lemma="Μωϋσῆς, Μωσῆς" text="Μωϋσέως">of Moses,</w>
+				<w OGNTsort="127878" strongs="G3756" morph="PRT-N" lemma="οὐ" sub="[2]" text="οὐκ">not</w>
+				<w OGNTsort="127879" strongs="G5111" morph="V-AAI-3S" lemma="τολμάω" text="ἐτόλμησεν">did [2] dare</w>
+				<w OGNTsort="127881" strongs="G2018" morph="V-2AAN" lemma="ἐπιφέρω" text="ἐπενεγκεῖν">to bring</w>
+				<w OGNTsort="127882" strongs="G988" morph="N-GSF" lemma="βλασφημία" text="βλασφημίας">a slanderous</w>
+				<w OGNTsort="127880" strongs="G2920" morph="N-ASF" lemma="κρίσις" text="κρίσιν">judgment</w>
+				<w>against him,</w>
+				<w OGNTsort="127883" strongs="G235" morph="CONJ" lemma="ἀλλά" text="ἀλλὰ">but</w>
+				<w OGNTsort="127884" strongs="G2036" morph="V-2AAI-3S" lemma="ἔπω, ἐρῶ, εἶπον" text="εἶπεν">he said,</w>
+				<w OGNTsort="127887" strongs="G2962" morph="N-NSM" lemma="κύριος" sub="[3]" text="Κύριος">the Lord</w>
+				<w OGNTsort="127885" strongs="G2008" morph="V-AAO-3S" lemma="ἐπιτιμάω" text="Ἐπιτιμήσαι">"May [3] rebuke</w>
+				<w OGNTsort="127886" strongs="G4771" morph="P-2DS" lemma="σύ" text="σοι">you!"</w>
+			</verse>
+			<verse name="Jude 1:10">
+				<Greek>οὗτοι δὲ ὅσα μὲν οὐκ οἴδασιν βλασφημοῦσιν ὅσα δὲ φυσικῶς ὡς τὰ ἄλογα ζῷα ἐπίστανται ἐν τούτοις φθείρονται</Greek>
+				<preText>\v 10</preText>
+				<ULB>But these people insult whatever they do not understand; and what they do understand naturally, like unreasoning animals, these are the very things that destroy them.</ULB>
+				<residue>But these people  whatever they do not  ; and what they do  naturally, like unreasoning  , these are the very things that  them.</residue>
+				<w OGNTsort="127889" strongs="G1161" morph="CONJ" lemma="δέ" text="δὲ">But</w>
+				<w OGNTsort="127888" strongs="G3778" morph="D-NPM" lemma="οὗτος" text="οὗτοι">these</w>
+				<w>people</w>
+				<w OGNTsort="127894" strongs="G987" morph="V-PAI-3P" lemma="βλασφημέω" text="βλασφημοῦσιν">insult</w>
+				<phrase>
+					<w OGNTsort="127890" strongs="G3745" morph="K-APN" lemma="ὅσος" text="ὅσα">√</w>
+					<w OGNTsort="127891" strongs="G3303" morph="PRT" lemma="μέν" text="μὲν">√</w>
+					<phraseWords>whatever</phraseWords>
+				</phrase>
+				<w OGNTsort="127892" strongs="G3756" morph="PRT-N" lemma="οὐ" sub="[1]" text="οὐκ">not</w>
+				<w OGNTsort="127893" strongs="G1492" morph="V-RAI-3P" lemma="εἴδω" text="οἴδασιν">they do [1] understand;</w>
+				<w OGNTsort="127896" strongs="G1161" morph="CONJ" lemma="δέ" text="δὲ">and</w>
+				<w OGNTsort="127895" strongs="G3745" morph="K-APN" lemma="ὅσος" text="ὅσα">what</w>
+				<w OGNTsort="127902" strongs="G1987" morph="V-PNI-3P" lemma="ἐπίσταμαι" text="ἐπίστανται">they do understand</w>
+				<w OGNTsort="127897" strongs="G5447" morph="ADV" lemma="φυσικῶς" text="φυσικῶς">naturally,</w>
+				<w OGNTsort="127898" strongs="G5613" morph="CONJ" lemma="ὡς" text="ὡς">like</w>
+				<w OGNTsort="127899" strongs="G3588" morph="T-NPN" lemma="ὁ" text="τὰ">√</w>
+				<w OGNTsort="127900" strongs="G249" morph="A-NPN" lemma="ἄλογος" text="ἄλογα">unreasoning</w>
+				<w OGNTsort="127901" strongs="G2226" morph="N-NPN" lemma="ζῷον" text="ζῷα">animals,</w>
+				<phrase>
+					<w OGNTsort="127903" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">√</w>
+					<w OGNTsort="127904" strongs="G3778" morph="D-DPN" lemma="οὗτος" text="τούτοις">√</w>
+					<w OGNTsort="127905" strongs="G5351" morph="V-PPI-3P" lemma="φθείρω" text="φθείρονται">√</w>
+					<phraseWords>these are the very things that destroy them.</phraseWords>
+				</phrase>
+			</verse>
+			<verse name="Jude 1:11">
+				<Greek>οὐαὶ αὐτοῖς ὅτι τῇ ὁδῷ τοῦ Κάϊν ἐπορεύθησαν καὶ τῇ πλάνῃ τοῦ Βαλαὰμ μισθοῦ ἐξεχύθησαν καὶ τῇ ἀντιλογίᾳ τοῦ Κόρε ἀπώλοντο</Greek>
+				<preText>\v 11</preText>
+				<ULB>Woe to them! For they have walked in the way of Cain and have plunged into Balaam's error for profit. They have perished in Korah's rebellion.</ULB>
+				<residue>Woe to them! For they have walked in the way of  and have plunged into  for  . They have  in Korah's  .</residue>
+				<w OGNTsort="127906" strongs="G3759" morph="INJ" lemma="οὐαί" text="οὐαὶ">Woe</w>
+				<w OGNTsort="127907" strongs="G846" morph="P-DPM" lemma="αὐτός" text="αὐτοῖς">to them!</w>
+				<w OGNTsort="127908" strongs="G3754" morph="CONJ" lemma="ὅτι" text="ὅτι">For</w>
+				<w OGNTsort="127913" strongs="G4198" morph="V-AOI-3P" lemma="πορεύω" text="ἐπορεύθησαν">they have walked</w>
+				<w OGNTsort="127909" strongs="G3588" morph="T-DSF" lemma="ὁ" text="τῇ">in the</w>
+				<w OGNTsort="127910" strongs="G3598" morph="N-DSF" lemma="ὁδός" text="ὁδῷ">way</w>
+				<w OGNTsort="127911" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="127912" strongs="G2535" morph="N-GSM-P" lemma="Κάϊν" text="Κάϊν">of Cain</w>
+				<w OGNTsort="127914" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="127920" strongs="G1632" morph="V-API-3P" lemma="ἐκχέω" text="ἐξεχύθησαν">have plunged</w>
+				<w OGNTsort="127917" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="127918" strongs="G903" morph="N-GSM-P" lemma="Βαλαάμ" sub="[1]" text="Βαλαὰμ">Balaam's</w>
+				<w OGNTsort="127915" strongs="G3588" morph="T-DSF" lemma="ὁ" text="τῇ">√</w>
+				<w OGNTsort="127916" strongs="G4106" morph="N-DSF" lemma="πλάνη" text="πλάνῃ">into [1] error</w>
+				<w OGNTsort="127919" strongs="G3408" morph="N-GSM" lemma="μισθός" text="μισθοῦ">for profit.</w>
+				<w OGNTsort="127926" strongs="G622" morph="V-2AMI-3P" lemma="ἀπολλύω" text="ἀπώλοντο">They have perished</w>
+				<w OGNTsort="127921" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">√</w>
+				<w OGNTsort="127924" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="127925" strongs="G2879" morph="N-GSM-P" lemma="Κορέ" sub="[2]" text="Κόρε">Korah's</w>
+				<w OGNTsort="127922" strongs="G3588" morph="T-DSF" lemma="ὁ" text="τῇ">√</w>
+				<w OGNTsort="127923" strongs="G485" morph="N-DSF" lemma="ἀντιλογία" text="ἀντιλογίᾳ">in [2] rebellion.</w>
+			</verse>
+			<verse name="Jude 1:12">
+				<Greek>Οὗτοί εἰσιν οἱ ἐν ταῖς ἀγάπαις ὑμῶν σπιλάδες συνευωχούμενοι ἀφόβως ἑαυτοὺς ποιμαίνοντες νεφέλαι ἄνυδροι ὑπὸ ἀνέμων παραφερόμεναι δένδρα φθινοπωρινὰ ἄκαρπα δὶς ἀποθανόντα ἐκριζωθέντα</Greek>
+				<preText>\s5 \v 12</preText>
+				<ULB>These people are dangerous reefs at your love feasts, feasting with you fearlessly—shepherds who only feed themselves. They are clouds without rain carried along by winds; autumn trees, without fruit—twice dead, uprooted.</ULB>
+				<residue>These people are dangerous reefs at your love  ,  with you  —  who only feed themselves. They are clouds without rain carried along by winds; autumn trees, without  —twice  , uprooted.</residue>
+				<w OGNTsort="127927" strongs="G3778" morph="D-NPM" lemma="οὗτος" text="Οὗτοί">These</w>
+				<w>people</w>
+				<w OGNTsort="127928" strongs="G1510" morph="V-PAI-3P" lemma="εἰμί" text="εἰσιν">are</w>
+				<w OGNTsort="127934" strongs="G4694" morph="N-NPF" lemma="σπιλάς" text="σπιλάδες">dangerous reefs</w>
+				<w OGNTsort="127930" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">at</w>
+				<w OGNTsort="127933" strongs="G4771" morph="P-2GP" lemma="σύ" text="ὑμῶν">your</w>
+				<w OGNTsort="127931" strongs="G3588" morph="T-DPF" lemma="ὁ" text="ταῖς">√</w>
+				<w OGNTsort="127932" strongs="G26" morph="N-DPF" lemma="ἀγάπη" text="ἀγάπαις">love feasts,</w>
+				<w OGNTsort="127929" strongs="G3588" morph="T-NPM" lemma="ὁ" text="οἱ">√</w>
+				<w OGNTsort="127935" strongs="G4910" morph="V-PNP-NPM" lemma="συνευωχέομαι" text="συνευωχούμενοι">feasting</w>
+				<w>with you</w>
+				<w OGNTsort="127936" strongs="G870" morph="ADV" lemma="ἀφόβως" text="ἀφόβως">fearlessly—</w>
+				<phrase>
+					<w OGNTsort="127938" strongs="G4165" morph="V-PAP-NPM" lemma="ποιμαίνω" text="ποιμαίνοντες">√</w>
+					<w OGNTsort="127937" strongs="G1438" morph="F-3APM" lemma="ἑαυτοῦ" text="ἑαυτοὺς">√</w>
+					<phraseWords>shepherds who only feed themselves.</phraseWords>
+				</phrase>
+				<w>They are</w>
+				<w OGNTsort="127939" strongs="G3507" morph="N-NPF" lemma="νεφέλη" text="νεφέλαι">clouds</w>
+				<w OGNTsort="127940" strongs="G504" morph="A-NPF" lemma="ἄνυδρος" text="ἄνυδροι">without rain</w>
+				<w OGNTsort="127943" strongs="G3911" morph="V-PPP-NPF" lemma="παραφέρω" text="παραφερόμεναι">carried along</w>
+				<w OGNTsort="127941" strongs="G5259" morph="PREP" lemma="ὑπό" text="ὑπὸ">by</w>
+				<w OGNTsort="127942" strongs="G417" morph="N-GPM" lemma="ἄνεμος" text="ἀνέμων">winds;</w>
+				<w OGNTsort="127945" strongs="G5352" morph="A-NPN" lemma="φθινοπωρινός" text="φθινοπωρινὰ">autumn</w>
+				<w OGNTsort="127944" strongs="G1186" morph="N-NPN" lemma="δένδρον" text="δένδρα">trees,</w>
+				<w OGNTsort="127946" strongs="G175" morph="A-NPN" lemma="ἄκαρπος" text="ἄκαρπα">without fruit—</w>
+				<w OGNTsort="127947" strongs="G1364" morph="ADV" lemma="δίς" text="δὶς">twice</w>
+				<w OGNTsort="127948" strongs="G599" morph="V-2AAP-NPN" lemma="ἀποθνήσκω" text="ἀποθανόντα">dead,</w>
+				<w OGNTsort="127949" strongs="G1610" morph="V-APP-NPN" lemma="ἐκριζόω" text="ἐκριζωθέντα">uprooted.</w>
+			</verse>
+			<verse name="Jude 1:13">
+				<Greek>κύματα ἄγρια θαλάσσης ἐπαφρίζοντα τὰς ἑαυτῶν αἰσχύνας ἀστέρες πλανῆται οἷς ὁ ζόφος τοῦ σκότους εἰς αἰῶνα τετήρηται</Greek>
+				<preText>\v 13</preText>
+				<ULB>They are violent waves in the sea, foaming up their shame; wandering stars, for whom the gloom of complete darkness has been reserved forever.</ULB>
+				<residue>They are violent waves in the sea, foaming up their  ; wandering stars, for whom the  of complete  has been  .</residue>
+				<w>They are</w>
+				<w OGNTsort="127951" strongs="G66" morph="A-NPN" lemma="ἄγριος" text="ἄγρια">violent</w>
+				<w OGNTsort="127950" strongs="G2949" morph="N-NPN" lemma="κῦμα" text="κύματα">waves</w>
+				<w OGNTsort="127952" strongs="G2281" morph="N-GSF" lemma="θάλασσα" text="θαλάσσης">in the sea,</w>
+				<w OGNTsort="127953" strongs="G1890" morph="V-PAP-NPN" lemma="ἐπαφρίζω" text="ἐπαφρίζοντα">foaming up</w>
+				<w OGNTsort="127955" strongs="G1438" morph="F-3GPN" lemma="ἑαυτοῦ" text="ἑαυτῶν">their</w>
+				<w OGNTsort="127954" strongs="G3588" morph="T-APF" lemma="ὁ" text="τὰς">√</w>
+				<w OGNTsort="127956" strongs="G152" morph="N-APF" lemma="αἰσχύνη" text="αἰσχύνας">shame;</w>
+				<w OGNTsort="127958" strongs="G4107" morph="A-NPM" lemma="πλανήτης" text="πλανῆται">wandering</w>
+				<w OGNTsort="127957" strongs="G792" morph="N-NPM" lemma="ἀστήρ" text="ἀστέρες">stars,</w>
+				<w OGNTsort="127959" strongs="G3739" morph="R-DPM" lemma="ὅς, ἥ" text="οἷς">for whom</w>
+				<w OGNTsort="127960" strongs="G3588" morph="T-NSM" lemma="ὁ" text="ὁ">the</w>
+				<w OGNTsort="127961" strongs="G2217" morph="N-NSM" lemma="ζόφος" text="ζόφος">gloom</w>
+				<w OGNTsort="127962" strongs="G3588" morph="T-GSN" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="127963" strongs="G4655" morph="N-GSN" lemma="σκότος" text="σκότους">of complete darkness</w>
+				<w OGNTsort="127966" strongs="G5083" morph="V-RPI-3S" lemma="τηρέω" text="τετήρηται">has been reserved</w>
+				<phrase>
+					<w OGNTsort="127964" strongs="G1519" morph="PREP" lemma="εἰς" text="εἰς">√</w>
+					<w OGNTsort="127965" strongs="G165" morph="N-ASM" lemma="αἰών" text="αἰῶνα">√</w>
+					<phraseWords>forever.</phraseWords>
+				</phrase>
+			</verse>
+			<verse name="Jude 1:14">
+				<Greek>Προεφήτευσεν δὲ καὶ τούτοις ἕβδομος ἀπὸ Ἀδὰμ Ἑνὼχ λέγων Ἰδοὺ ἦλθεν Κύριος ἐν ἁγίαις μυριάσιν αὐτοῦ</Greek>
+				<preText>\s5 \v 14</preText>
+				<ULB>Enoch, the seventh from Adam, prophesied about them, saying, "Look! The Lord is coming with thousands and thousands of his holy ones.</ULB>
+				<residue>, the seventh from  ,  about them, saying, "Look! The  is coming with thousands and thousands of his  .</residue>
+				<w OGNTsort="127974" strongs="G1802" morph="N-NSM-P" lemma="Ἐνώχ" text="Ἑνὼχ">Enoch,</w>
+				<w OGNTsort="127971" strongs="G1442" morph="A-NSM" lemma="ἕβδομος" text="ἕβδομος">the seventh</w>
+				<w OGNTsort="127972" strongs="G575" morph="PREP" lemma="ἀπό" text="ἀπὸ">from</w>
+				<w OGNTsort="127973" strongs="G76" morph="N-GSM-P" lemma="Ἀδάμ" text="Ἀδὰμ">Adam,</w>
+				<w OGNTsort="127967" strongs="G4395" morph="V-AAI-3S" lemma="προφητεύω" text="Προεφήτευσεν">prophesied</w>
+				<w OGNTsort="127970" strongs="G3778" morph="D-DPM" lemma="οὗτος" text="τούτοις">about them,</w>
+				<w OGNTsort="127968" strongs="G1161" morph="CONJ" lemma="δέ" text="δὲ">√</w>
+				<w OGNTsort="127969" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">√</w>
+				<w OGNTsort="127975" strongs="G3004" morph="V-PAP-NSM" lemma="λέγω" text="λέγων">saying,</w>
+				<w OGNTsort="127976" strongs="G2400" morph="INJ" lemma="ἰδού" text="Ἰδοὺ">"Look!</w>
+				<w OGNTsort="127978" strongs="G2962" morph="N-NSM" lemma="κύριος" text="Κύριος">The Lord</w>
+				<w OGNTsort="127977" strongs="G2064" morph="V-2AAI-3S" lemma="ἔρχομαι" text="ἦλθεν">is coming</w>
+				<w OGNTsort="127979" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">with</w>
+				<w OGNTsort="127981" strongs="G3461" morph="N-DPF" lemma="μυριάς" text="μυριάσιν">thousands and thousands</w>
+				<w OGNTsort="127982" strongs="G846" morph="P-GSM" lemma="αὐτός" sub="[1]" text="αὐτοῦ">his</w>
+				<w OGNTsort="127980" strongs="G40" morph="A-DPF" lemma="ἅγιος" text="ἁγίαις">of [1] holy ones.</w>
+			</verse>
+			<verse name="Jude 1:15">
+				<Greek>ποιῆσαι κρίσιν κατὰ πάντων καὶ ἐλέγξαι πᾶσαν ψυχὴν περὶ πάντων τῶν ἔργων ἀσεβείας αὐτῶν ὧν ἠσέβησαν καὶ περὶ πάντων τῶν σκληρῶν ὧν ἐλάλησαν κατ᾽ αὐτοῦ ἁμαρτωλοὶ ἀσεβεῖς</Greek>
+				<preText>\v 15</preText>
+				<ULB>He is coming to execute judgment on everyone. He is coming to convict all the ungodly of all the works they have done in an ungodly way, and of all the bitter words that ungodly sinners have spoken against him."</ULB>
+				<residue>He is coming to execute  on everyone. He is coming to convict all the  of all the  they have done in an  way, and of all the bitter words that  have spoken against him."</residue>
+				<w>He is coming</w>
+				<w OGNTsort="127983" strongs="G4160" morph="V-AAN" lemma="ποιέω" text="ποιῆσαι">to execute</w>
+				<w OGNTsort="127984" strongs="G2920" morph="N-ASF" lemma="κρίσις" text="κρίσιν">judgment</w>
+				<w OGNTsort="127985" strongs="G2596" morph="PREP" lemma="κατά" text="κατὰ">on</w>
+				<w OGNTsort="127986" strongs="G3956" morph="A-GPM" lemma="πᾶς" text="πάντων">everyone.</w>
+				<w>He is coming</w>
+				<w OGNTsort="127987" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">√</w>
+				<w OGNTsort="127988" strongs="G1651" morph="V-AAN" lemma="ἐλέγχω" text="ἐλέγξαι">to convict</w>
+				<w OGNTsort="127989" strongs="G3956" morph="A-ASF" lemma="πᾶς" text="πᾶσαν">all</w>
+				<phrase>
+					<w OGNTsort="127995" strongs="G763" morph="N-GSF" lemma="ἀσέβεια" text="ἀσεβείας">√</w>
+					<w OGNTsort="127990" strongs="G5590" morph="N-ASF" lemma="ψυχή" text="ψυχὴν">√</w>
+					<phraseWords>the ungodly</phraseWords>
+				</phrase>
+				<w OGNTsort="127991" strongs="G4012" morph="PREP" lemma="περί" text="περὶ">of</w>
+				<w OGNTsort="127992" strongs="G3956" morph="A-GPN" lemma="πᾶς" text="πάντων">all</w>
+				<w OGNTsort="127996" strongs="G846" morph="P-GPM" lemma="αὐτός" text="αὐτῶν">√</w>
+				<w OGNTsort="127993" strongs="G3588" morph="T-GPN" lemma="ὁ" text="τῶν">the</w>
+				<w OGNTsort="127994" strongs="G2041" morph="N-GPN" lemma="ἔργον" text="ἔργων">works</w>
+				<w OGNTsort="127997" strongs="G3739" morph="R-GPN" lemma="ὅς, ἥ" text="ὧν">√</w>
+				<w OGNTsort="127998" strongs="G764" morph="V-AAI-3P" lemma="ἀσεβέω" text="ἠσέβησαν">they have done in an ungodly way,</w>
+				<w OGNTsort="127999" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="128000" strongs="G4012" morph="PREP" lemma="περί" text="περὶ">of</w>
+				<w OGNTsort="128001" strongs="G3956" morph="A-GPN" lemma="πᾶς" text="πάντων">all</w>
+				<w OGNTsort="128002" strongs="G3588" morph="T-GPN" lemma="ὁ" text="τῶν">the</w>
+				<w OGNTsort="128003" strongs="G4642" morph="A-GPN" lemma="σκληρός" text="σκληρῶν">bitter words</w>
+				<w OGNTsort="128004" strongs="G3739" morph="R-GPN" lemma="ὅς, ἥ" text="ὧν">that</w>
+				<w OGNTsort="128009" strongs="G765" morph="A-NPM" lemma="ἀσεβής" text="ἀσεβεῖς">ungodly</w>
+				<w OGNTsort="128008" strongs="G268" morph="A-NPM" lemma="ἁμαρτωλός" text="ἁμαρτωλοὶ">sinners</w>
+				<w OGNTsort="128005" strongs="G2980" morph="V-AAI-3P" lemma="λαλέω" text="ἐλάλησαν">have spoken</w>
+				<w OGNTsort="128006" strongs="G2596" morph="PREP" lemma="κατά" text="κατ᾽">against</w>
+				<w OGNTsort="128007" strongs="G846" morph="P-GSM" lemma="αὐτός" text="αὐτοῦ">him."</w>
+			</verse>
+			<verse name="Jude 1:16">
+				<Greek>Οὗτοί εἰσιν γογγυσταί μεμψίμοιροι κατὰ τὰς ἐπιθυμίας αὐτῶν πορευόμενοι καὶ τὸ στόμα αὐτῶν λαλεῖ ὑπέρογκα θαυμάζοντες πρόσωπα ὠφελείας χάριν</Greek>
+				<preText>\v 16</preText>
+				<ULB>These are grumblers, complainers, following their evil desires. Their mouths speak loud boasts, flattering others for profit.</ULB>
+				<residue>These are grumblers, complainers, following their evil  . Their mouths speak loud boasts,  others for  .</residue>
+				<w OGNTsort="128010" strongs="G3778" morph="D-NPM" lemma="οὗτος" text="Οὗτοί">These</w>
+				<w OGNTsort="128011" strongs="G1510" morph="V-PAI-3P" lemma="εἰμί" text="εἰσιν">are</w>
+				<w OGNTsort="128012" strongs="G1113" morph="N-NPM" lemma="γογγυστής" text="γογγυσταί">grumblers,</w>
+				<w OGNTsort="128013" strongs="G3202" morph="A-NPM" lemma="μεμψίμοιρος" text="μεμψίμοιροι">complainers,</w>
+				<w OGNTsort="128018" strongs="G4198" morph="V-PNP-NPM" lemma="πορεύω" text="πορευόμενοι">following</w>
+				<w OGNTsort="128014" strongs="G2596" morph="PREP" lemma="κατά" text="κατὰ">√</w>
+				<w OGNTsort="128017" strongs="G846" morph="P-GPM" lemma="αὐτός" text="αὐτῶν">their</w>
+				<w>evil</w>
+				<w OGNTsort="128015" strongs="G3588" morph="T-APF" lemma="ὁ" text="τὰς">√</w>
+				<w OGNTsort="128016" strongs="G1939" morph="N-APF" lemma="ἐπιθυμία" text="ἐπιθυμίας">desires.</w>
+				<w OGNTsort="128019" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">√</w>
+				<w OGNTsort="128022" strongs="G846" morph="P-GPM" lemma="αὐτός" text="αὐτῶν">Their</w>
+				<w OGNTsort="128020" strongs="G3588" morph="T-NSN" lemma="ὁ" text="τὸ">√</w>
+				<w OGNTsort="128021" strongs="G4750" morph="N-NSN" lemma="στόμα" text="στόμα">mouths</w>
+				<w OGNTsort="128023" strongs="G2980" morph="V-PAI-3S" lemma="λαλέω" text="λαλεῖ">speak</w>
+				<w OGNTsort="128024" strongs="G5246" morph="A-APN" lemma="ὑπέρογκος" text="ὑπέρογκα">loud boasts,</w>
+				<phrase>
+					<w OGNTsort="128025" strongs="G2296" morph="V-PAP-NPM" lemma="θαυμάζω" text="θαυμάζοντες">√</w>
+					<w OGNTsort="128026" strongs="G4383" morph="N-APN" lemma="πρόσωπον" text="πρόσωπα">√</w>
+					<phraseWords>flattering</phraseWords>
+				</phrase>
+				<w>others</w>
+				<w OGNTsort="128028" strongs="G5484" morph="PREP" lemma="χάριν" text="χάριν">for</w>
+				<w OGNTsort="128027" strongs="G5622" morph="N-GSF" lemma="ὠφέλεια" text="ὠφελείας">profit.</w>
+			</verse>
+			<verse name="Jude 1:17">
+				<Greek>Ὑμεῖς δέ ἀγαπητοί μνήσθητε τῶν ῥημάτων τῶν προειρημένων ὑπὸ τῶν ἀποστόλων τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ</Greek>
+				<preText>\s5 \p \v 17</preText>
+				<ULB>But you, beloved, remember the words that were spoken in the past by the apostles of our Lord Jesus Christ.</ULB>
+				<residue>But you,  , remember the  that were spoken in the past by the  of our  .</residue>
+				<w OGNTsort="128030" strongs="G1161" morph="CONJ" lemma="δέ" text="δέ">But</w>
+				<w OGNTsort="128029" strongs="G4771" morph="P-2NP" lemma="σύ" text="Ὑμεῖς">you,</w>
+				<w OGNTsort="128031" strongs="G27" morph="A-VPM" lemma="ἀγαπητός" text="ἀγαπητοί">beloved,</w>
+				<w OGNTsort="128032" strongs="G3403" morph="V-APM-2P" lemma="μιμνήσκω" text="μνήσθητε">remember</w>
+				<w OGNTsort="128033" strongs="G3588" morph="T-GPN" lemma="ὁ" text="τῶν">the</w>
+				<w OGNTsort="128034" strongs="G4487" morph="N-GPN" lemma="ῥῆμα" text="ῥημάτων">words</w>
+				<w OGNTsort="128035" strongs="G3588" morph="T-GPN" lemma="ὁ" text="τῶν">that</w>
+				<w OGNTsort="128036" strongs="G4280" morph="V-RPP-GPN" lemma="προερέω" text="προειρημένων">were spoken in the past</w>
+				<w OGNTsort="128037" strongs="G5259" morph="PREP" lemma="ὑπό" text="ὑπὸ">by</w>
+				<w OGNTsort="128038" strongs="G3588" morph="T-GPM" lemma="ὁ" text="τῶν">the</w>
+				<w OGNTsort="128039" strongs="G652" morph="N-GPM" lemma="ἀπόστολος" text="ἀποστόλων">apostles</w>
+				<w OGNTsort="128040" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>	
+				<w OGNTsort="128042" strongs="G1473" morph="P-1GP" lemma="ἐγώ" sub="[1]" text="ἡμῶν">our</w>
+				<w OGNTsort="128041" strongs="G2962" morph="N-GSM" lemma="κύριος" text="Κυρίου">of [1] Lord</w>
+				<w OGNTsort="128043" strongs="G2424" morph="N-GSM-P" lemma="Ἰησοῦς" text="Ἰησοῦ">Jesus</w>
+				<w OGNTsort="128044" strongs="G5547" morph="N-GSM-T" lemma="Χριστός" text="Χριστοῦ">Christ.</w>
+			</verse>
+			<verse name="Jude 1:18">
+				<Greek>ὅτι ἔλεγον ὑμῖν Ἐπ᾽ ἐσχάτου χρόνου ἔσονται ἐμπαῖκται κατὰ τὰς ἑαυτῶν ἐπιθυμίας πορευόμενοι τῶν ἀσεβειῶν</Greek>
+				<preText>\v 18</preText>
+				<ULB>They said to you, "In the last time there will be mockers who will follow their own ungodly desires."</ULB>
+				<residue>They said to you, "In the last  there will be  who will follow their own  ."</residue>
+				<w OGNTsort="128046" strongs="G3004" morph="V-IAI-3P" lemma="λέγω" text="ἔλεγον">They said</w>
+				<w OGNTsort="128047" strongs="G4771" morph="P-2DP" lemma="σύ" text="ὑμῖν">to you,</w>
+				<w OGNTsort="128045" strongs="G3754" morph="CONJ" lemma="ὅτι" text="ὅτι">√</w>
+				<w OGNTsort="128048" strongs="G1909" morph="PREP" lemma="ἐπί" text="Ἐπ᾽">"In</w>
+				<w OGNTsort="128049" strongs="G2078" morph="A-GSM" lemma="ἔσχατος" text="ἐσχάτου">the last</w>
+				<w OGNTsort="128050" strongs="G5550" morph="N-GSM" lemma="χρόνος" text="χρόνου">time</w>
+				<w OGNTsort="128051" strongs="G1510" morph="V-FDI-3P" lemma="εἰμί" text="ἔσονται">there will be</w>
+				<w OGNTsort="128052" strongs="G1703" morph="N-NPM" lemma="ἐμπαίκτης" text="ἐμπαῖκται">mockers</w>
+				<w OGNTsort="128057" strongs="G4198" morph="V-PNP-NPM" lemma="πορεύω" text="πορευόμενοι">who will follow</w>
+				<w OGNTsort="128053" strongs="G2596" morph="PREP" lemma="κατά" text="κατὰ">√</w>
+				<w OGNTsort="128055" strongs="G1438" morph="F-3GPM" lemma="ἑαυτοῦ" text="ἑαυτῶν">their own</w>
+				<w OGNTsort="128058" strongs="G3588" morph="T-GPF" lemma="ὁ" text="τῶν">√</w>
+				<w OGNTsort="128059" strongs="G763" morph="N-GPF" lemma="ἀσέβεια" text="ἀσεβειῶν">ungodly</w>
+				<w OGNTsort="128054" strongs="G3588" morph="T-APF" lemma="ὁ" text="τὰς">√</w>
+				<w OGNTsort="128056" strongs="G1939" morph="N-APF" lemma="ἐπιθυμία" text="ἐπιθυμίας">desires."</w>
+			</verse>
+			<verse name="Jude 1:19">
+				<Greek>Οὗτοί εἰσιν οἱ ἀποδιορίζοντες ψυχικοί Πνεῦμα μὴ ἔχοντες</Greek>
+				<preText>\v 19</preText>
+				<ULB>It is these who cause divisions; they are worldly and they do not have the Spirit.</ULB>
+				<residue>It is these who cause divisions; they are worldly and they do not have the  .</residue>
+				<w OGNTsort="128061" strongs="G1510" morph="V-PAI-3P" lemma="εἰμί" text="εἰσιν">It is</w>
+				<w OGNTsort="128060" strongs="G3778" morph="D-NPM" lemma="οὗτος" text="Οὗτοί">these</w>
+				<w OGNTsort="128062" strongs="G3588" morph="T-NPM" lemma="ὁ" text="οἱ">who</w>
+				<w OGNTsort="128063" strongs="G592" morph="V-PAP-NPM" lemma="ἀποδιορίζω" text="ἀποδιορίζοντες">cause divisions;</w>
+				<w>they are</w>
+				<w OGNTsort="128064" strongs="G5591" morph="A-NPM" lemma="ψυχικός" text="ψυχικοί">worldly</w>
+				<w>and</w>
+				<w OGNTsort="128066" strongs="G3361" morph="PRT-N" lemma="μή" sub="[1]" text="μὴ">not</w>
+				<w OGNTsort="128067" strongs="G2192" morph="V-PAP-NPM" lemma="ἔχω" text="ἔχοντες">they do [1] have</w>
+				<w OGNTsort="128065" strongs="G4151" morph="N-ASN" lemma="πνεῦμα" text="Πνεῦμα">the Spirit.</w>
+			</verse>
+			<verse name="Jude 1:20">
+				<Greek>Ὑμεῖς δέ ἀγαπητοί ἐποικοδομοῦντες ἑαυτοὺς τῇ ἁγιωτάτῃ ὑμῶν πίστει ἐν Πνεύματι Ἁγίῳ προσευχόμενοι</Greek>
+				<preText>\s5 \v 20</preText>
+				<ULB>But you, beloved, build yourselves up in your most holy faith, and pray in the Holy Spirit.</ULB>
+				<residue>But you,  , build yourselves up in your most  , and  in the  .</residue>
+				<w OGNTsort="128069" strongs="G1161" morph="CONJ" lemma="δέ" text="δέ">But</w>
+				<w OGNTsort="128068" strongs="G4771" morph="P-2NP" lemma="σύ" text="Ὑμεῖς">you,</w>
+				<w OGNTsort="128070" strongs="G27" morph="A-VPM" lemma="ἀγαπητός" text="ἀγαπητοί">beloved,</w>
+				<w OGNTsort="128072" strongs="G1438" morph="F-2APM" lemma="ἑαυτοῦ" sub="[1]" text="ἑαυτοὺς">yourselves</w>
+				<w OGNTsort="128071" strongs="G2026" morph="V-PAP-NPM" lemma="ἐποικοδομέω" text="ἐποικοδομοῦντες">build [1] up</w>
+				<w OGNTsort="128075" strongs="G4771" morph="P-2GP" lemma="σύ" sub="[1]" text="ὑμῶν">your</w>
+				<w OGNTsort="128073" strongs="G3588" morph="T-DSF" lemma="ὁ" text="τῇ">√</w>
+				<w OGNTsort="128074" strongs="G40" morph="A-DSF-S" lemma="ἅγιος" sub="[2]" text="ἁγιωτάτῃ">most holy</w>
+				<w OGNTsort="128076" strongs="G4102" morph="N-DSF" lemma="πίστις" text="πίστει">in [1] [2] faith,</w>
+				<w>and</w>
+				<w OGNTsort="128080" strongs="G4336" morph="V-PNP-NPM" lemma="προσεύχομαι" text="προσευχόμενοι">pray</w>
+				<w OGNTsort="128077" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">in</w>
+				<w OGNTsort="128079" strongs="G40" morph="A-DSN" lemma="ἅγιος" text="Ἁγίῳ">the Holy</w>
+				<w OGNTsort="128078" strongs="G4151" morph="N-DSN" lemma="πνεῦμα" text="Πνεύματι">Spirit.</w>
+			</verse>
+			<verse name="Jude 1:21">
+				<Greek>ἑαυτοὺς ἐν ἀγάπῃ Θεοῦ τηρήσατε προσδεχόμενοι τὸ ἔλεος τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ εἰς ζωὴν αἰώνιον</Greek>
+				<preText>\v 21</preText>
+				<ULB>Keep yourselves in God's love, and wait for the mercy of our Lord Jesus Christ that brings you eternal life.</ULB>
+				<residue>Keep yourselves in  , and wait for the  of our  that brings you  .</residue>
+				<w OGNTsort="128085" strongs="G5083" morph="V-AAM-2P" lemma="τηρέω" text="τηρήσατε">Keep</w>
+				<w OGNTsort="128081" strongs="G1438" morph="F-2APM" lemma="ἑαυτοῦ" text="ἑαυτοὺς">yourselves</w>
+				<w OGNTsort="128082" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">in</w>
+				<w OGNTsort="128084" strongs="G2316" morph="N-GSM" lemma="θεός" text="Θεοῦ">God's</w>
+				<w OGNTsort="128083" strongs="G26" morph="N-DSF" lemma="ἀγάπη" text="ἀγάπῃ">love,</w>
+				<w>and</w>
+				<w OGNTsort="128086" strongs="G4327" morph="V-PNP-NPM" lemma="προσδέχομαι" text="προσδεχόμενοι">wait for</w>
+				<w OGNTsort="128087" strongs="G3588" morph="T-ASN" lemma="ὁ" text="τὸ">the</w>
+				<w OGNTsort="128088" strongs="G1656" morph="N-ASN" lemma="ἔλεος" text="ἔλεος">mercy</w>
+				<w OGNTsort="128091" strongs="G1473" morph="P-1GP" lemma="ἐγώ" sub="[1]" text="ἡμῶν">our</w>
+				<w OGNTsort="128089" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="128090" strongs="G2962" morph="N-GSM" lemma="κύριος" text="Κυρίου">of [1] Lord</w>
+				<w OGNTsort="128092" strongs="G2424" morph="N-GSM-P" lemma="Ἰησοῦς" text="Ἰησοῦ">Jesus</w>
+				<w OGNTsort="128093" strongs="G5547" morph="N-GSM-T" lemma="Χριστός" text="Χριστοῦ">Christ</w>
+				<w>that brings you</w>
+				<w OGNTsort="128094" strongs="G1519" morph="PREP" lemma="εἰς" text="εἰς">√</w>
+				<w OGNTsort="128096" strongs="G166" morph="A-ASF" lemma="αἰώνιος" text="αἰώνιον">eternal</w>
+				<w OGNTsort="128095" strongs="G2222" morph="N-ASF" lemma="ζωή" text="ζωὴν">life.</w>
+			</verse>
+			<verse name="Jude 1:22">
+				<Greek>Καὶ οὓς μὲν ἐλεᾶτε διακρινομένους</Greek>
+				<preText>\s5 \v 22</preText>
+				<ULB>Be merciful to those who doubt.</ULB>
+				<residue>Be  to those who doubt.</residue>
+				<w OGNTsort="128100" strongs="G1653" morph="V-PAM-2P" lemma="ἐλεέω, ἐλεάω" text="ἐλεᾶτε">Be merciful</w>
+				<w OGNTsort="128097" strongs="G2532" morph="CONJ" lemma="καί" text="Καὶ">√</w>
+				<w OGNTsort="128098" strongs="G3739" morph="R-APM" lemma="ὅς, ἥ" text="οὓς">to those who</w>
+				<w OGNTsort="128099" strongs="G3303" morph="PRT" lemma="μέν" text="μὲν">√</w>
+				<w OGNTsort="128101" strongs="G1252" morph="V-PMP-APM" lemma="διακρίνω" text="διακρινομένους">doubt.</w>
+			</verse>
+			<verse name="Jude 1:23">
+				<Greek>οὓς δὲ σῴζετε ἐκ πυρὸς ἁρπάζοντες οὓς δὲ ἐλεᾶτε ἐν φόβῳ μισοῦντες καὶ τὸν ἀπὸ τῆς σαρκὸς ἐσπιλωμένον χιτῶνα</Greek>
+				<preText>\v 23</preText>
+				<ULB>Save others by snatching them out of the fire; to others show mercy with fear, hating even the garment defiled by the flesh.</ULB>
+				<residue>Save others by snatching them out of the  ; to others show  with  , hating even the  by the  .</residue>
+				<w OGNTsort="128104" strongs="G4982" morph="V-PAM-2P" lemma="σῴζω" text="σῴζετε">Save</w>
+				<w OGNTsort="128102" strongs="G3739" morph="R-APM" lemma="ὅς, ἥ" text="οὓς">others</w>
+				<w OGNTsort="128107" strongs="G726" morph="V-PAP-NPM" lemma="ἁρπάζω" text="ἁρπάζοντες">by snatching</w>
+				<w>them</w>
+				<w OGNTsort="128103" strongs="G1161" morph="CONJ" lemma="δέ" text="δὲ">√</w>
+				<w OGNTsort="128105" strongs="G1537" morph="PREP" lemma="ἐκ" text="ἐκ">out of</w>
+				<w OGNTsort="128106" strongs="G4442" morph="N-GSN" lemma="πῦρ" text="πυρὸς">the fire;</w>
+				<w OGNTsort="128108" strongs="G3739" morph="R-APM" lemma="ὅς, ἥ" text="οὓς">to others</w>
+				<w OGNTsort="128109" strongs="G1161" morph="CONJ" lemma="δέ" text="δὲ">√</w>
+				<w OGNTsort="128110" strongs="G1653" morph="V-PAM-2P" lemma="ἐλεέω, ἐλεάω" text="ἐλεᾶτε">show mercy</w>
+				<w OGNTsort="128111" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">with</w>
+				<w OGNTsort="128112" strongs="G5401" morph="N-DSM" lemma="φόβος" text="φόβῳ">fear,</w>
+				<w OGNTsort="128113" strongs="G3404" morph="V-PAP-NPM" lemma="μισέω" text="μισοῦντες">hating</w>
+				<w OGNTsort="128114" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">even</w>
+				<w OGNTsort="128115" strongs="G3588" morph="T-ASM" lemma="ὁ" text="τὸν">the</w>
+				<w OGNTsort="128120" strongs="G5509" morph="N-ASM" lemma="χιτών" text="χιτῶνα">garment</w>
+				<w OGNTsort="128119" strongs="G4695" morph="V-RPP-ASM" lemma="σπιλόω" text="ἐσπιλωμένον">defiled</w>
+				<w OGNTsort="128116" strongs="G575" morph="PREP" lemma="ἀπό" text="ἀπὸ">by</w>
+				<w OGNTsort="128117" strongs="G3588" morph="T-GSF" lemma="ὁ" text="τῆς">the</w>
+				<w OGNTsort="128118" strongs="G4561" morph="N-GSF" lemma="σάρξ" text="σαρκὸς">flesh.</w>
+			</verse>
+			<verse name="Jude 1:24">
+				<Greek>Τῷ δὲ δυναμένῳ φυλάξαι ὑμᾶς ἀπταίστους καὶ στῆσαι κατενώπιον τῆς δόξης αὐτοῦ ἀμώμους ἐν ἀγαλλιάσει</Greek>
+				<preText>\s5 \p \v 24</preText>
+				<ULB>Now to the one who is able to keep you from stumbling and to cause you to stand before his glorious presence without blemish and with great joy,</ULB>
+				<residue>Now to the one who  to  you from  and to cause you to stand before his  presence without  and with great  ,</residue>
+				<w OGNTsort="128122" strongs="G1161" morph="CONJ" lemma="δέ" text="δὲ">Now</w>
+				<w OGNTsort="128121" strongs="G3588" morph="T-DSM" lemma="ὁ" text="Τῷ">to the one who</w>
+				<w OGNTsort="128123" strongs="G1410" morph="V-PNP-DSM" lemma="δύναμαι" text="δυναμένῳ">is able</w>
+				<w OGNTsort="128124" strongs="G5442" morph="V-AAN" lemma="φυλάσσω" text="φυλάξαι">to keep</w>
+				<w OGNTsort="128125" strongs="G4771" morph="P-2AP" lemma="σύ" text="ὑμᾶς">you</w>
+				<w OGNTsort="128126" strongs="G679" morph="A-APM" lemma="ἄπταιστος" text="ἀπταίστους">from stumbling</w>
+				<w OGNTsort="128127" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w sub="[2]">you</w>
+				<w OGNTsort="128128" strongs="G2476" morph="V-AAN" lemma="ἵστημι" text="στῆσαι">to cause [2] to stand</w>
+				<w OGNTsort="128129" strongs="G2714" morph="PREP" lemma="κατενώπιον" text="κατενώπιον">before</w>
+				<w OGNTsort="128132" strongs="G846" morph="P-GSM" lemma="αὐτός" text="αὐτοῦ">his</w>
+				<w OGNTsort="128130" strongs="G3588" morph="T-GSF" lemma="ὁ" text="τῆς">√</w>
+				<w OGNTsort="128131" strongs="G1391" morph="N-GSF" lemma="δόξα" text="δόξης">glorious presence</w>
+				<w OGNTsort="128133" strongs="G299" morph="A-APM" lemma="ἄμωμος" text="ἀμώμους">without blemish</w>
+				<w>and</w>
+				<w OGNTsort="128134" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">with</w>
+				<w OGNTsort="128135" strongs="G20" morph="N-DSF" lemma="ἀγαλλίασις" text="ἀγαλλιάσει">great joy,</w>
+			</verse>
+			<verse name="Jude 1:25">
+				<Greek>μόνῳ Θεῷ Σωτῆρι ἡμῶν διὰ Ἰησοῦ Χριστοῦ τοῦ Κυρίου ἡμῶν δόξα μεγαλωσύνη κράτος καὶ ἐξουσία πρὸ παντὸς τοῦ αἰῶνος καὶ νῦν καὶ εἰς πάντας τοὺς αἰῶνας Ἀμήν</Greek>
+				<preText>\v 25</preText>
+				<ULB>to the only God our Savior through Jesus Christ our Lord, be glory, majesty, dominion, and authority, before all time, now, and forever. Amen.</ULB>
+				<residue>to the only  our  through  our  , be  ,  ,  , and  , before all  , now, and  . Amen.</residue>
+				<w OGNTsort="128136" strongs="G3441" morph="A-DSM" lemma="μόνος" text="μόνῳ">to the only</w>
+				<w OGNTsort="128137" strongs="G2316" morph="N-DSM" lemma="θεός" text="Θεῷ">God</w>
+				<w OGNTsort="128139" strongs="G1473" morph="P-1GP" lemma="ἐγώ" text="ἡμῶν">our</w>
+				<w OGNTsort="128138" strongs="G4990" morph="N-DSM" lemma="σωτήρ" text="Σωτῆρι">Savior</w>
+				<w OGNTsort="128140" strongs="G1223" morph="PREP" lemma="διά" text="διὰ">through</w>
+				<w OGNTsort="128141" strongs="G2424" morph="N-GSM-P" lemma="Ἰησοῦς" text="Ἰησοῦ">Jesus</w>
+				<w OGNTsort="128142" strongs="G5547" morph="N-GSM-T" lemma="Χριστός" text="Χριστοῦ">Christ</w>
+				<w OGNTsort="128145" strongs="G1473" morph="P-1GP" lemma="ἐγώ" text="ἡμῶν">our</w>
+				<w OGNTsort="128143" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="128144" strongs="G2962" morph="N-GSM" lemma="κύριος" text="Κυρίου">Lord,</w>
+				<w>be</w>
+				<w OGNTsort="128146" strongs="G1391" morph="N-NSF" lemma="δόξα" text="δόξα">glory,</w>
+				<w OGNTsort="128147" strongs="G3172" morph="N-NSF" lemma="μεγαλωσύνη" text="μεγαλωσύνη">majesty,</w>
+				<w OGNTsort="128148" strongs="G2904" morph="N-NSN" lemma="κράτος" text="κράτος">dominion,</w>
+				<w OGNTsort="128149" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="128150" strongs="G1849" morph="N-NSF" lemma="ἐξουσία" text="ἐξουσία">authority,</w>
+				<w OGNTsort="128151" strongs="G4253" morph="PREP" lemma="πρό" text="πρὸ">before</w>
+				<w OGNTsort="128152" strongs="G3956" morph="A-GSM" lemma="πᾶς" text="παντὸς">all</w>
+				<w OGNTsort="128153" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="128154" strongs="G165" morph="N-GSM" lemma="αἰών" text="αἰῶνος">time,</w>
+				<w OGNTsort="128155" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">√</w>
+				<w OGNTsort="128156" strongs="G3568" morph="ADV" lemma="νῦν" text="νῦν">now,</w>
+				<w OGNTsort="128157" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<phrase>
+					<w OGNTsort="128158" strongs="G1519" morph="PREP" lemma="εἰς" text="εἰς">√</w>
+					<w OGNTsort="128159" strongs="G3956" morph="A-APM" lemma="πᾶς" text="πάντας">√</w>
+					<w OGNTsort="128160" strongs="G3588" morph="T-APM" lemma="ὁ" text="τοὺς">√</w>
+					<w OGNTsort="128161" strongs="G165" morph="N-APM" lemma="αἰών" text="αἰῶνας">√</w>
+					<phraseWords>forever.</phraseWords>
+				</phrase>
+				<w OGNTsort="128162" strongs="G281" morph="HEB" lemma="ἀμήν" text="Ἀμήν">Amen.</w>
+			</verse>
+		</chapter>
+	</book>
+</xml>

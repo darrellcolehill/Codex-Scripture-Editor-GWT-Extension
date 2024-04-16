@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="xml" type="xmlType"/>
+  <xs:complexType name="usfmType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string" />
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="wType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:integer" name="OGNTsort" use="optional"/>
+        <xs:attribute name="strongs" use="optional">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:whiteSpace value="collapse"/>
+                    <xs:pattern value="G([0-9])*" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute type="xs:string" name="morph" use="optional"/>
+        <xs:attribute type="xs:string" name="lemma" use="optional"/>
+        <xs:attribute type="xs:string" name="text" use="optional"/>
+        <xs:attribute type="xs:string" name="sub" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="phraseWordsType" mixed="true">
+    <xs:all>
+      <xs:element name="usfm" type="usfmType"  minOccurs="0" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="phraseType" mixed="true">
+    <xs:sequence>
+      <xs:element type="wType" name="w" maxOccurs="unbounded" minOccurs="1"/>
+      <xs:element name="phraseWords" minOccurs="1" type="phraseWordsType" />
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="sub" use="optional"/>
+  </xs:complexType>
+  <xs:group name="verseHeaderGroup">
+    <xs:sequence>
+      <xs:element type="xs:string" name="Greek"/>
+      <xs:element type="xs:string" name="preText"/>
+      <xs:element name="ULB">
+        <xs:complexType mixed="true">
+          <xs:sequence>
+            <xs:element type="usfmType" name="usfm" maxOccurs="unbounded" minOccurs="0" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element type="xs:string" name="residue"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="wordsGroup">
+    <xs:choice>
+      <xs:element type="wType" name="w"/>
+      <xs:element type="phraseType" name="phrase"/>
+      <xs:element type="usfmType" name="usfm"/>
+      <xs:element type="xs:string" name="comment"/>
+    </xs:choice>
+  </xs:group>
+  <xs:complexType name="verseType">
+    <xs:sequence>
+      <xs:group ref="verseHeaderGroup" minOccurs="1"/>
+      <xs:group ref="wordsGroup" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="name" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="chapterType">
+    <xs:sequence>
+      <xs:element type="verseType" name="verse" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="osisID" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="ULBType" mixed="true">
+    <xs:sequence>
+      <xs:element name="usfm" maxOccurs="unbounded" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string" />
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="bookType">
+    <xs:sequence>
+      <xs:element type="chapterType" name="chapter" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="osisID"/>
+  </xs:complexType>
+  <xs:complexType name="xmlType">
+    <xs:sequence>
+      <xs:element type="bookType" name="book"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

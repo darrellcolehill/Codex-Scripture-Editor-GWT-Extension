@@ -1,0 +1,1221 @@
+<?xml version="1.0" standalone="yes" ?>
+<xml xsi:schemaLocation="wa_ulb.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<book osisID="2th">
+		<chapter osisID="2th.1">
+			<verse name="2 Thessalonians 1:1">
+				<Greek>Παῦλος καὶ Σιλουανὸς καὶ Τιμόθεος Τῇ ἐκκλησίᾳ Θεσσαλονικέων ἐν Θεῷ Πατρὶ ἡμῶν καὶ Κυρίῳ Ἰησοῦ Χριστῷ</Greek>
+				<preText>\s5 \c 1 \p \v 1</preText>
+				<ULB>Paul, Silvanus, and Timothy, to the church of the Thessalonians in God our Father and the Lord Jesus Christ.</ULB>
+				<residue>,  , and  , to the  of the  in  our  and the  .</residue>
+				<w OGNTsort="110980" strongs="G3972" morph="N-NSM-P" lemma="Παῦλος" text="Παῦλος">Paul,</w>
+				<w OGNTsort="110981" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">√</w>
+				<w OGNTsort="110982" strongs="G4610" morph="N-NSM-P" lemma="Σιλουανός" text="Σιλουανὸς">Silvanus,</w>
+				<w OGNTsort="110983" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="110984" strongs="G5095" morph="N-NSM-P" lemma="Τιμόθεος" text="Τιμόθεος">Timothy,</w>
+				<w OGNTsort="110985" strongs="G3588" morph="T-DSF" lemma="ὁ" text="Τῇ">to the</w>
+				<w OGNTsort="110986" strongs="G1577" morph="N-DSF" lemma="ἐκκλησία" text="ἐκκλησίᾳ">church</w>
+				<w OGNTsort="110987" strongs="G2331" morph="N-GPM-LG" lemma="Θεσσαλονικεύς" text="Θεσσαλονικέων">of the Thessalonians</w>
+				<w OGNTsort="110988" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">in</w>
+				<w OGNTsort="110989" strongs="G2316" morph="N-DSM" lemma="θεός" text="Θεῷ">God</w>
+				<w OGNTsort="110991" strongs="G1473" morph="P-1GP" lemma="ἐγώ" text="ἡμῶν">our</w>
+				<w OGNTsort="110990" strongs="G3962" morph="N-DSM" lemma="πατήρ" text="Πατρὶ">Father</w>
+				<w OGNTsort="110992" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="110993" strongs="G2962" morph="N-DSM" lemma="κύριος" text="Κυρίῳ">the Lord</w>
+				<w OGNTsort="110994" strongs="G2424" morph="N-DSM-P" lemma="Ἰησοῦς" text="Ἰησοῦ">Jesus</w>
+				<w OGNTsort="110995" strongs="G5547" morph="N-DSM-T" lemma="Χριστός" text="Χριστῷ">Christ.</w>
+			</verse>
+			<verse name="2 Thessalonians 1:2">
+				<Greek>Χάρις ὑμῖν καὶ εἰρήνη ἀπὸ Θεοῦ Πατρὸς ἡμῶν καὶ Κυρίου Ἰησοῦ Χριστοῦ</Greek>
+				<preText>\p \v 2</preText>
+				<ULB>Grace to you and peace from God our Father and the Lord Jesus Christ.</ULB>
+				<residue>Grace to you and  from  our  and the  .</residue>
+				<w OGNTsort="110996" strongs="G5485" morph="N-NSF" lemma="χάρις" text="Χάρις">Grace</w>
+				<w OGNTsort="110997" strongs="G4771" morph="P-2DP" lemma="σύ" text="ὑμῖν">to you</w>
+				<w OGNTsort="110998" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="110999" strongs="G1515" morph="N-NSF" lemma="εἰρήνη" text="εἰρήνη">peace</w>
+				<w OGNTsort="111000" strongs="G575" morph="PREP" lemma="ἀπό" text="ἀπὸ">from</w>
+				<w OGNTsort="111001" strongs="G2316" morph="N-GSM" lemma="θεός" text="Θεοῦ">God</w>
+				<w OGNTsort="111003" strongs="G1473" morph="P-1GP" lemma="ἐγώ" text="ἡμῶν">our</w>
+				<w OGNTsort="111002" strongs="G3962" morph="N-GSM" lemma="πατήρ" text="Πατρὸς">Father</w>
+				<w OGNTsort="111004" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111005" strongs="G2962" morph="N-GSM" lemma="κύριος" text="Κυρίου">the Lord</w>
+				<w OGNTsort="111006" strongs="G2424" morph="N-GSM-P" lemma="Ἰησοῦς" text="Ἰησοῦ">Jesus</w>
+				<w OGNTsort="111007" strongs="G5547" morph="N-GSM-T" lemma="Χριστός" text="Χριστοῦ">Christ.</w>
+			</verse>
+			<verse name="2 Thessalonians 1:3">
+				<Greek>Εὐχαριστεῖν ὀφείλομεν τῷ Θεῷ πάντοτε περὶ ὑμῶν ἀδελφοί καθὼς ἄξιόν ἐστιν ὅτι ὑπεραυξάνει ἡ πίστις ὑμῶν καὶ πλεονάζει ἡ ἀγάπη ἑνὸς ἑκάστου πάντων ὑμῶν εἰς ἀλλήλους</Greek>
+				<preText>\s5 \p \v 3</preText>
+				<ULB>We should always give thanks to God for you, brothers, as is appropriate, because your faith is growing more and more, and the love each of you has for one another increases.</ULB>
+				<residue>We should always give thanks to  for you,  ,  is appropriate, because your  is growing more and more, and the  each of you has for one another increases.</residue>
+				<w OGNTsort="111009" strongs="G3784" morph="V-PAI-1P" lemma="ὀφείλω" text="ὀφείλομεν">We should</w>
+				<w OGNTsort="111012" strongs="G3842" morph="ADV" lemma="πάντοτε" text="πάντοτε">always</w>
+				<w OGNTsort="111008" strongs="G2168" morph="V-PAN" lemma="εὐχαριστέω" text="Εὐχαριστεῖν">give thanks</w>
+				<w OGNTsort="111010" strongs="G3588" morph="T-DSM" lemma="ὁ" text="τῷ">√</w>
+				<w OGNTsort="111011" strongs="G2316" morph="N-DSM" lemma="θεός" text="Θεῷ">to God</w>
+				<w OGNTsort="111013" strongs="G4012" morph="PREP" lemma="περί" text="περὶ">for</w>
+				<w OGNTsort="111014" strongs="G4771" morph="P-2GP" lemma="σύ" text="ὑμῶν">you,</w>
+				<w OGNTsort="111015" strongs="G80" morph="N-VPM" lemma="ἀδελφός" text="ἀδελφοί">brothers,</w>
+				<w OGNTsort="111016" strongs="G2531" morph="CONJ" lemma="καθώς" text="καθὼς">as</w>
+				<w OGNTsort="111018" strongs="G1510" morph="V-PAI-3S" lemma="εἰμί" text="ἐστιν">is</w>
+				<w OGNTsort="111017" strongs="G514" morph="A-NSN" lemma="ἄξιος" text="ἄξιόν">appropriate,</w>
+				<w OGNTsort="111019" strongs="G3754" morph="CONJ" lemma="ὅτι" text="ὅτι">because</w>
+				<w OGNTsort="111023" strongs="G4771" morph="P-2GP" lemma="σύ" text="ὑμῶν">your</w>
+				<w OGNTsort="111021" strongs="G3588" morph="T-NSF" lemma="ὁ" text="ἡ">√</w>
+				<w OGNTsort="111022" strongs="G4102" morph="N-NSF" lemma="πίστις" text="πίστις">faith</w>
+				<w OGNTsort="111020" strongs="G5232" morph="V-PAI-3S" lemma="ὑπεραυξάνω" text="ὑπεραυξάνει">is growing more and more,</w>
+				<w OGNTsort="111024" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111026" strongs="G3588" morph="T-NSF" lemma="ὁ" text="ἡ">the</w>
+				<w OGNTsort="111027" strongs="G26" morph="N-NSF" lemma="ἀγάπη" text="ἀγάπη">love</w>
+				<w OGNTsort="111028" strongs="G1520" morph="A-GSM" lemma="εἷς" text="ἑνὸς">√</w>
+				<w OGNTsort="111029" strongs="G1538" morph="A-GSM" lemma="ἕκαστος" text="ἑκάστου">each</w>
+				<w OGNTsort="111030" strongs="G3956" morph="A-GPM" lemma="πᾶς" text="πάντων">√</w>
+				<w OGNTsort="111031" strongs="G4771" morph="P-2GP" lemma="σύ" text="ὑμῶν">of you</w>
+				<w>has</w>
+				<w OGNTsort="111032" strongs="G1519" morph="PREP" lemma="εἰς" text="εἰς">for</w>
+				<w OGNTsort="111033" strongs="G240" morph="C-APM" lemma="ἀλλήλων" text="ἀλλήλους">one another</w>
+				<w OGNTsort="111025" strongs="G4121" morph="V-PAI-3S" lemma="πλεονάζω" text="πλεονάζει">increases.</w>
+			</verse>
+			<verse name="2 Thessalonians 1:4">
+				<Greek>ὥστε αὐτοὺς ἡμᾶς ἐν ὑμῖν ἐνκαυχᾶσθαι ἐν ταῖς ἐκκλησίαις τοῦ Θεοῦ ὑπὲρ τῆς ὑπομονῆς ὑμῶν καὶ πίστεως ἐν πᾶσιν τοῖς διωγμοῖς ὑμῶν καὶ ταῖς θλίψεσιν αἷς ἀνέχεσθε</Greek>
+				<preText>\v 4</preText>
+				<ULB>So we ourselves boast about you in the churches of God for your patience and faith in all your persecutions, and in the tribulations that you are enduring.</ULB>
+				<residue>So we ourselves boast about you in the  of  for your  and  in all your  , and in the  that you are  .</residue>
+				<w OGNTsort="111034" strongs="G5620" morph="CONJ" lemma="ὥστε" text="ὥστε">So</w>
+				<w OGNTsort="111036" strongs="G1473" morph="P-1AP" lemma="ἐγώ" text="ἡμᾶς">we</w>
+				<w OGNTsort="111035" strongs="G846" morph="P-APM" lemma="αὐτός" text="αὐτοὺς">ourselves</w>
+				<w OGNTsort="111039" strongs="G7013" morph="V-PNN" lemma="ἐγκαυχάομαι" text="ἐνκαυχᾶσθαι">boast</w>
+				<w OGNTsort="111037" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">about</w>
+				<w OGNTsort="111038" strongs="G4771" morph="P-2DP" lemma="σύ" text="ὑμῖν">you</w>
+				<w OGNTsort="111040" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">in</w>
+				<w OGNTsort="111041" strongs="G3588" morph="T-DPF" lemma="ὁ" text="ταῖς">the</w>
+				<w OGNTsort="111042" strongs="G1577" morph="N-DPF" lemma="ἐκκλησία" text="ἐκκλησίαις">churches</w>
+				<w OGNTsort="111043" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="111044" strongs="G2316" morph="N-GSM" lemma="θεός" text="Θεοῦ">of God</w>
+				<w OGNTsort="111045" strongs="G5228" morph="PREP" lemma="ὑπέρ" text="ὑπὲρ">for</w>
+				<w OGNTsort="111048" strongs="G4771" morph="P-2GP" lemma="σύ" text="ὑμῶν">your</w>
+				<w OGNTsort="111046" strongs="G3588" morph="T-GSF" lemma="ὁ" text="τῆς">√</w>
+				<w OGNTsort="111047" strongs="G5281" morph="N-GSF" lemma="ὑπομονή" text="ὑπομονῆς">patience</w>
+				<w OGNTsort="111049" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111050" strongs="G4102" morph="N-GSF" lemma="πίστις" text="πίστεως">faith</w>
+				<w OGNTsort="111051" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">in</w>
+				<w OGNTsort="111052" strongs="G3956" morph="A-DPM" lemma="πᾶς" text="πᾶσιν">all</w>
+				<w OGNTsort="111055" strongs="G4771" morph="P-2GP" lemma="σύ" text="ὑμῶν">your</w>
+				<w OGNTsort="111053" strongs="G3588" morph="T-DPM" lemma="ὁ" text="τοῖς">√</w>
+				<w OGNTsort="111054" strongs="G1375" morph="N-DPM" lemma="διωγμός" text="διωγμοῖς">persecutions,</w>
+				<w OGNTsort="111056" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111057" strongs="G3588" morph="T-DPF" lemma="ὁ" text="ταῖς">in the</w>
+				<w OGNTsort="111058" strongs="G2347" morph="N-DPF" lemma="θλῖψις" text="θλίψεσιν">tribulations</w>
+				<w OGNTsort="111059" strongs="G3739" morph="R-DPF" lemma="ὅς, ἥ" text="αἷς">that</w>
+				<w OGNTsort="111060" strongs="G430" morph="V-PNI-2P" lemma="ἀνέχω" text="ἀνέχεσθε">you are enduring.</w>
+			</verse>
+			<verse name="2 Thessalonians 1:5">
+				<Greek>Ἔνδειγμα τῆς δικαίας κρίσεως τοῦ Θεοῦ εἰς τὸ καταξιωθῆναι ὑμᾶς τῆς βασιλείας τοῦ Θεοῦ ὑπὲρ ἧς καὶ πάσχετε</Greek>
+				<preText>\v 5</preText>
+				<ULB>This is evidence of God's righteous judgment, so that you will be considered worthy of the kingdom of God, for which you are also suffering.</ULB>
+				<residue>This is  of  judgment, so that you will be  of the  , for which you are also  .</residue>
+				<w>This is</w>
+				<w OGNTsort="111061" strongs="G1730" morph="N-NSN" lemma="ἔνδειγμα" text="Ἔνδειγμα">evidence</w>
+				<w OGNTsort="111065" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="111066" strongs="G2316" morph="N-GSM" lemma="θεός" text="Θεοῦ">of God's</w>
+				<w OGNTsort="111062" strongs="G3588" morph="T-GSF" lemma="ὁ" text="τῆς">√</w>
+				<w OGNTsort="111063" strongs="G1342" morph="A-GSF" lemma="δίκαιος" text="δικαίας">righteous</w>
+				<w OGNTsort="111064" strongs="G2920" morph="N-GSF" lemma="κρίσις" text="κρίσεως">judgment,</w>
+				<phrase>
+					<w OGNTsort="111067" strongs="G1519" morph="PREP" lemma="εἰς" text="εἰς">√</w>
+					<w OGNTsort="111068" strongs="G3588" morph="T-ASN" lemma="ὁ" text="τὸ">√</w>
+					<phraseWords>so that</phraseWords>
+				</phrase>
+				<w OGNTsort="111070" strongs="G4771" morph="P-2AP" lemma="σύ" text="ὑμᾶς">you</w>
+				<w OGNTsort="111069" strongs="G2661" morph="V-APN" lemma="καταξιόω" text="καταξιωθῆναι">will be considered worthy</w>
+				<w OGNTsort="111071" strongs="G3588" morph="T-GSF" lemma="ὁ" text="τῆς">of the</w>
+				<w OGNTsort="111072" strongs="G932" morph="N-GSF" lemma="βασιλεία" text="βασιλείας">kingdom</w>
+				<w OGNTsort="111073" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="111074" strongs="G2316" morph="N-GSM" lemma="θεός" text="Θεοῦ">of God,</w>
+				<w OGNTsort="111075" strongs="G5228" morph="PREP" lemma="ὑπέρ" text="ὑπὲρ">for</w>
+				<w OGNTsort="111076" strongs="G3739" morph="R-GSF" lemma="ὅς, ἥ" text="ἧς">which</w>
+				<w OGNTsort="111077" strongs="G2532" morph="CONJ" lemma="καί" sub="[1]" text="καὶ">also</w>
+				<w OGNTsort="111078" strongs="G3958" morph="V-PAI-2P" lemma="πάσχω" text="πάσχετε">you are [1] suffering.</w>
+			</verse>
+			<verse name="2 Thessalonians 1:6">
+				<Greek>εἴπερ δίκαιον παρὰ Θεῷ ἀνταποδοῦναι τοῖς θλίβουσιν ὑμᾶς θλῖψιν</Greek>
+				<preText>\s5 \v 6</preText>
+				<ULB>For indeed, it is righteous for God to return affliction to those who afflict you,</ULB>
+				<residue>For indeed, it is  for  to return  to those who  you,</residue>
+				<w OGNTsort="111079" strongs="G1512" morph="CONJ" lemma="εἴπερ" text="εἴπερ">For indeed,</w>
+				<w>it is</w>
+				<w OGNTsort="111080" strongs="G1342" morph="A-NSN" lemma="δίκαιος" text="δίκαιον">righteous</w>
+				<w OGNTsort="111081" strongs="G3844" morph="PREP" lemma="παρά" text="παρὰ">for</w>
+				<w OGNTsort="111082" strongs="G2316" morph="N-DSM" lemma="θεός" text="Θεῷ">God</w>
+				<w OGNTsort="111083" strongs="G467" morph="V-2AAN" lemma="ἀνταποδίδωμι" text="ἀνταποδοῦναι">to return</w>
+				<w OGNTsort="111087" strongs="G2347" morph="N-ASF" lemma="θλῖψις" text="θλῖψιν">affliction</w>
+				<w OGNTsort="111084" strongs="G3588" morph="T-DPM" lemma="ὁ" text="τοῖς">to those who</w>
+				<w OGNTsort="111085" strongs="G2346" morph="V-PAP-DPM" lemma="θλίβω" text="θλίβουσιν">afflict</w>
+				<w OGNTsort="111086" strongs="G4771" morph="P-2AP" lemma="σύ" text="ὑμᾶς">you,</w>
+			</verse>
+			<verse name="2 Thessalonians 1:7">
+				<Greek>καὶ ὑμῖν τοῖς θλιβομένοις ἄνεσιν μεθ᾽ ἡμῶν ἐν τῇ ἀποκαλύψει τοῦ Κυρίου Ἰησοῦ ἀπ᾽ οὐρανοῦ μετ᾽ ἀγγέλων δυνάμεως αὐτοῦ</Greek>
+				<preText>\v 7</preText>
+				<ULB>and relief to you who are afflicted and to us as well, when the Lord Jesus is revealed from heaven with his mighty angels</ULB>
+				<residue>and  to you who are  and to us as well, when the  is  from heaven with his</residue>
+				<w OGNTsort="111088" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111092" strongs="G425" morph="N-ASF" lemma="ἄνεσις" text="ἄνεσιν">relief</w>
+				<w OGNTsort="111089" strongs="G4771" morph="P-2DP" lemma="σύ" text="ὑμῖν">to you</w>
+				<w OGNTsort="111090" strongs="G3588" morph="T-DPM" lemma="ὁ" text="τοῖς">who</w>
+				<w OGNTsort="111091" strongs="G2346" morph="V-PPP-DPM" lemma="θλίβω" text="θλιβομένοις">are afflicted</w>
+				<w>and</w>
+				<w OGNTsort="111094" strongs="G1473" morph="P-1GP" lemma="ἐγώ" text="ἡμῶν">to us</w>
+				<w OGNTsort="111093" strongs="G3326" morph="PREP" lemma="μετά" text="μεθ᾽">as well,</w>
+				<w OGNTsort="111095" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">when</w>
+				<w OGNTsort="111098" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">the</w>
+				<w OGNTsort="111099" strongs="G2962" morph="N-GSM" lemma="κύριος" text="Κυρίου">Lord</w>
+				<w OGNTsort="111100" strongs="G2424" morph="N-GSM-P" lemma="Ἰησοῦς" text="Ἰησοῦ">Jesus</w>
+				<w>is</w>
+				<w OGNTsort="111096" strongs="G3588" morph="T-DSF" lemma="ὁ" text="τῇ">√</w>
+				<w OGNTsort="111097" strongs="G602" morph="N-DSF" lemma="ἀποκάλυψις" text="ἀποκαλύψει">revealed</w>
+				<w OGNTsort="111101" strongs="G575" morph="PREP" lemma="ἀπό" text="ἀπ᾽">from</w>
+				<w OGNTsort="111102" strongs="G3772" morph="N-GSM" lemma="οὐρανός" text="οὐρανοῦ">heaven</w>
+				<w OGNTsort="111103" strongs="G3326" morph="PREP" lemma="μετά" text="μετ᾽">with</w>
+				<w OGNTsort="111106" strongs="G846" morph="P-GSM" lemma="αὐτός" text="αὐτοῦ">his</w>
+				<w OGNTsort="111105" strongs="G1411" morph="N-GSF" lemma="δύναμις" text="δυνάμεως">mighty</w>
+				<w OGNTsort="111104" strongs="G32" morph="N-GPM" lemma="ἄγγελος" text="ἀγγέλων">angels</w>
+			</verse>
+			<verse name="2 Thessalonians 1:8">
+				<Greek>ἐν πυρὶ φλογός διδόντος ἐκδίκησιν τοῖς μὴ εἰδόσιν Θεὸν καὶ τοῖς μὴ ὑπακούουσιν τῷ εὐαγγελίῳ τοῦ Κυρίου ἡμῶν Ἰησοῦ</Greek>
+				<preText>\v 8</preText>
+				<ULB>in flaming fire, inflicting vengeance on those who do not know God and on those who do not obey the gospel of our Lord Jesus.</ULB>
+				<residue>in  fire, inflicting  on those who do not  and on those who do not  the  of our  .</residue>
+				<w OGNTsort="111107" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">in</w>
+				<w OGNTsort="111109" strongs="G5395" morph="N-GSF" lemma="φλόξ" text="φλογός">flaming</w>
+				<w OGNTsort="111108" strongs="G4442" morph="N-DSN" lemma="πῦρ" text="πυρὶ">fire,</w>
+				<w OGNTsort="111110" strongs="G1325" morph="V-PAP-GSM" lemma="δίδωμι" text="διδόντος">inflicting</w>
+				<w OGNTsort="111111" strongs="G1557" morph="N-ASF" lemma="ἐκδίκησις" text="ἐκδίκησιν">vengeance</w>
+				<w OGNTsort="111112" strongs="G3588" morph="T-DPM" lemma="ὁ" text="τοῖς">on those who</w>
+				<w OGNTsort="111113" strongs="G3361" morph="PRT-N" lemma="μή" sub="[1]" text="μὴ">not</w>
+				<w OGNTsort="111114" strongs="G1492" morph="V-RAP-DPM" lemma="εἴδω" text="εἰδόσιν">do [1] know</w>
+				<w OGNTsort="111115" strongs="G2316" morph="N-ASM" lemma="θεός" text="Θεὸν">God</w>
+				<w OGNTsort="111116" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111117" strongs="G3588" morph="T-DPM" lemma="ὁ" text="τοῖς">on those who</w>
+				<w OGNTsort="111118" strongs="G3361" morph="PRT-N" lemma="μή" sub="[2]" text="μὴ">not</w>
+				<w OGNTsort="111119" strongs="G5219" morph="V-PAP-DPM" lemma="ὑπακούω" text="ὑπακούουσιν">do [2] obey</w>
+				<w OGNTsort="111120" strongs="G3588" morph="T-DSN" lemma="ὁ" text="τῷ">the</w>
+				<w OGNTsort="111121" strongs="G2098" morph="N-DSN" lemma="εὐαγγέλιον" text="εὐαγγελίῳ">gospel</w>
+				<w OGNTsort="111124" strongs="G1473" morph="P-1GP" lemma="ἐγώ" sub="[3]" text="ἡμῶν">our</w>
+				<w OGNTsort="111122" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="111123" strongs="G2962" morph="N-GSM" lemma="κύριος" text="Κυρίου">of [3] Lord</w>
+				<w OGNTsort="111125" strongs="G2424" morph="N-GSM-P" lemma="Ἰησοῦς" text="Ἰησοῦ">Jesus.</w>
+			</verse>
+			<verse name="2 Thessalonians 1:9">
+				<Greek>οἵτινες δίκην τίσουσιν ὄλεθρον αἰώνιον ἀπὸ προσώπου τοῦ Κυρίου καὶ ἀπὸ τῆς δόξης τῆς ἰσχύος αὐτοῦ</Greek>
+				<preText>\s5 \v 9</preText>
+				<ULB>They will suffer the punishment of eternal destruction away from the presence of the Lord and from the glory of his power.</ULB>
+				<residue>They will suffer the  of  away from the  of the  and from the  of his  .</residue>
+				<w OGNTsort="111126" strongs="G3748" morph="R-NPM" lemma="ὅστις, ἥτις" text="οἵτινες">They</w>
+				<w OGNTsort="111128" strongs="G5099" morph="V-FAI-3P" lemma="τίνω" text="τίσουσιν">will suffer</w>
+				<w>the</w>
+				<w OGNTsort="111127" strongs="G1349" morph="N-ASF" lemma="δίκη" text="δίκην">punishment</w>
+				<w>of</w>
+				<w OGNTsort="111130" strongs="G166" morph="A-ASM" lemma="αἰώνιος" text="αἰώνιον">eternal</w>
+				<w OGNTsort="111129" strongs="G3639" morph="N-ASM" lemma="ὄλεθρος" text="ὄλεθρον">destruction</w>
+				<w OGNTsort="111131" strongs="G575" morph="PREP" lemma="ἀπό" text="ἀπὸ">away from</w>
+				<w OGNTsort="111132" strongs="G4383" morph="N-GSN" lemma="πρόσωπον" text="προσώπου">the presence</w>
+				<w OGNTsort="111133" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">of the</w>
+				<w OGNTsort="111134" strongs="G2962" morph="N-GSM" lemma="κύριος" text="Κυρίου">Lord</w>
+				<w OGNTsort="111135" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111136" strongs="G575" morph="PREP" lemma="ἀπό" text="ἀπὸ">from</w>
+				<w OGNTsort="111137" strongs="G3588" morph="T-GSF" lemma="ὁ" text="τῆς">the</w>
+				<w OGNTsort="111138" strongs="G1391" morph="N-GSF" lemma="δόξα" text="δόξης">glory</w>
+				<w OGNTsort="111141" strongs="G846" morph="P-GSM" lemma="αὐτός" sub="[1]" text="αὐτοῦ">his</w>
+				<w OGNTsort="111139" strongs="G3588" morph="T-GSF" lemma="ὁ" text="τῆς">√</w>
+				<w OGNTsort="111140" strongs="G2479" morph="N-GSF" lemma="ἰσχύς" text="ἰσχύος">of [1] power.</w>
+			</verse>
+			<verse name="2 Thessalonians 1:10">
+				<Greek>ὅταν ἔλθῃ ἐνδοξασθῆναι ἐν τοῖς ἁγίοις αὐτοῦ καὶ θαυμασθῆναι ἐν πᾶσιν τοῖς πιστεύσασιν ὅτι ἐπιστεύθη τὸ μαρτύριον ἡμῶν ἐφ᾽ ὑμᾶς ἐν τῇ ἡμέρᾳ ἐκείνῃ</Greek>
+				<preText>\v 10</preText>
+				<ULB>He will do this when he comes on that day to be glorified in his holy people and to be marveled at by all those who believed, because our testimony to you was believed.</ULB>
+				<residue>He will do this when he comes on  to be  in his  people and to be  at by all those who  , because our  to you was  .</residue>
+				<w>He will do this</w>
+				<w OGNTsort="111142" strongs="G3752" morph="CONJ" lemma="ὅταν" text="ὅταν">when</w>
+				<w OGNTsort="111143" strongs="G2064" morph="V-2AAS-3S" lemma="ἔρχομαι" text="ἔλθῃ">he comes</w>
+				<w OGNTsort="111162" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">on</w>
+				<w OGNTsort="111165" strongs="G1565" morph="D-DSF" lemma="ἐκεῖνος" text="ἐκείνῃ">that</w>
+				<w OGNTsort="111163" strongs="G3588" morph="T-DSF" lemma="ὁ" text="τῇ">√</w>
+				<w OGNTsort="111164" strongs="G2250" morph="N-DSF" lemma="ἡμέρα" text="ἡμέρᾳ">day</w>
+				<w OGNTsort="111144" strongs="G1740" morph="V-APN" lemma="ἐνδοξάζομαι" text="ἐνδοξασθῆναι">to be glorified</w>
+				<w OGNTsort="111145" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">in</w>
+				<w OGNTsort="111148" strongs="G846" morph="P-GSM" lemma="αὐτός" text="αὐτοῦ">his</w>
+				<phrase>
+					<w OGNTsort="111146" strongs="G3588" morph="T-DPM" lemma="ὁ" text="τοῖς">√</w>
+					<w OGNTsort="111147" strongs="G40" morph="A-DPM" lemma="ἅγιος" text="ἁγίοις">√</w>
+					<phraseWords>holy people</phraseWords>
+				</phrase>
+				<w OGNTsort="111149" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111150" strongs="G2296" morph="V-APN" lemma="θαυμάζω" text="θαυμασθῆναι">to be marveled at</w>
+				<w OGNTsort="111151" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">by</w>
+				<w OGNTsort="111152" strongs="G3956" morph="A-DPM" lemma="πᾶς" text="πᾶσιν">all</w>
+				<w OGNTsort="111153" strongs="G3588" morph="T-DPM" lemma="ὁ" text="τοῖς">those who</w>
+				<w OGNTsort="111154" strongs="G4100" morph="V-AAP-DPM" lemma="πιστεύω" text="πιστεύσασιν">believed,</w>
+				<w OGNTsort="111155" strongs="G3754" morph="CONJ" lemma="ὅτι" text="ὅτι">because</w>
+				<w OGNTsort="111159" strongs="G1473" morph="P-1GP" lemma="ἐγώ" text="ἡμῶν">our</w>
+				<w OGNTsort="111157" strongs="G3588" morph="T-NSN" lemma="ὁ" text="τὸ">√</w>
+				<w OGNTsort="111158" strongs="G3142" morph="N-NSN" lemma="μαρτύριον" text="μαρτύριον">testimony</w>
+				<w OGNTsort="111160" strongs="G1909" morph="PREP" lemma="ἐπί" text="ἐφ᾽">to</w>
+				<w OGNTsort="111161" strongs="G4771" morph="P-2AP" lemma="σύ" text="ὑμᾶς">you</w>
+				<w OGNTsort="111156" strongs="G4100" morph="V-API-3S" lemma="πιστεύω" text="ἐπιστεύθη">was believed.</w>
+			</verse>
+			<verse name="2 Thessalonians 1:11">
+				<Greek>Εἰς ὃ καὶ προσευχόμεθα πάντοτε περὶ ὑμῶν ἵνα ὑμᾶς ἀξιώσῃ τῆς κλήσεως ὁ Θεὸς ἡμῶν καὶ πληρώσῃ πᾶσαν εὐδοκίαν ἀγαθωσύνης καὶ ἔργον πίστεως ἐν δυνάμει</Greek>
+				<preText>\s5 \v 11</preText>
+				<ULB>Because of this we also pray continually for you, that our God may consider you worthy of your calling and with his power he may fulfill every good purpose and every work of faith.</ULB>
+				<residue>Because of this we also  continually for you, that our  may consider you  of your  and with his  he may  every  purpose and every  of  .</residue>
+				<w OGNTsort="111166" strongs="G1519" morph="PREP" lemma="εἰς" text="Εἰς">Because of</w>
+				<w OGNTsort="111167" strongs="G3739" morph="R-ASN" lemma="ὅς, ἥ" text="ὃ">this</w>
+				<w OGNTsort="111168" strongs="G2532" morph="CONJ" lemma="καί" sub="[1]" text="καὶ">also</w>
+				<w OGNTsort="111169" strongs="G4336" morph="V-PNI-1P" lemma="προσεύχομαι" text="προσευχόμεθα">we [1] pray</w>
+				<w OGNTsort="111170" strongs="G3842" morph="ADV" lemma="πάντοτε" text="πάντοτε">continually</w>
+				<w OGNTsort="111171" strongs="G4012" morph="PREP" lemma="περί" text="περὶ">for</w>
+				<w OGNTsort="111172" strongs="G4771" morph="P-2GP" lemma="σύ" text="ὑμῶν">you,</w>
+				<w OGNTsort="111173" strongs="G2443" morph="CONJ" lemma="ἵνα" text="ἵνα">that</w>
+				<w OGNTsort="111180" strongs="G1473" morph="P-1GP" lemma="ἐγώ" text="ἡμῶν">our</w>
+				<w OGNTsort="111178" strongs="G3588" morph="T-NSM" lemma="ὁ" text="ὁ">√</w>
+				<w OGNTsort="111179" strongs="G2316" morph="N-NSM" lemma="θεός" text="Θεὸς">God</w>
+				<w OGNTsort="111174" strongs="G4771" morph="P-2AP" lemma="σύ" sub="[2]" text="ὑμᾶς">you</w>
+				<w OGNTsort="111175" strongs="G515" morph="V-AAS-3S" lemma="ἀξιόω" text="ἀξιώσῃ">may consider [2] worthy</w>
+				<w sub="[3]">your</w>
+				<w OGNTsort="111176" strongs="G3588" morph="T-GSF" lemma="ὁ" text="τῆς">√</w>
+				<w OGNTsort="111177" strongs="G2821" morph="N-GSF" lemma="κλῆσις" text="κλήσεως">of [3] calling</w>
+				<w OGNTsort="111181" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111189" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">with</w>
+				<w>his</w>
+				<w OGNTsort="111190" strongs="G1411" morph="N-DSF" lemma="δύναμις" text="δυνάμει">power</w>
+				<w OGNTsort="111182" strongs="G4137" morph="V-AAS-3S" lemma="πληρόω" text="πληρώσῃ">he may fulfill</w>
+				<w OGNTsort="111183" strongs="G3956" morph="A-ASF" lemma="πᾶς" text="πᾶσαν">every</w>
+				<w OGNTsort="111185" strongs="G19" morph="N-GSF" lemma="ἀγαθωσύνη" text="ἀγαθωσύνης">good</w>
+				<w OGNTsort="111184" strongs="G2107" morph="N-ASF" lemma="εὐδοκία" text="εὐδοκίαν">purpose</w>
+				<w OGNTsort="111186" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w>every</w>
+				<w OGNTsort="111187" strongs="G2041" morph="N-ASN" lemma="ἔργον" text="ἔργον">work</w>
+				<w OGNTsort="111188" strongs="G4102" morph="N-GSF" lemma="πίστις" text="πίστεως">of faith.</w>
+			</verse>
+			<verse name="2 Thessalonians 1:12">
+				<Greek>ὅπως ἐνδοξασθῇ τὸ ὄνομα τοῦ Κυρίου ἡμῶν Ἰησοῦ ἐν ὑμῖν καὶ ὑμεῖς ἐν αὐτῷ κατὰ τὴν χάριν τοῦ Θεοῦ ἡμῶν καὶ Κυρίου Ἰησοῦ Χριστοῦ</Greek>
+				<preText>\v 12</preText>
+				<ULB>We pray this so that the name of our Lord Jesus may be glorified in you, and you in him, according to the grace of our God and the Lord Jesus Christ.</ULB>
+				<residue>We pray this so that the  of our  may be  in you, and you  , according to the  of our  and  .</residue>
+				<w>We pray this</w>
+				<w OGNTsort="111191" strongs="G3704" morph="CONJ" lemma="ὅπως" text="ὅπως">so that</w>
+				<w OGNTsort="111193" strongs="G3588" morph="T-NSN" lemma="ὁ" text="τὸ">the</w>
+				<w OGNTsort="111194" strongs="G3686" morph="N-NSN" lemma="ὄνομα" text="ὄνομα">name</w>
+				<w OGNTsort="111197" strongs="G1473" morph="P-1GP" lemma="ἐγώ" sub="[1]" text="ἡμῶν">our</w>
+				<w OGNTsort="111195" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="111196" strongs="G2962" morph="N-GSM" lemma="κύριος" text="Κυρίου">of [1] Lord</w>
+				<w OGNTsort="111198" strongs="G2424" morph="N-GSM-P" lemma="Ἰησοῦς" text="Ἰησοῦ">Jesus</w>
+				<w OGNTsort="111192" strongs="G1740" morph="V-APS-3S" lemma="ἐνδοξάζομαι" text="ἐνδοξασθῇ">may be glorified</w>
+				<w OGNTsort="111199" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">in</w>
+				<w OGNTsort="111200" strongs="G4771" morph="P-2DP" lemma="σύ" text="ὑμῖν">you,</w>
+				<w OGNTsort="111201" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111202" strongs="G4771" morph="P-2NP" lemma="σύ" text="ὑμεῖς">you</w>
+				<w OGNTsort="111203" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">in</w>
+				<w OGNTsort="111204" strongs="G846" morph="P-DSM" lemma="αὐτός" text="αὐτῷ">him,</w>
+				<w OGNTsort="111205" strongs="G2596" morph="PREP" lemma="κατά" text="κατὰ">according to</w>
+				<w OGNTsort="111206" strongs="G3588" morph="T-ASF" lemma="ὁ" text="τὴν">the</w>
+				<w OGNTsort="111207" strongs="G5485" morph="N-ASF" lemma="χάρις" text="χάριν">grace</w>
+				<w OGNTsort="111210" strongs="G1473" morph="P-1GP" lemma="ἐγώ" sub="[2]" text="ἡμῶν">our</w>
+				<w OGNTsort="111208" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="111209" strongs="G2316" morph="N-GSM" lemma="θεός" text="Θεοῦ">of [2] God</w>
+				<w OGNTsort="111211" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111212" strongs="G2962" morph="N-GSM" lemma="κύριος" text="Κυρίου">the Lord</w>
+				<w OGNTsort="111213" strongs="G2424" morph="N-GSM-P" lemma="Ἰησοῦς" text="Ἰησοῦ">Jesus</w>
+				<w OGNTsort="111214" strongs="G5547" morph="N-GSM-T" lemma="Χριστός" text="Χριστοῦ">Christ.</w>
+			</verse>
+		</chapter>
+		<chapter osisID="2th.2">
+			<verse name="2 Thessalonians 2:1">
+				<Greek>Ἐρωτῶμεν δὲ ὑμᾶς ἀδελφοί ὑπὲρ τῆς παρουσίας τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ καὶ ἡμῶν ἐπισυναγωγῆς ἐπ᾽ αὐτόν</Greek>
+				<preText>\s5 \c 2 \p \v 1</preText>
+				<ULB>Now about the coming of our Lord Jesus Christ and our being gathered together to be with him, we earnestly appeal to you, brothers,</ULB>
+				<residue>Now about the coming of our  and our being gathered together to be with him, we  to you,  ,</residue>
+				<w OGNTsort="111216" strongs="G1161" morph="CONJ" lemma="δέ" text="δὲ">Now</w>
+				<w OGNTsort="111219" strongs="G5228" morph="PREP" lemma="ὑπέρ" text="ὑπὲρ">about</w>
+				<w OGNTsort="111220" strongs="G3588" morph="T-GSF" lemma="ὁ" text="τῆς">the</w>
+				<w OGNTsort="111221" strongs="G3952" morph="N-GSF" lemma="παρουσία" text="παρουσίας">coming</w>
+				<w OGNTsort="111224" strongs="G1473" morph="P-1GP" lemma="ἐγώ" sub="[1]" text="ἡμῶν">our</w>
+				<w OGNTsort="111222" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="111223" strongs="G2962" morph="N-GSM" lemma="κύριος" text="Κυρίου">of [1] Lord</w>
+				<w OGNTsort="111225" strongs="G2424" morph="N-GSM-P" lemma="Ἰησοῦς" text="Ἰησοῦ">Jesus</w>
+				<w OGNTsort="111226" strongs="G5547" morph="N-GSM-T" lemma="Χριστός" text="Χριστοῦ">Christ</w>
+				<w OGNTsort="111227" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111228" strongs="G1473" morph="P-1GP" lemma="ἐγώ" text="ἡμῶν">our</w>
+				<w OGNTsort="111229" strongs="G1997" morph="N-GSF" lemma="ἐπισυναγωγή" text="ἐπισυναγωγῆς">being gathered together</w>
+				<w>to be</w>
+				<w OGNTsort="111230" strongs="G1909" morph="PREP" lemma="ἐπί" text="ἐπ᾽">with</w>
+				<w OGNTsort="111231" strongs="G846" morph="P-ASM" lemma="αὐτός" text="αὐτόν">him,</w>
+				<w OGNTsort="111215" strongs="G2065" morph="V-PAI-1P" lemma="ἐρωτάω" text="Ἐρωτῶμεν">we earnestly appeal to</w>
+				<w OGNTsort="111217" strongs="G4771" morph="P-2AP" lemma="σύ" text="ὑμᾶς">you,</w>
+				<w OGNTsort="111218" strongs="G80" morph="N-VPM" lemma="ἀδελφός" text="ἀδελφοί">brothers,</w>
+			</verse>
+			<verse name="2 Thessalonians 2:2">
+				<Greek>εἰς τὸ μὴ ταχέως σαλευθῆναι ὑμᾶς ἀπὸ τοῦ νοὸς μηδὲ θροεῖσθαι μήτε διὰ πνεύματος μήτε διὰ λόγου μήτε δι᾽ ἐπιστολῆς ὡς δι᾽ ἡμῶν ὡς ὅτι ἐνέστηκεν ἡ ἡμέρα τοῦ Κυρίου</Greek>
+				<preText>\v 2</preText>
+				<ULB>that you not be easily disturbed or troubled, either by a spirit or by a message, or by a letter that seems to be coming from us, to the effect that the day of the Lord has already come.</ULB>
+				<residue>that you not be easily disturbed or  , either by a  or by a  , or by a  that seems to be coming from us, to the effect that the  has already come.</residue>
+				<phrase>
+					<w OGNTsort="111232" strongs="G1519" morph="PREP" lemma="εἰς" text="εἰς">√</w>
+					<w OGNTsort="111233" strongs="G3588" morph="T-ASN" lemma="ὁ" text="τὸ">√</w>
+					<phraseWords>that</phraseWords>
+				</phrase>
+				<w OGNTsort="111237" strongs="G4771" morph="P-2AP" lemma="σύ" text="ὑμᾶς">you</w>
+				<w OGNTsort="111234" strongs="G3361" morph="PRT-N" lemma="μή" text="μὴ">not</w>
+				<w OGNTsort="111235" strongs="G5030" morph="ADV" lemma="ταχέως" sub="[1]" text="ταχέως">easily</w>
+				<w OGNTsort="111236" strongs="G4531" morph="V-APN" lemma="σαλεύω" text="σαλευθῆναι">be [1] disturbed</w>
+				<w OGNTsort="111238" strongs="G575" morph="PREP" lemma="ἀπό" text="ἀπὸ">√</w>
+				<w OGNTsort="111239" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="111240" strongs="G3563" morph="N-GSM" lemma="νοῦς" text="νοὸς">√</w>
+				<w OGNTsort="111241" strongs="G3366" morph="CONJ" lemma="μηδέ" text="μηδὲ">or</w>
+				<w OGNTsort="111242" strongs="G2360" morph="V-PPN" lemma="θροέω" text="θροεῖσθαι">troubled,</w>
+				<w OGNTsort="111243" strongs="G3383" morph="CONJ" lemma="μήτε" text="μήτε">either</w>
+				<w OGNTsort="111244" strongs="G1223" morph="PREP" lemma="διά" text="διὰ">by</w>
+				<w OGNTsort="111245" strongs="G4151" morph="N-GSN" lemma="πνεῦμα" text="πνεύματος">a spirit</w>
+				<w OGNTsort="111246" strongs="G3383" morph="CONJ" lemma="μήτε" text="μήτε">or</w>
+				<w OGNTsort="111247" strongs="G1223" morph="PREP" lemma="διά" text="διὰ">by</w>
+				<w OGNTsort="111248" strongs="G3056" morph="N-GSM" lemma="λόγος" text="λόγου">a message,</w>
+				<w OGNTsort="111249" strongs="G3383" morph="CONJ" lemma="μήτε" text="μήτε">or</w>
+				<w OGNTsort="111250" strongs="G1223" morph="PREP" lemma="διά" text="δι᾽">by</w>
+				<w OGNTsort="111251" strongs="G1992" morph="N-GSF" lemma="ἐπιστολή" text="ἐπιστολῆς">a letter</w>
+				<w OGNTsort="111252" strongs="G5613" morph="ADV" lemma="ὡς" text="ὡς">that seems</w>
+				<w>to be coming</w>
+				<w OGNTsort="111253" strongs="G1223" morph="PREP" lemma="διά" text="δι᾽">from</w>
+				<w OGNTsort="111254" strongs="G1473" morph="P-1GP" lemma="ἐγώ" text="ἡμῶν">us,</w>
+				<w OGNTsort="111255" strongs="G5613" morph="CONJ" lemma="ὡς" text="ὡς">to the effect</w>
+				<w OGNTsort="111256" strongs="G3754" morph="CONJ" lemma="ὅτι" text="ὅτι">that</w>
+				<w OGNTsort="111258" strongs="G3588" morph="T-NSF" lemma="ὁ" text="ἡ">the</w>
+				<w OGNTsort="111259" strongs="G2250" morph="N-NSF" lemma="ἡμέρα" text="ἡμέρα">day</w>
+				<w OGNTsort="111260" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">of the</w>
+				<w OGNTsort="111261" strongs="G2962" morph="N-GSM" lemma="κύριος" text="Κυρίου">Lord</w>
+				<w OGNTsort="111257" strongs="G1764" morph="V-RAI-3S" lemma="ἐνίστημι" text="ἐνέστηκεν">has already come.</w>
+			</verse>
+			<verse name="2 Thessalonians 2:3">
+				<Greek>μή τις ὑμᾶς ἐξαπατήσῃ κατὰ μηδένα τρόπον ὅτι ἐὰν μὴ ἔλθῃ ἡ ἀποστασία πρῶτον καὶ ἀποκαλυφθῇ ὁ ἄνθρωπος τῆς ἀνομίας ὁ υἱὸς τῆς ἀπωλείας</Greek>
+				<preText>\s5 \v 3</preText>
+				<ULB>Let no one deceive you in any way. For it will not come until after the falling away comes and the man of lawlessness is revealed, the son of destruction. <usfm>\f + \ft Some important and ancient Greek copies read, \fqa and the man of sin is revealed \fqa* . \f*</usfm></ULB>
+				<residue>Let no one  you in any way. For it will not come until after the falling away comes and the man of  is  , the  of  .</residue>
+				<w OGNTsort="111262" strongs="G3361" morph="PRT-N" lemma="μή" sub="[1]" text="μή">no</w>
+				<w OGNTsort="111263" strongs="G5100" morph="X-NSM" lemma="τις" sub="[2]" text="τις">one</w>
+				<w OGNTsort="111265" strongs="G1818" morph="V-AAS-3S" lemma="ἐξαπατάω" text="ἐξαπατήσῃ">Let [1] [2] deceive</w>
+				<w OGNTsort="111264" strongs="G4771" morph="P-2AP" lemma="σύ" text="ὑμᾶς">you</w>
+				<w OGNTsort="111266" strongs="G2596" morph="PREP" lemma="κατά" text="κατὰ">in</w>
+				<w OGNTsort="111267" strongs="G3367" morph="A-ASM" lemma="μηδείς" text="μηδένα">any</w>
+				<w OGNTsort="111268" strongs="G5158" morph="N-ASM" lemma="τρόπος" text="τρόπον">way.</w>
+				<w OGNTsort="111269" strongs="G3754" morph="CONJ" lemma="ὅτι" text="ὅτι">For</w>
+				<w>it will not come</w>
+				<phrase>
+					<w OGNTsort="111270" strongs="G1437" morph="CONJ" lemma="ἐάν" text="ἐὰν">√</w>
+					<w OGNTsort="111271" strongs="G3361" morph="PRT-N" lemma="μή" text="μὴ">√</w>
+					<w OGNTsort="111275" strongs="G4413" morph="A-ASN" lemma="πρῶτος" text="πρῶτον">√</w>
+					<phraseWords>until after</phraseWords>
+				</phrase>
+				<w OGNTsort="111273" strongs="G3588" morph="T-NSF" lemma="ὁ" text="ἡ">the</w>
+				<w OGNTsort="111274" strongs="G646" morph="N-NSF" lemma="ἀποστασία" text="ἀποστασία">falling away</w>
+				<w OGNTsort="111272" strongs="G2064" morph="V-2AAS-3S" lemma="ἔρχομαι" text="ἔλθῃ">comes</w>
+				<w OGNTsort="111276" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111278" strongs="G3588" morph="T-NSM" lemma="ὁ" text="ὁ">the</w>
+				<w OGNTsort="111279" strongs="G444" morph="N-NSM" lemma="ἄνθρωπος" text="ἄνθρωπος">man</w>
+				<w OGNTsort="111280" strongs="G3588" morph="T-GSF" lemma="ὁ" text="τῆς">√</w>
+				<w OGNTsort="111281" strongs="G458" morph="N-GSF" lemma="ἀνομία" text="ἀνομίας">of lawlessness</w>
+				<w OGNTsort="111277" strongs="G601" morph="V-APS-3S" lemma="ἀποκαλύπτω" text="ἀποκαλυφθῇ">is revealed,</w>
+				<w OGNTsort="111282" strongs="G3588" morph="T-NSM" lemma="ὁ" text="ὁ">the</w>
+				<w OGNTsort="111283" strongs="G5207" morph="N-NSM" lemma="υἱός" text="υἱὸς">son</w>
+				<w OGNTsort="111284" strongs="G3588" morph="T-GSF" lemma="ὁ" text="τῆς">√</w>
+				<w OGNTsort="111285" strongs="G684" morph="N-GSF" lemma="ἀπώλεια" text="ἀπωλείας">of destruction.</w>
+				<usfm>\f + \ft Some important and ancient Greek copies read, \fqa and the man of sin is revealed \fqa* . \f*</usfm>
+			</verse>
+			<verse name="2 Thessalonians 2:4">
+				<Greek>ὁ ἀντικείμενος καὶ ὑπεραιρόμενος ἐπὶ πάντα λεγόμενον Θεὸν ἢ σέβασμα ὥστε αὐτὸν εἰς τὸν ναὸν τοῦ Θεοῦ καθίσαι ἀποδεικνύντα ἑαυτὸν ὅτι ἔστιν Θεός</Greek>
+				<preText>\v 4</preText>
+				<ULB>This is he who opposes and exalts himself against all that is called God or that is worshiped. As a result, he sits in the temple of God and exhibits himself as God.</ULB>
+				<residue>This is he who  and  himself against all that is  or that is  . As a result, he sits in the  of  and exhibits himself as  .</residue>
+				<w>This is</w>
+				<w OGNTsort="111286" strongs="G3588" morph="T-NSM" lemma="ὁ" text="ὁ">he who</w>
+				<w OGNTsort="111287" strongs="G480" morph="V-PNP-NSM" lemma="ἀντίκειμαι" text="ἀντικείμενος">opposes</w>
+				<w OGNTsort="111288" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111289" strongs="G5229" morph="V-PMP-NSM" lemma="ὑπεραίρω" text="ὑπεραιρόμενος">exalts</w>
+				<w>himself</w>
+				<w OGNTsort="111290" strongs="G1909" morph="PREP" lemma="ἐπί" text="ἐπὶ">against</w>
+				<w OGNTsort="111291" strongs="G3956" morph="A-ASM" lemma="πᾶς" text="πάντα">all</w>
+				<w OGNTsort="111292" strongs="G3004" morph="V-PPP-ASM" lemma="λέγω" text="λεγόμενον">that is called</w>
+				<w OGNTsort="111293" strongs="G2316" morph="N-ASM" lemma="θεός" text="Θεὸν">God</w>
+				<w OGNTsort="111294" strongs="G2228" morph="CONJ" lemma="ἤ" text="ἢ">or</w>
+				<w OGNTsort="111295" strongs="G4574" morph="N-ASN" lemma="σέβασμα" text="σέβασμα">that is worshiped.</w>
+				<w OGNTsort="111296" strongs="G5620" morph="CONJ" lemma="ὥστε" text="ὥστε">As a result,</w>
+				<w OGNTsort="111297" strongs="G846" morph="P-ASM" lemma="αὐτός" text="αὐτὸν">he</w>
+				<w OGNTsort="111303" strongs="G2523" morph="V-AAN" lemma="καθίζω" text="καθίσαι">sits</w>
+				<w OGNTsort="111298" strongs="G1519" morph="PREP" lemma="εἰς" text="εἰς">in</w>
+				<w OGNTsort="111299" strongs="G3588" morph="T-ASM" lemma="ὁ" text="τὸν">the</w>
+				<w OGNTsort="111300" strongs="G3485" morph="N-ASM" lemma="ναός" text="ναὸν">temple</w>
+				<w OGNTsort="111301" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="111302" strongs="G2316" morph="N-GSM" lemma="θεός" text="Θεοῦ">of God</w>
+				<w>and</w>
+				<w OGNTsort="111304" strongs="G584" morph="V-PAP-ASM" lemma="ἀποδείκνυμι" text="ἀποδεικνύντα">exhibits</w>
+				<w OGNTsort="111305" strongs="G1438" morph="F-3ASM" lemma="ἑαυτοῦ" text="ἑαυτὸν">himself</w>
+				<phrase>
+					<w OGNTsort="111306" strongs="G3754" morph="CONJ" lemma="ὅτι" text="ὅτι">√</w>
+					<w OGNTsort="111307" strongs="G1510" morph="V-PAI-3S" lemma="εἰμί" text="ἔστιν">√</w>
+					<phraseWords>as</phraseWords>
+				</phrase>
+				<w OGNTsort="111308" strongs="G2316" morph="N-NSM" lemma="θεός" text="Θεός">God.</w>
+			</verse>
+			<verse name="2 Thessalonians 2:5">
+				<Greek>Οὐ μνημονεύετε ὅτι ἔτι ὢν πρὸς ὑμᾶς ταῦτα ἔλεγον ὑμῖν</Greek>
+				<preText>\s5 \v 5</preText>
+				<ULB>Do you not remember that when I was with you I told you these things?</ULB>
+				<residue>Do you not remember that when I was with you I told you these things?</residue>
+				<w OGNTsort="111309" strongs="G3756" morph="PRT-N" lemma="οὐ" sub="[1]" text="Οὐ">not</w>
+				<w OGNTsort="111310" strongs="G3421" morph="V-PAI-2P" lemma="μνημονεύω" text="μνημονεύετε">Do you [1] remember</w>
+				<w OGNTsort="111311" strongs="G3754" morph="CONJ" lemma="ὅτι" text="ὅτι">that</w>
+				<w OGNTsort="111312" strongs="G2089" morph="ADV" lemma="ἔτι" text="ἔτι">when</w>
+				<w OGNTsort="111313" strongs="G1510" morph="V-PAP-NSM" lemma="εἰμί" text="ὢν">I was</w>
+				<w OGNTsort="111314" strongs="G4314" morph="PREP" lemma="πρός" text="πρὸς">with</w>
+				<w OGNTsort="111315" strongs="G4771" morph="P-2AP" lemma="σύ" text="ὑμᾶς">you</w>
+				<w OGNTsort="111317" strongs="G3004" morph="V-IAI-1S" lemma="λέγω" text="ἔλεγον">I told</w>
+				<w OGNTsort="111318" strongs="G4771" morph="P-2DP" lemma="σύ" text="ὑμῖν">you</w>
+				<w OGNTsort="111316" strongs="G3778" morph="D-APN" lemma="οὗτος" text="ταῦτα">these things?</w>
+			</verse>
+			<verse name="2 Thessalonians 2:6">
+				<Greek>καὶ νῦν τὸ κατέχον οἴδατε εἰς τὸ ἀποκαλυφθῆναι αὐτὸν ἐν τῷ ἑαυτοῦ καιρῷ</Greek>
+				<preText>\v 6</preText>
+				<ULB>Now you know what restrains him, so that he will be revealed only at the right time.</ULB>
+				<residue>Now you  what restrains him, so that he will be  only at the right  .</residue>
+				<w OGNTsort="111319" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">√</w>
+				<w OGNTsort="111320" strongs="G3568" morph="ADV" lemma="νῦν" text="νῦν">Now</w>
+				<w OGNTsort="111323" strongs="G1492" morph="V-RAI-2P" lemma="εἴδω" text="οἴδατε">you know</w>
+				<w OGNTsort="111321" strongs="G3588" morph="T-ASN" lemma="ὁ" text="τὸ">what</w>
+				<w OGNTsort="111322" strongs="G2722" morph="V-PAP-ASN" lemma="κατέχω" text="κατέχον">restrains</w>
+				<w>him,</w>
+				<phrase>
+					<w OGNTsort="111324" strongs="G1519" morph="PREP" lemma="εἰς" text="εἰς">√</w>
+					<w OGNTsort="111325" strongs="G3588" morph="T-ASN" lemma="ὁ" text="τὸ">√</w>
+					<phraseWords>so that</phraseWords>
+				</phrase>
+				<w OGNTsort="111327" strongs="G846" morph="P-ASM" lemma="αὐτός" text="αὐτὸν">he</w>
+				<w OGNTsort="111326" strongs="G601" morph="V-APN" lemma="ἀποκαλύπτω" text="ἀποκαλυφθῆναι">will be revealed</w>
+				<w>only</w>
+				<w OGNTsort="111328" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">at</w>
+				<w OGNTsort="111329" strongs="G3588" morph="T-DSM" lemma="ὁ" text="τῷ">the</w>
+				<w OGNTsort="111330" strongs="G1438" morph="F-3GSM" lemma="ἑαυτοῦ" text="ἑαυτοῦ">right</w>
+				<w OGNTsort="111331" strongs="G2540" morph="N-DSM" lemma="καιρός" text="καιρῷ">time.</w>
+			</verse>
+			<verse name="2 Thessalonians 2:7">
+				<Greek>τὸ γὰρ μυστήριον ἤδη ἐνεργεῖται τῆς ἀνομίας μόνον ὁ κατέχων ἄρτι ἕως ἐκ μέσου γένηται</Greek>
+				<preText>\v 7</preText>
+				<ULB>For the mystery of lawlessness is already working, only there is someone who restrains him now until he is taken out of the way.</ULB>
+				<residue>For the  of  is already working, only there is someone who restrains him now until he is taken out of the way.</residue>
+				<w OGNTsort="111333" strongs="G1063" morph="CONJ" lemma="γάρ" text="γὰρ">For</w>
+				<w OGNTsort="111332" strongs="G3588" morph="T-NSN" lemma="ὁ" text="τὸ">the</w>
+				<w OGNTsort="111334" strongs="G3466" morph="N-NSN" lemma="μυστήριον" text="μυστήριον">mystery</w>
+				<w OGNTsort="111337" strongs="G3588" morph="T-GSF" lemma="ὁ" text="τῆς">√</w>
+				<w OGNTsort="111338" strongs="G458" morph="N-GSF" lemma="ἀνομία" text="ἀνομίας">of lawlessness</w>
+				<w OGNTsort="111335" strongs="G2235" morph="ADV" lemma="ἤδη" sub="[1]" text="ἤδη">already</w>
+				<w OGNTsort="111336" strongs="G1754" morph="V-PMI-3S" lemma="ἐνεργέω" text="ἐνεργεῖται">is [1] working,</w>
+				<w OGNTsort="111339" strongs="G3441" morph="A-ASN" lemma="μόνος" text="μόνον">only</w>
+				<w>there is</w>
+				<w OGNTsort="111340" strongs="G3588" morph="T-NSM" lemma="ὁ" text="ὁ">someone who</w>
+				<w OGNTsort="111341" strongs="G2722" morph="V-PAP-NSM" lemma="κατέχω" text="κατέχων">restrains</w>
+				<w>him</w>
+				<w OGNTsort="111342" strongs="G737" morph="ADV" lemma="ἄρτι" text="ἄρτι">now</w>
+				<w OGNTsort="111343" strongs="G2193" morph="CONJ" lemma="ἕως" text="ἕως">until</w>
+				<w OGNTsort="111346" strongs="G1096" morph="V-2ADS-3S" lemma="γίνομαι" text="γένηται">he is taken</w>
+				<w OGNTsort="111344" strongs="G1537" morph="PREP" lemma="ἐκ" text="ἐκ">out of</w>
+				<w OGNTsort="111345" strongs="G3319" morph="A-GSN" lemma="μέσος" text="μέσου">the way.</w>
+			</verse>
+			<verse name="2 Thessalonians 2:8">
+				<Greek>καὶ τότε ἀποκαλυφθήσεται ὁ ἄνομος ὃν ὁ Κύριος Ἰησοῦς ἀνελεῖ τῷ πνεύματι τοῦ στόματος αὐτοῦ καὶ καταργήσει τῇ ἐπιφανείᾳ τῆς παρουσίας αὐτοῦ</Greek>
+				<preText>\s5 \v 8</preText>
+				<ULB>Then the lawless one will be revealed, whom the Lord Jesus will kill with the breath of his mouth and bring him to nothing by the revelation of his coming.</ULB>
+				<residue>Then the  one will be revealed, whom the  will  with the breath of his mouth and bring him to nothing by the  of his coming.</residue>
+				<w OGNTsort="111347" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">√</w>
+				<w OGNTsort="111348" strongs="G5119" morph="ADV" lemma="τότε" text="τότε">Then</w>
+				<phrase>
+					<w OGNTsort="111350" strongs="G3588" morph="T-NSM" lemma="ὁ" text="ὁ">√</w>
+					<w OGNTsort="111351" strongs="G459" morph="A-NSM" lemma="ἄνομος" text="ἄνομος">√</w>
+					<phraseWords>the lawless one</phraseWords>
+				</phrase>
+				<w OGNTsort="111349" strongs="G601" morph="V-FPI-3S" lemma="ἀποκαλύπτω" text="ἀποκαλυφθήσεται">will be revealed,</w>
+				<w OGNTsort="111352" strongs="G3739" morph="R-ASM" lemma="ὅς, ἥ" text="ὃν">whom</w>
+				<w OGNTsort="111353" strongs="G3588" morph="T-NSM" lemma="ὁ" text="ὁ">the</w>
+				<w OGNTsort="111354" strongs="G2962" morph="N-NSM" lemma="κύριος" text="Κύριος">Lord</w>
+				<w OGNTsort="111355" strongs="G2424" morph="N-NSM-P" lemma="Ἰησοῦς" text="Ἰησοῦς">Jesus</w>
+				<w OGNTsort="111356" strongs="G337" morph="V-2FAI-3S" lemma="ἀναιρέω" text="ἀνελεῖ">will kill</w>
+				<w OGNTsort="111357" strongs="G3588" morph="T-DSN" lemma="ὁ" text="τῷ">with the</w>
+				<w OGNTsort="111358" strongs="G4151" morph="N-DSN" lemma="πνεῦμα" text="πνεύματι">breath</w>
+				<w OGNTsort="111361" strongs="G846" morph="P-GSM" lemma="αὐτός" sub="[1]" text="αὐτοῦ">his</w>
+				<w OGNTsort="111359" strongs="G3588" morph="T-GSN" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="111360" strongs="G4750" morph="N-GSN" lemma="στόμα" text="στόματος">of [1] mouth</w>
+				<w OGNTsort="111362" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w sub="[2]">him</w>
+				<w OGNTsort="111363" strongs="G2673" morph="V-FAI-3S" lemma="καταργέω" text="καταργήσει">bring [2] to nothing</w>
+				<w OGNTsort="111364" strongs="G3588" morph="T-DSF" lemma="ὁ" text="τῇ">by the</w>
+				<w OGNTsort="111365" strongs="G2015" morph="N-DSF" lemma="ἐπιφάνεια" text="ἐπιφανείᾳ">revelation</w>
+				<w OGNTsort="111368" strongs="G846" morph="P-GSM" lemma="αὐτός" sub="[3]" text="αὐτοῦ">his</w>
+				<w OGNTsort="111366" strongs="G3588" morph="T-GSF" lemma="ὁ" text="τῆς">√</w>
+				<w OGNTsort="111367" strongs="G3952" morph="N-GSF" lemma="παρουσία" text="παρουσίας">of [3] coming.</w>
+			</verse>
+			<verse name="2 Thessalonians 2:9">
+				<Greek>οὗ ἐστιν ἡ παρουσία κατ᾽ ἐνέργειαν τοῦ Σατανᾶ ἐν πάσῃ δυνάμει καὶ σημείοις καὶ τέρασιν ψεύδους</Greek>
+				<preText>\v 9</preText>
+				<ULB>The coming of the lawless one will be due to the work of Satan with all power, signs, and false wonders,</ULB>
+				<residue>The coming of the lawless one will be due to the work of  with all power,  , and false  ,</residue>
+				<w OGNTsort="111369" strongs="G3739" morph="R-GSM" lemma="ὅς, ἥ" text="οὗ">√</w>
+				<w OGNTsort="111371" strongs="G3588" morph="T-NSF" lemma="ὁ" text="ἡ">The</w>
+				<w OGNTsort="111372" strongs="G3952" morph="N-NSF" lemma="παρουσία" text="παρουσία">coming</w>
+				<w>of the lawless one</w>
+				<w OGNTsort="111370" strongs="G1510" morph="V-PAI-3S" lemma="εἰμί" text="ἐστιν">will be</w>
+				<w OGNTsort="111373" strongs="G2596" morph="PREP" lemma="κατά" text="κατ᾽">due to</w>
+				<w>the</w>
+				<w OGNTsort="111374" strongs="G1753" morph="N-ASF" lemma="ἐνέργεια" text="ἐνέργειαν">work</w>
+				<w OGNTsort="111375" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="111376" strongs="G4567" morph="N-GSM-T" lemma="Σατανᾶς" text="Σατανᾶ">of Satan</w>
+				<w OGNTsort="111377" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">with</w>
+				<w OGNTsort="111378" strongs="G3956" morph="A-DSF" lemma="πᾶς" text="πάσῃ">all</w>
+				<w OGNTsort="111379" strongs="G1411" morph="N-DSF" lemma="δύναμις" text="δυνάμει">power,</w>
+				<w OGNTsort="111380" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">√</w>
+				<w OGNTsort="111381" strongs="G4592" morph="N-DPN" lemma="σημεῖον" text="σημείοις">signs,</w>
+				<w OGNTsort="111382" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111384" strongs="G5579" morph="N-GSN" lemma="ψεῦδος" text="ψεύδους">false</w>
+				<w OGNTsort="111383" strongs="G5059" morph="N-DPN" lemma="τέρας" text="τέρασιν">wonders,</w>
+			</verse>
+			<verse name="2 Thessalonians 2:10">
+				<Greek>καὶ ἐν πάσῃ ἀπάτῃ ἀδικίας τοῖς ἀπολλυμένοις ἀνθ᾽ ὧν τὴν ἀγάπην τῆς ἀληθείας οὐκ ἐδέξαντο εἰς τὸ σωθῆναι αὐτούς</Greek>
+				<preText>\v 10</preText>
+				<ULB>and with every kind of evil that deceives those who are perishing, because they refused to love the truth and so be saved.</ULB>
+				<residue>and with every kind of  that  those who are  , because they refused to  the  and so be  .</residue>
+				<w OGNTsort="111385" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111386" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">with</w>
+				<w OGNTsort="111387" strongs="G3956" morph="A-DSF" lemma="πᾶς" text="πάσῃ">every kind</w>
+				<w OGNTsort="111389" strongs="G93" morph="N-GSF" lemma="ἀδικία" text="ἀδικίας">of evil</w>
+				<w OGNTsort="111388" strongs="G539" morph="N-DSF" lemma="ἀπάτη" text="ἀπάτῃ">that deceives</w>
+				<w OGNTsort="111390" strongs="G3588" morph="T-DPM" lemma="ὁ" text="τοῖς">those who</w>
+				<w OGNTsort="111391" strongs="G622" morph="V-PEP-DPM" lemma="ἀπολλύω" text="ἀπολλυμένοις">are perishing,</w>
+				<w OGNTsort="111392" strongs="G473" morph="PREP" lemma="ἀντί" text="ἀνθ᾽">because</w>
+				<w OGNTsort="111393" strongs="G3739" morph="R-GPN" lemma="ὅς, ἥ" text="ὧν">√</w>
+				<phrase>
+					<w OGNTsort="111398" strongs="G3756" morph="PRT-N" lemma="οὐ" text="οὐκ">√</w>
+					<w OGNTsort="111399" strongs="G1209" morph="V-ADI-3P" lemma="δέχομαι" text="ἐδέξαντο">√</w>
+					<phraseWords>they refused to</phraseWords>
+				</phrase>
+				<w OGNTsort="111394" strongs="G3588" morph="T-ASF" lemma="ὁ" text="τὴν">√</w>
+				<w OGNTsort="111395" strongs="G26" morph="N-ASF" lemma="ἀγάπη" text="ἀγάπην">love</w>
+				<w OGNTsort="111396" strongs="G3588" morph="T-GSF" lemma="ὁ" text="τῆς">the</w>
+				<w OGNTsort="111397" strongs="G225" morph="N-GSF" lemma="ἀλήθεια" text="ἀληθείας">truth</w>
+				<phrase>
+					<w OGNTsort="111400" strongs="G1519" morph="PREP" lemma="εἰς" text="εἰς">√</w>
+					<w OGNTsort="111401" strongs="G3588" morph="T-ASN" lemma="ὁ" text="τὸ">√</w>
+					<phraseWords>and so</phraseWords>
+				</phrase>
+				<w OGNTsort="111402" strongs="G4982" morph="V-APN" lemma="σῴζω" text="σωθῆναι">be saved.</w>
+				<w OGNTsort="111403" strongs="G846" morph="P-APM" lemma="αὐτός" text="αὐτούς">√</w>
+			</verse>
+			<verse name="2 Thessalonians 2:11">
+				<Greek>καὶ διὰ τοῦτο πέμπει αὐτοῖς ὁ Θεὸς ἐνέργειαν πλάνης εἰς τὸ πιστεῦσαι αὐτοὺς τῷ ψεύδει</Greek>
+				<preText>\s5 \v 11</preText>
+				<ULB>For this reason God is sending them a powerful delusion so that they will believe a lie</ULB>
+				<residue>For this reason  is  them a powerful  so that they will  a lie</residue>
+				<w OGNTsort="111404" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">√</w>
+				<w OGNTsort="111406" strongs="G3778" morph="D-ASN" lemma="οὗτος" sub="[1]" text="τοῦτο">this</w>
+				<w OGNTsort="111405" strongs="G1223" morph="PREP" lemma="διά" text="διὰ">For [1] reason</w>
+				<w OGNTsort="111409" strongs="G3588" morph="T-NSM" lemma="ὁ" text="ὁ">√</w>
+				<w OGNTsort="111410" strongs="G2316" morph="N-NSM" lemma="θεός" text="Θεὸς">God</w>
+				<w OGNTsort="111407" strongs="G3992" morph="V-PAI-3S" lemma="πέμπω" text="πέμπει">is sending</w>
+				<w OGNTsort="111408" strongs="G846" morph="P-DPM" lemma="αὐτός" text="αὐτοῖς">them</w>
+				<w OGNTsort="111411" strongs="G1753" morph="N-ASF" lemma="ἐνέργεια" text="ἐνέργειαν">a powerful</w>
+				<w OGNTsort="111412" strongs="G4106" morph="N-GSF" lemma="πλάνη" text="πλάνης">delusion</w>
+				<phrase>
+					<w OGNTsort="111413" strongs="G1519" morph="PREP" lemma="εἰς" text="εἰς">√</w>
+					<w OGNTsort="111414" strongs="G3588" morph="T-ASN" lemma="ὁ" text="τὸ">√</w>
+					<phraseWords>so that</phraseWords>
+				</phrase>
+				<w OGNTsort="111416" strongs="G846" morph="P-APM" lemma="αὐτός" text="αὐτοὺς">they</w>
+				<w OGNTsort="111415" strongs="G4100" morph="V-AAN" lemma="πιστεύω" text="πιστεῦσαι">will believe</w>
+				<w OGNTsort="111417" strongs="G3588" morph="T-DSN" lemma="ὁ" text="τῷ">√</w>
+				<w OGNTsort="111418" strongs="G5579" morph="N-DSN" lemma="ψεῦδος" text="ψεύδει">a lie</w>
+			</verse>
+			<verse name="2 Thessalonians 2:12">
+				<Greek>ἵνα κριθῶσιν πάντες οἱ μὴ πιστεύσαντες τῇ ἀληθείᾳ ἀλλὰ εὐδοκήσαντες τῇ ἀδικίᾳ</Greek>
+				<preText>\v 12</preText>
+				<ULB>and so that they all may be condemned who did not believe the truth but instead took pleasure in unrighteousness.</ULB>
+				<residue>and so that they all may be  who did not  the  but instead  in  .</residue>
+				<w>and</w>
+				<w OGNTsort="111419" strongs="G2443" morph="CONJ" lemma="ἵνα" text="ἵνα">so that</w>
+				<w OGNTsort="111421" strongs="G3956" morph="A-NPM" lemma="πᾶς" sub="[1]" text="πάντες">all</w>
+				<w OGNTsort="111420" strongs="G2919" morph="V-APS-3P" lemma="κρίνω" text="κριθῶσιν">they [1] may be condemned</w>
+				<w OGNTsort="111422" strongs="G3588" morph="T-NPM" lemma="ὁ" text="οἱ">who</w>
+				<w OGNTsort="111423" strongs="G3361" morph="PRT-N" lemma="μή" sub="[1]" text="μὴ">not</w>
+				<w OGNTsort="111424" strongs="G4100" morph="V-AAP-NPM" lemma="πιστεύω" text="πιστεύσαντες">did [1] believe</w>
+				<w OGNTsort="111425" strongs="G3588" morph="T-DSF" lemma="ὁ" text="τῇ">the</w>
+				<w OGNTsort="111426" strongs="G225" morph="N-DSF" lemma="ἀλήθεια" text="ἀληθείᾳ">truth</w>
+				<w OGNTsort="111427" strongs="G235" morph="CONJ" lemma="ἀλλά" text="ἀλλὰ">but instead</w>
+				<w OGNTsort="111428" strongs="G2106" morph="V-AAP-NPM" lemma="εὐδοκέω" text="εὐδοκήσαντες">took pleasure</w>
+				<w OGNTsort="111429" strongs="G3588" morph="T-DSF" lemma="ὁ" text="τῇ">√</w>
+				<w OGNTsort="111430" strongs="G93" morph="N-DSF" lemma="ἀδικία" text="ἀδικίᾳ">in unrighteousness.</w>
+			</verse>
+			<verse name="2 Thessalonians 2:13">
+				<Greek>Ἡμεῖς δὲ ὀφείλομεν εὐχαριστεῖν τῷ Θεῷ πάντοτε περὶ ὑμῶν ἀδελφοὶ ἠγαπημένοι ὑπὸ Κυρίου ὅτι εἵλατο ὑμᾶς ὁ Θεὸς ἀπαρχὴν εἰς σωτηρίαν ἐν ἁγιασμῷ Πνεύματος καὶ πίστει ἀληθείας</Greek>
+				<preText>\s5 \p \v 13</preText>
+				<ULB>But we should always give thanks to God for you, brothers loved by the Lord, because God chose you as the firstfruits to be saved through the sanctification by the Spirit and belief in the truth. <usfm>\f + \ft Some important and ancient Greek copies read, \fqa For God chose you from the first for salvation \fqa* . \f*</usfm></ULB>
+				<residue>But we should always give thanks to  for you,  by the  , because  you as the  to be saved through the  by the  and  in the  .</residue>
+				<w OGNTsort="111432" strongs="G1161" morph="CONJ" lemma="δέ" text="δὲ">But</w>
+				<w OGNTsort="111431" strongs="G1473" morph="P-1NP" lemma="ἐγώ" text="Ἡμεῖς">we</w>
+				<w OGNTsort="111433" strongs="G3784" morph="V-PAI-1P" lemma="ὀφείλω" text="ὀφείλομεν">should</w>
+				<w OGNTsort="111437" strongs="G3842" morph="ADV" lemma="πάντοτε" text="πάντοτε">always</w>
+				<w OGNTsort="111434" strongs="G2168" morph="V-PAN" lemma="εὐχαριστέω" text="εὐχαριστεῖν">give thanks</w>
+				<w OGNTsort="111435" strongs="G3588" morph="T-DSM" lemma="ὁ" text="τῷ">√</w>
+				<w OGNTsort="111436" strongs="G2316" morph="N-DSM" lemma="θεός" text="Θεῷ">to God</w>
+				<w OGNTsort="111438" strongs="G4012" morph="PREP" lemma="περί" text="περὶ">for</w>
+				<w OGNTsort="111439" strongs="G4771" morph="P-2GP" lemma="σύ" text="ὑμῶν">you,</w>
+				<w OGNTsort="111440" strongs="G80" morph="N-VPM" lemma="ἀδελφός" text="ἀδελφοὶ">brothers</w>
+				<w OGNTsort="111441" strongs="G25" morph="V-RPP-VPM" lemma="ἀγαπάω" text="ἠγαπημένοι">loved</w>
+				<w OGNTsort="111442" strongs="G5259" morph="PREP" lemma="ὑπό" text="ὑπὸ">by</w>
+				<w OGNTsort="111443" strongs="G2962" morph="N-GSM" lemma="κύριος" text="Κυρίου">the Lord,</w>
+				<w OGNTsort="111444" strongs="G3754" morph="CONJ" lemma="ὅτι" text="ὅτι">because</w>
+				<w OGNTsort="111447" strongs="G3588" morph="T-NSM" lemma="ὁ" text="ὁ">√</w>
+				<w OGNTsort="111448" strongs="G2316" morph="N-NSM" lemma="θεός" text="Θεὸς">God</w>
+				<w OGNTsort="111445" strongs="G138" morph="V-AMI-3S" lemma="αἱρέω" text="εἵλατο">chose</w>
+				<w OGNTsort="111446" strongs="G4771" morph="P-2AP" lemma="σύ" text="ὑμᾶς">you</w>
+				<w>as the</w>
+				<w OGNTsort="111449" strongs="G536" morph="N-ASF" lemma="ἀπαρχή" text="ἀπαρχὴν">firstfruits</w>
+				<phrase>
+					<w OGNTsort="111450" strongs="G1519" morph="PREP" lemma="εἰς" text="εἰς">√</w>
+					<w OGNTsort="111451" strongs="G4991" morph="N-ASF" lemma="σωτηρία" text="σωτηρίαν">√</w>
+					<phraseWords>to be saved</phraseWords>
+				</phrase>
+				<w OGNTsort="111452" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">through</w>
+				<w OGNTsort="111453" strongs="G38" morph="N-DSM" lemma="ἁγιασμός" text="ἁγιασμῷ">the sanctification</w>
+				<w OGNTsort="111454" strongs="G4151" morph="N-GSN" lemma="πνεῦμα" text="Πνεύματος">by the Spirit</w>
+				<w OGNTsort="111455" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111456" strongs="G4102" morph="N-DSF" lemma="πίστις" text="πίστει">belief</w>
+				<w OGNTsort="111457" strongs="G225" morph="N-GSF" lemma="ἀλήθεια" text="ἀληθείας">in the truth.</w>
+				<usfm>\f + \ft Some important and ancient Greek copies read, \fqa For God chose you from the first for salvation \fqa* . \f*</usfm>
+			</verse>
+			<verse name="2 Thessalonians 2:14">
+				<Greek>εἰς ὃ καὶ ἐκάλεσεν ὑμᾶς διὰ τοῦ εὐαγγελίου ἡμῶν εἰς περιποίησιν δόξης τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ</Greek>
+				<preText>\v 14</preText>
+				<ULB>He called you to this through our gospel, so that you might obtain the glory of our Lord Jesus Christ.</ULB>
+				<residue>He  you to this through our  , so that you might obtain the  of our  .</residue>
+				<w OGNTsort="111460" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">√</w>
+				<w OGNTsort="111461" strongs="G2564" morph="V-AAI-3S" lemma="καλέω" text="ἐκάλεσεν">He called</w>
+				<w OGNTsort="111462" strongs="G4771" morph="P-2AP" lemma="σύ" text="ὑμᾶς">you</w>
+				<w OGNTsort="111458" strongs="G1519" morph="PREP" lemma="εἰς" text="εἰς">to</w>
+				<w OGNTsort="111459" strongs="G3739" morph="R-ASN" lemma="ὅς, ἥ" text="ὃ">this</w>
+				<w OGNTsort="111463" strongs="G1223" morph="PREP" lemma="διά" text="διὰ">through</w>
+				<w OGNTsort="111466" strongs="G1473" morph="P-1GP" lemma="ἐγώ" text="ἡμῶν">our</w>
+				<w OGNTsort="111464" strongs="G3588" morph="T-GSN" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="111465" strongs="G2098" morph="N-GSN" lemma="εὐαγγέλιον" text="εὐαγγελίου">gospel,</w>
+				<w OGNTsort="111467" strongs="G1519" morph="PREP" lemma="εἰς" text="εἰς">so that</w>
+				<w OGNTsort="111468" strongs="G4047" morph="N-ASF" lemma="περιποίησις" text="περιποίησιν">you might obtain</w>
+				<w OGNTsort="111469" strongs="G1391" morph="N-GSF" lemma="δόξα" text="δόξης">the glory</w>
+				<w OGNTsort="111472" strongs="G1473" morph="P-1GP" lemma="ἐγώ" sub="[1]" text="ἡμῶν">our</w>
+				<w OGNTsort="111470" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="111471" strongs="G2962" morph="N-GSM" lemma="κύριος" text="Κυρίου">of [1] Lord</w>
+				<w OGNTsort="111473" strongs="G2424" morph="N-GSM-P" lemma="Ἰησοῦς" text="Ἰησοῦ">Jesus</w>
+				<w OGNTsort="111474" strongs="G5547" morph="N-GSM-T" lemma="Χριστός" text="Χριστοῦ">Christ.</w>
+			</verse>
+			<verse name="2 Thessalonians 2:15">
+				<Greek>Ἄρα οὖν ἀδελφοί στήκετε καὶ κρατεῖτε τὰς παραδόσεις ἃς ἐδιδάχθητε εἴτε διὰ λόγου εἴτε δι᾽ ἐπιστολῆς ἡμῶν</Greek>
+				<preText>\v 15</preText>
+				<ULB>So then, brothers, stand firm and hold tightly to the traditions that you were taught, whether by word or by our letter.</ULB>
+				<residue>So then,  , stand firm and hold tightly to the  that you were  , whether by  or by our  .</residue>
+				<w OGNTsort="111475" strongs="G686" morph="CONJ" lemma="ἄρα" text="Ἄρα">So</w>
+				<w OGNTsort="111476" strongs="G3767" morph="CONJ" lemma="οὖν" text="οὖν">then,</w>
+				<w OGNTsort="111477" strongs="G80" morph="N-VPM" lemma="ἀδελφός" text="ἀδελφοί">brothers,</w>
+				<w OGNTsort="111478" strongs="G4739" morph="V-PAM-2P" lemma="στήκω" text="στήκετε">stand firm</w>
+				<w OGNTsort="111479" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111480" strongs="G2902" morph="V-PAM-2P" lemma="κρατέω" text="κρατεῖτε">hold tightly to</w>
+				<w OGNTsort="111481" strongs="G3588" morph="T-APF" lemma="ὁ" text="τὰς">the</w>
+				<w OGNTsort="111482" strongs="G3862" morph="N-APF" lemma="παράδοσις" text="παραδόσεις">traditions</w>
+				<w OGNTsort="111483" strongs="G3739" morph="R-APF" lemma="ὅς, ἥ" text="ἃς">that</w>
+				<w OGNTsort="111484" strongs="G1321" morph="V-API-2P" lemma="διδάσκω" text="ἐδιδάχθητε">you were taught,</w>
+				<w OGNTsort="111485" strongs="G1535" morph="CONJ" lemma="εἴτε" text="εἴτε">whether</w>
+				<w OGNTsort="111486" strongs="G1223" morph="PREP" lemma="διά" text="διὰ">by</w>
+				<w OGNTsort="111487" strongs="G3056" morph="N-GSM" lemma="λόγος" text="λόγου">word</w>
+				<w OGNTsort="111488" strongs="G1535" morph="CONJ" lemma="εἴτε" text="εἴτε">or</w>
+				<w OGNTsort="111489" strongs="G1223" morph="PREP" lemma="διά" text="δι᾽">by</w>
+				<w OGNTsort="111491" strongs="G1473" morph="P-1GP" lemma="ἐγώ" text="ἡμῶν">our</w>
+				<w OGNTsort="111490" strongs="G1992" morph="N-GSF" lemma="ἐπιστολή" text="ἐπιστολῆς">letter.</w>
+			</verse>
+			<verse name="2 Thessalonians 2:16">
+				<Greek>Αὐτὸς δὲ ὁ Κύριος ἡμῶν Ἰησοῦς Χριστὸς καὶ ὁ Θεὸς ὁ Πατὴρ ἡμῶν ὁ ἀγαπήσας ἡμᾶς καὶ δοὺς παράκλησιν αἰωνίαν καὶ ἐλπίδα ἀγαθὴν ἐν χάριτι</Greek>
+				<preText>\s5 \p \v 16</preText>
+				<ULB>Now may our Lord Jesus Christ himself and God our Father, who loved us and gave us eternal comfort and good hope through grace,</ULB>
+				<residue>Now may our  himself and  our  , who  us and gave us  and  through  ,</residue>
+				<w OGNTsort="111493" strongs="G1161" morph="CONJ" lemma="δέ" text="δὲ">Now</w>
+				<w>may</w>
+				<w OGNTsort="111496" strongs="G1473" morph="P-1GP" lemma="ἐγώ" text="ἡμῶν">our</w>
+				<w OGNTsort="111494" strongs="G3588" morph="T-NSM" lemma="ὁ" text="ὁ">√</w>
+				<w OGNTsort="111495" strongs="G2962" morph="N-NSM" lemma="κύριος" text="Κύριος">Lord</w>
+				<w OGNTsort="111497" strongs="G2424" morph="N-NSM-P" lemma="Ἰησοῦς" text="Ἰησοῦς">Jesus</w>
+				<w OGNTsort="111498" strongs="G5547" morph="N-NSM-T" lemma="Χριστός" text="Χριστὸς">Christ</w>
+				<w OGNTsort="111492" strongs="G846" morph="P-NSM" lemma="αὐτός" text="Αὐτὸς">himself</w>
+				<w OGNTsort="111499" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111500" strongs="G3588" morph="T-NSM" lemma="ὁ" text="ὁ">√</w>
+				<w OGNTsort="111501" strongs="G2316" morph="N-NSM" lemma="θεός" text="Θεὸς">God</w>
+				<w OGNTsort="111502" strongs="G3588" morph="T-NSM" lemma="ὁ" text="ὁ">√</w>
+				<w OGNTsort="111504" strongs="G1473" morph="P-1GP" lemma="ἐγώ" text="ἡμῶν">our</w>
+				<w OGNTsort="111503" strongs="G3962" morph="N-NSM" lemma="πατήρ" text="Πατὴρ">Father,</w>
+				<w OGNTsort="111505" strongs="G3588" morph="T-NSM" lemma="ὁ" text="ὁ">who</w>
+				<w OGNTsort="111506" strongs="G25" morph="V-AAP-NSM" lemma="ἀγαπάω" text="ἀγαπήσας">loved</w>
+				<w OGNTsort="111507" strongs="G1473" morph="P-1AP" lemma="ἐγώ" text="ἡμᾶς">us</w>
+				<w OGNTsort="111508" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111509" strongs="G1325" morph="V-2AAP-NSM" lemma="δίδωμι" text="δοὺς">gave</w>
+				<w>us</w>
+				<w OGNTsort="111511" strongs="G166" morph="A-ASF" lemma="αἰώνιος" text="αἰωνίαν">eternal</w>
+				<w OGNTsort="111510" strongs="G3874" morph="N-ASF" lemma="παράκλησις" text="παράκλησιν">comfort</w>
+				<w OGNTsort="111512" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111514" strongs="G18" morph="A-ASF" lemma="ἀγαθός" text="ἀγαθὴν">good</w>
+				<w OGNTsort="111513" strongs="G1680" morph="N-ASF" lemma="ἐλπίς" text="ἐλπίδα">hope</w>
+				<w OGNTsort="111515" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">through</w>
+				<w OGNTsort="111516" strongs="G5485" morph="N-DSF" lemma="χάρις" text="χάριτι">grace,</w>
+			</verse>
+			<verse name="2 Thessalonians 2:17">
+				<Greek>παρακαλέσαι ὑμῶν τὰς καρδίας καὶ στηρίξαι ἐν παντὶ ἔργῳ καὶ λόγῳ ἀγαθῷ</Greek>
+				<preText>\v 17</preText>
+				<ULB>comfort and strengthen your hearts in every good work and word.</ULB>
+				<residue>and  your  in every  and  .</residue>
+				<w OGNTsort="111517" strongs="G3870" morph="V-AAO-3S" lemma="παρακαλέω" text="παρακαλέσαι">comfort</w>
+				<w OGNTsort="111521" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111522" strongs="G4741" morph="V-AAO-3S" lemma="στηρίζω" text="στηρίξαι">strengthen</w>
+				<w OGNTsort="111518" strongs="G4771" morph="P-2GP" lemma="σύ" text="ὑμῶν">your</w>
+				<w OGNTsort="111519" strongs="G3588" morph="T-APF" lemma="ὁ" text="τὰς">√</w>
+				<w OGNTsort="111520" strongs="G2588" morph="N-APF" lemma="καρδία" text="καρδίας">hearts</w>
+				<w OGNTsort="111523" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">in</w>
+				<w OGNTsort="111524" strongs="G3956" morph="A-DSN" lemma="πᾶς" text="παντὶ">every</w>
+				<w OGNTsort="111528" strongs="G18" morph="A-DSM" lemma="ἀγαθός" text="ἀγαθῷ">good</w>
+				<w OGNTsort="111525" strongs="G2041" morph="N-DSN" lemma="ἔργον" text="ἔργῳ">work</w>
+				<w OGNTsort="111526" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111527" strongs="G3056" morph="N-DSM" lemma="λόγος" text="λόγῳ">word.</w>
+			</verse>
+		</chapter>
+		<chapter osisID="2th.3">
+			<verse name="2 Thessalonians 3:1">
+				<Greek>Τὸ λοιπὸν προσεύχεσθε ἀδελφοί περὶ ἡμῶν ἵνα ὁ λόγος τοῦ Κυρίου τρέχῃ καὶ δοξάζηται καθὼς καὶ πρὸς ὑμᾶς</Greek>
+				<preText>\s5 \c 3 \p \v 1</preText>
+				<ULB>Now, brothers, pray for us, that the word of the Lord may rush and be glorified, as it also is with you,</ULB>
+				<residue>Now,  ,  for us, that the  may rush and be  ,  it also is with you,</residue>
+				<phrase>
+					<w OGNTsort="111529" strongs="G3588" morph="T-ASN" lemma="ὁ" text="Τὸ">√</w>
+					<w OGNTsort="111530" strongs="G3063" morph="A-ASN" lemma="λοιπόν" text="λοιπὸν">√</w>
+					<phraseWords>Now,</phraseWords>
+				</phrase>
+				<w OGNTsort="111532" strongs="G80" morph="N-VPM" lemma="ἀδελφός" text="ἀδελφοί">brothers,</w>
+				<w OGNTsort="111531" strongs="G4336" morph="V-PNM-2P" lemma="προσεύχομαι" text="προσεύχεσθε">pray</w>
+				<w OGNTsort="111533" strongs="G4012" morph="PREP" lemma="περί" text="περὶ">for</w>
+				<w OGNTsort="111534" strongs="G1473" morph="P-1GP" lemma="ἐγώ" text="ἡμῶν">us,</w>
+				<w OGNTsort="111535" strongs="G2443" morph="CONJ" lemma="ἵνα" text="ἵνα">that</w>
+				<w OGNTsort="111536" strongs="G3588" morph="T-NSM" lemma="ὁ" text="ὁ">the</w>
+				<w OGNTsort="111537" strongs="G3056" morph="N-NSM" lemma="λόγος" text="λόγος">word</w>
+				<w OGNTsort="111538" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">of the</w>
+				<w OGNTsort="111539" strongs="G2962" morph="N-GSM" lemma="κύριος" text="Κυρίου">Lord</w>
+				<w OGNTsort="111540" strongs="G5143" morph="V-PAS-3S" lemma="τρέχω" text="τρέχῃ">may rush</w>
+				<w OGNTsort="111541" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111542" strongs="G1392" morph="V-PPS-3S" lemma="δοξάζω" text="δοξάζηται">be glorified,</w>
+				<w OGNTsort="111543" strongs="G2531" morph="CONJ" lemma="καθώς" text="καθὼς">as</w>
+				<w>it</w>
+				<w OGNTsort="111544" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">also</w>
+				<w>is</w>
+				<w OGNTsort="111545" strongs="G4314" morph="PREP" lemma="πρός" text="πρὸς">with</w>
+				<w OGNTsort="111546" strongs="G4771" morph="P-2AP" lemma="σύ" text="ὑμᾶς">you,</w>
+			</verse>
+			<verse name="2 Thessalonians 3:2">
+				<Greek>καὶ ἵνα ῥυσθῶμεν ἀπὸ τῶν ἀτόπων καὶ πονηρῶν ἀνθρώπων οὐ γὰρ πάντων ἡ πίστις</Greek>
+				<preText>\v 2</preText>
+				<ULB>and that we may be delivered from unrighteous and evil people, for not all have faith.</ULB>
+				<residue>and that we may be  from  and  people, for not all have  .</residue>
+				<w OGNTsort="111547" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111548" strongs="G2443" morph="CONJ" lemma="ἵνα" text="ἵνα">that</w>
+				<w OGNTsort="111549" strongs="G4506" morph="V-APS-1P" lemma="ῥύομαι" text="ῥυσθῶμεν">we may be delivered</w>
+				<w OGNTsort="111550" strongs="G575" morph="PREP" lemma="ἀπό" text="ἀπὸ">from</w>
+				<w OGNTsort="111551" strongs="G3588" morph="T-GPM" lemma="ὁ" text="τῶν">√</w>
+				<w OGNTsort="111552" strongs="G824" morph="A-GPM" lemma="ἄτοπος" text="ἀτόπων">unrighteous</w>
+				<w OGNTsort="111553" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111554" strongs="G4190" morph="A-GPM" lemma="πονηρός" text="πονηρῶν">evil</w>
+				<w OGNTsort="111555" strongs="G444" morph="N-GPM" lemma="ἄνθρωπος" text="ἀνθρώπων">people,</w>
+				<w OGNTsort="111557" strongs="G1063" morph="CONJ" lemma="γάρ" text="γὰρ">for</w>
+				<w OGNTsort="111556" strongs="G3756" morph="PRT-N" lemma="οὐ" text="οὐ">not</w>
+				<w OGNTsort="111558" strongs="G3956" morph="A-GPM" lemma="πᾶς" text="πάντων">all</w>
+				<w>have</w>
+				<w OGNTsort="111559" strongs="G3588" morph="T-NSF" lemma="ὁ" text="ἡ">√</w>
+				<w OGNTsort="111560" strongs="G4102" morph="N-NSF" lemma="πίστις" text="πίστις">faith.</w>
+			</verse>
+			<verse name="2 Thessalonians 3:3">
+				<Greek>Πιστὸς δέ ἐστιν ὁ Κύριος ὃς στηρίξει ὑμᾶς καὶ φυλάξει ἀπὸ τοῦ πονηροῦ</Greek>
+				<preText>\v 3</preText>
+				<ULB>But the Lord is faithful, who will strengthen you and guard you from the evil one.</ULB>
+				<residue>But the  is  , who will  you and guard you from the  .</residue>
+				<w OGNTsort="111562" strongs="G1161" morph="CONJ" lemma="δέ" text="δέ">But</w>
+				<w OGNTsort="111564" strongs="G3588" morph="T-NSM" lemma="ὁ" text="ὁ">the</w>
+				<w OGNTsort="111565" strongs="G2962" morph="N-NSM" lemma="κύριος" text="Κύριος">Lord</w>
+				<w OGNTsort="111563" strongs="G1510" morph="V-PAI-3S" lemma="εἰμί" text="ἐστιν">is</w>
+				<w OGNTsort="111561" strongs="G4103" morph="A-NSM" lemma="πιστός" text="Πιστὸς">faithful,</w>
+				<w OGNTsort="111566" strongs="G3739" morph="R-NSM" lemma="ὅς, ἥ" text="ὃς">who</w>
+				<w OGNTsort="111567" strongs="G4741" morph="V-FAI-3S" lemma="στηρίζω" text="στηρίξει">will strengthen</w>
+				<w OGNTsort="111568" strongs="G4771" morph="P-2AP" lemma="σύ" text="ὑμᾶς">you</w>
+				<w OGNTsort="111569" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111570" strongs="G5442" morph="V-FAI-3S" lemma="φυλάσσω" text="φυλάξει">guard</w>
+				<w>you</w>
+				<w OGNTsort="111571" strongs="G575" morph="PREP" lemma="ἀπό" text="ἀπὸ">from</w>
+				<phrase>
+					<w OGNTsort="111572" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>
+					<w OGNTsort="111573" strongs="G4190" morph="A-GSM" lemma="πονηρός" text="πονηροῦ">√</w>
+					<phraseWords>the evil one.</phraseWords>
+				</phrase>
+			</verse>
+			<verse name="2 Thessalonians 3:4">
+				<Greek>πεποίθαμεν δὲ ἐν Κυρίῳ ἐφ᾽ ὑμᾶς ὅτι ἃ παραγγέλλομεν καὶ ποιεῖτε καὶ ποιήσετε</Greek>
+				<preText>\s5 \v 4</preText>
+				<ULB>We have confidence in the Lord about you, that you both do and will continue to do the things that we command.</ULB>
+				<residue>We have  about you, that you both do and will continue to do the things that we  .</residue>
+				<w OGNTsort="111574" strongs="G3982" morph="V-2RAI-1P" lemma="πείθω" text="πεποίθαμεν">We have confidence</w>
+				<w OGNTsort="111575" strongs="G1161" morph="CONJ" lemma="δέ" text="δὲ">√</w>
+				<w OGNTsort="111576" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">in</w>
+				<w OGNTsort="111577" strongs="G2962" morph="N-DSM" lemma="κύριος" text="Κυρίῳ">the Lord</w>
+				<w OGNTsort="111578" strongs="G1909" morph="PREP" lemma="ἐπί" text="ἐφ᾽">about</w>
+				<w OGNTsort="111579" strongs="G4771" morph="P-2AP" lemma="σύ" text="ὑμᾶς">you,</w>
+				<w OGNTsort="111580" strongs="G3754" morph="CONJ" lemma="ὅτι" text="ὅτι">that</w>
+				<w OGNTsort="111583" strongs="G2532" morph="CONJ" lemma="καί" sub="[1]" text="καὶ">both</w>
+				<w OGNTsort="111584" strongs="G4160" morph="V-PAI-2P" lemma="ποιέω" text="ποιεῖτε">you [1] do</w>
+				<w OGNTsort="111585" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111586" strongs="G4160" morph="V-FAI-2P" lemma="ποιέω" text="ποιήσετε">will continue to do</w>
+				<w OGNTsort="111581" strongs="G3739" morph="R-APN" lemma="ὅς, ἥ" text="ἃ">the things that</w>
+				<w OGNTsort="111582" strongs="G3853" morph="V-PAI-1P" lemma="παραγγέλλω" text="παραγγέλλομεν">we command.</w>
+			</verse>
+			<verse name="2 Thessalonians 3:5">
+				<Greek>Ὁ δὲ Κύριος κατευθύναι ὑμῶν τὰς καρδίας εἰς τὴν ἀγάπην τοῦ Θεοῦ καὶ εἰς τὴν ὑπομονὴν τοῦ Χριστοῦ</Greek>
+				<preText>\v 5</preText>
+				<ULB>May the Lord direct your hearts to the love of God and to the endurance of Christ.</ULB>
+				<residue>May the  direct your  to the  of  and to the  of  .</residue>
+				<w OGNTsort="111587" strongs="G3588" morph="T-NSM" lemma="ὁ" sub="[1]" text="Ὁ">the</w>
+				<w OGNTsort="111588" strongs="G1161" morph="CONJ" lemma="δέ" text="δὲ">√</w>
+				<w OGNTsort="111589" strongs="G2962" morph="N-NSM" lemma="κύριος" sub="[2]" text="Κύριος">Lord</w>
+				<w OGNTsort="111590" strongs="G2720" morph="V-AAO-3S" lemma="κατευθύνω" text="κατευθύναι">May [1] [2] direct</w>
+				<w OGNTsort="111591" strongs="G4771" morph="P-2GP" lemma="σύ" text="ὑμῶν">your</w>
+				<w OGNTsort="111592" strongs="G3588" morph="T-APF" lemma="ὁ" text="τὰς">√</w>
+				<w OGNTsort="111593" strongs="G2588" morph="N-APF" lemma="καρδία" text="καρδίας">hearts</w>
+				<w OGNTsort="111594" strongs="G1519" morph="PREP" lemma="εἰς" text="εἰς">to</w>
+				<w OGNTsort="111595" strongs="G3588" morph="T-ASF" lemma="ὁ" text="τὴν">the</w>
+				<w OGNTsort="111596" strongs="G26" morph="N-ASF" lemma="ἀγάπη" text="ἀγάπην">love</w>
+				<w OGNTsort="111597" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="111598" strongs="G2316" morph="N-GSM" lemma="θεός" text="Θεοῦ">of God</w>
+				<w OGNTsort="111599" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111600" strongs="G1519" morph="PREP" lemma="εἰς" text="εἰς">to</w>
+				<w OGNTsort="111601" strongs="G3588" morph="T-ASF" lemma="ὁ" text="τὴν">the</w>
+				<w OGNTsort="111602" strongs="G5281" morph="N-ASF" lemma="ὑπομονή" text="ὑπομονὴν">endurance</w>
+				<w OGNTsort="111603" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="111604" strongs="G5547" morph="N-GSM-T" lemma="Χριστός" text="Χριστοῦ">of Christ.</w>
+			</verse>
+			<verse name="2 Thessalonians 3:6">
+				<Greek>Παραγγέλλομεν δὲ ὑμῖν ἀδελφοί ἐν ὀνόματι τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ στέλλεσθαι ὑμᾶς ἀπὸ παντὸς ἀδελφοῦ ἀτάκτως περιπατοῦντος καὶ μὴ κατὰ τὴν παράδοσιν ἣν παρελάβοσαν παρ᾽ ἡμῶν</Greek>
+				<preText>\s5 \p \v 6</preText>
+				<ULB>Now we command you, brothers, in the name of our Lord Jesus Christ, that you avoid every brother who is idle and does not live according to the traditions you received from us.</ULB>
+				<residue>Now we  you,  , in the  of our  , that you avoid every  who is idle and does not live according to the  you  from us.</residue>
+				<w OGNTsort="111606" strongs="G1161" morph="CONJ" lemma="δέ" text="δὲ">Now</w>
+				<w OGNTsort="111605" strongs="G3853" morph="V-PAI-1P" lemma="παραγγέλλω" text="Παραγγέλλομεν">we command</w>
+				<w OGNTsort="111607" strongs="G4771" morph="P-2DP" lemma="σύ" text="ὑμῖν">you,</w>
+				<w OGNTsort="111608" strongs="G80" morph="N-VPM" lemma="ἀδελφός" text="ἀδελφοί">brothers,</w>
+				<w OGNTsort="111609" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">in</w>
+				<w OGNTsort="111610" strongs="G3686" morph="N-DSN" lemma="ὄνομα" text="ὀνόματι">the name</w>
+				<w OGNTsort="111611" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="111613" strongs="G1473" morph="P-1GP" lemma="ἐγώ" sub="[1]" text="ἡμῶν">our</w>
+				<w OGNTsort="111612" strongs="G2962" morph="N-GSM" lemma="κύριος" text="Κυρίου">of [1] Lord</w>
+				<w OGNTsort="111614" strongs="G2424" morph="N-GSM-P" lemma="Ἰησοῦς" text="Ἰησοῦ">Jesus</w>
+				<w OGNTsort="111615" strongs="G5547" morph="N-GSM-T" lemma="Χριστός" text="Χριστοῦ">Christ,</w>
+				<w>that</w>
+				<w OGNTsort="111617" strongs="G4771" morph="P-2AP" lemma="σύ" text="ὑμᾶς">you</w>
+				<phrase>
+					<w OGNTsort="111616" strongs="G4724" morph="V-PMN" lemma="στέλλω" text="στέλλεσθαι">√</w>
+					<w OGNTsort="111618" strongs="G575" morph="PREP" lemma="ἀπό" text="ἀπὸ">√</w>
+					<phraseWords>avoid</phraseWords>
+				</phrase>
+				<w OGNTsort="111619" strongs="G3956" morph="A-GSM" lemma="πᾶς" text="παντὸς">every</w>
+				<w OGNTsort="111620" strongs="G80" morph="N-GSM" lemma="ἀδελφός" text="ἀδελφοῦ">brother</w>
+				<w>who is</w>
+				<w OGNTsort="111621" strongs="G814" morph="ADV" lemma="ἀτάκτως" text="ἀτάκτως">idle</w>
+				<w OGNTsort="111623" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111624" strongs="G3361" morph="PRT-N" lemma="μή" sub="[2]" text="μὴ">not</w>
+				<w OGNTsort="111622" strongs="G4043" morph="V-PAP-GSM" lemma="περιπατέω" text="περιπατοῦντος">does [2] live</w>
+				<w OGNTsort="111625" strongs="G2596" morph="PREP" lemma="κατά" text="κατὰ">according to</w>
+				<w OGNTsort="111626" strongs="G3588" morph="T-ASF" lemma="ὁ" text="τὴν">the</w>
+				<w OGNTsort="111627" strongs="G3862" morph="N-ASF" lemma="παράδοσις" text="παράδοσιν">traditions</w>
+				<w OGNTsort="111628" strongs="G3739" morph="R-ASF" lemma="ὅς, ἥ" text="ἣν">√</w>
+				<w>you</w>
+				<w OGNTsort="111629" strongs="G3880" morph="V-2AAI-3P" lemma="παραλαμβάνω" text="παρελάβοσαν">received</w>
+				<w OGNTsort="111630" strongs="G3844" morph="PREP" lemma="παρά" text="παρ᾽">from</w>
+				<w OGNTsort="111631" strongs="G1473" morph="P-1GP" lemma="ἐγώ" text="ἡμῶν">us.</w>
+			</verse>
+			<verse name="2 Thessalonians 3:7">
+				<Greek>αὐτοὶ γὰρ οἴδατε πῶς δεῖ μιμεῖσθαι ἡμᾶς ὅτι οὐκ ἠτακτήσαμεν ἐν ὑμῖν</Greek>
+				<preText>\v 7</preText>
+				<ULB>For you yourselves know it is proper for you to imitate us, because we were not idle when we were with you.</ULB>
+				<residue>For you yourselves  it is proper for you to  us, because we  not  when we were with you.</residue>
+				<w OGNTsort="111633" strongs="G1063" morph="CONJ" lemma="γάρ" text="γὰρ">For</w>
+				<w OGNTsort="111632" strongs="G846" morph="P-NPM" lemma="αὐτός" sub="[1]" text="αὐτοὶ">yourselves</w>
+				<w OGNTsort="111634" strongs="G1492" morph="V-RAI-2P" lemma="εἴδω" text="οἴδατε">you [1] know</w>
+				<w OGNTsort="111635" strongs="G4459" morph="ADV-I" lemma="πως" text="πῶς">√</w>
+				<w OGNTsort="111636" strongs="G1210" morph="V-PAI-3S" lemma="δέω" text="δεῖ">it is proper</w>
+				<w>for you</w>
+				<w OGNTsort="111637" strongs="G3401" morph="V-PNN" lemma="μιμέομαι" text="μιμεῖσθαι">to imitate</w>
+				<w OGNTsort="111638" strongs="G1473" morph="P-1AP" lemma="ἐγώ" text="ἡμᾶς">us,</w>
+				<w OGNTsort="111639" strongs="G3754" morph="CONJ" lemma="ὅτι" text="ὅτι">because</w>
+				<w OGNTsort="111640" strongs="G3756" morph="PRT-N" lemma="οὐ" sub="[1]" text="οὐκ">not</w>
+				<w OGNTsort="111641" strongs="G812" morph="V-AAI-1P" lemma="ἀτακτέω" text="ἠτακτήσαμεν">we were [1] idle</w>
+				<w>when we were</w>
+				<w OGNTsort="111642" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">with</w>
+				<w OGNTsort="111643" strongs="G4771" morph="P-2DP" lemma="σύ" text="ὑμῖν">you.</w>
+			</verse>
+			<verse name="2 Thessalonians 3:8">
+				<Greek>οὐδὲ δωρεὰν ἄρτον ἐφάγομεν παρά τινος ἀλλ᾽ ἐν κόπῳ καὶ μόχθῳ νυκτὸς καὶ ἡμέρας ἐργαζόμενοι πρὸς τὸ μὴ ἐπιβαρῆσαί τινα ὑμῶν</Greek>
+				<preText>\v 8</preText>
+				<ULB>We did not eat anyone's bread without paying for it, but we worked night and day in labor and toil, so we might not be a burden to any of you.</ULB>
+				<residue>We did not eat anyone's  , but we worked night and  in  and  , so we might not be a  to any of you.</residue>
+				<w OGNTsort="111644" strongs="G3761" morph="CONJ-N" lemma="οὐδέ" sub="[1]" text="οὐδὲ">not</w>
+				<w OGNTsort="111647" strongs="G5315" morph="V-AAI-1P" lemma="φαγεῖν" text="ἐφάγομεν">We did [1] eat</w>
+				<phrase>
+					<w OGNTsort="111648" strongs="G3844" morph="PREP" lemma="παρά" text="παρά">√</w>
+					<w OGNTsort="111649" strongs="G5100" morph="X-GSM" lemma="τις" text="τινος">√</w>
+					<phraseWords>anyone's</phraseWords>
+				</phrase>
+				<w OGNTsort="111646" strongs="G740" morph="N-ASM" lemma="ἄρτος" text="ἄρτον">bread</w>
+				<w OGNTsort="111645" strongs="G1432" morph="ADV" lemma="δωρεάν" text="δωρεὰν">without paying for it,</w>
+				<w OGNTsort="111650" strongs="G235" morph="CONJ" lemma="ἀλλά" text="ἀλλ᾽">but</w>
+				<w OGNTsort="111651" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">√</w>
+				<w OGNTsort="111658" strongs="G2038" morph="V-PNP-NPM" lemma="ἐργάζομαι" text="ἐργαζόμενοι">we worked</w>
+				<w OGNTsort="111655" strongs="G3571" morph="N-GSF" lemma="νύξ" text="νυκτὸς">night</w>
+				<w OGNTsort="111656" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111657" strongs="G2250" morph="N-GSF" lemma="ἡμέρα" text="ἡμέρας">day</w>
+				<w OGNTsort="111652" strongs="G2873" morph="N-DSM" lemma="κόπος" text="κόπῳ">in labor</w>
+				<w OGNTsort="111653" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111654" strongs="G3449" morph="N-DSM" lemma="μόχθος" text="μόχθῳ">toil,</w>
+				<w OGNTsort="111661" strongs="G3361" morph="PRT-N" lemma="μή" sub="[2]" text="μὴ">not</w>
+				<w OGNTsort="111660" strongs="G3588" morph="T-ASN" lemma="ὁ" text="τὸ">√</w>
+				<w OGNTsort="111662" strongs="G1912" morph="V-AAN" lemma="ἐπιβαρέω" text="ἐπιβαρῆσαί">so we might [2] be a burden</w>
+				<w OGNTsort="111659" strongs="G4314" morph="PREP" lemma="πρός" text="πρὸς">to</w>
+				<w OGNTsort="111663" strongs="G5100" morph="X-ASM" lemma="τις" text="τινα">any</w>
+				<w OGNTsort="111664" strongs="G4771" morph="P-2GP" lemma="σύ" text="ὑμῶν">of you.</w>
+			</verse>
+			<verse name="2 Thessalonians 3:9">
+				<Greek>οὐχ ὅτι οὐκ ἔχομεν ἐξουσίαν ἀλλ᾽ ἵνα ἑαυτοὺς τύπον δῶμεν ὑμῖν εἰς τὸ μιμεῖσθαι ἡμᾶς</Greek>
+				<preText>\v 9</preText>
+				<ULB>We did this not because we have no authority, but we did this in order to be an example to you, so that you may imitate us.</ULB>
+				<residue>We did this not because we have no  , but we did this in order to be an example to you, so that you may  us.</residue>
+				<w>We did this</w>
+				<w OGNTsort="111665" strongs="G3756" morph="PRT-N" lemma="οὐ" text="οὐχ">not</w>
+				<w OGNTsort="111666" strongs="G3754" morph="CONJ" lemma="ὅτι" text="ὅτι">because</w>
+				<w OGNTsort="111668" strongs="G2192" morph="V-PAI-1P" lemma="ἔχω" text="ἔχομεν">we have</w>
+				<w OGNTsort="111667" strongs="G3756" morph="PRT-N" lemma="οὐ" text="οὐκ">no</w>
+				<w OGNTsort="111669" strongs="G1849" morph="N-ASF" lemma="ἐξουσία" text="ἐξουσίαν">authority,</w>
+				<w OGNTsort="111670" strongs="G235" morph="CONJ" lemma="ἀλλά" text="ἀλλ᾽">but</w>
+				<w>we did this</w>
+				<w OGNTsort="111671" strongs="G2443" morph="CONJ" lemma="ἵνα" text="ἵνα">in order</w>
+				<w OGNTsort="111672" strongs="G1438" morph="F-1APM" lemma="ἑαυτοῦ" text="ἑαυτοὺς">√</w>
+				<w OGNTsort="111674" strongs="G1325" morph="V-2AAS-1P" lemma="δίδωμι" text="δῶμεν">to be</w>
+				<w OGNTsort="111673" strongs="G5179" morph="N-ASM" lemma="τύπος" text="τύπον">an example</w>
+				<w OGNTsort="111675" strongs="G4771" morph="P-2DP" lemma="σύ" text="ὑμῖν">to you,</w>
+				<phrase>
+					<w OGNTsort="111676" strongs="G1519" morph="PREP" lemma="εἰς" text="εἰς">√</w>
+					<w OGNTsort="111677" strongs="G3588" morph="T-ASN" lemma="ὁ" text="τὸ">√</w>
+					<phraseWords>so that</phraseWords>
+				</phrase>
+				<w OGNTsort="111678" strongs="G3401" morph="V-PNN" lemma="μιμέομαι" text="μιμεῖσθαι">you may imitate</w>
+				<w OGNTsort="111679" strongs="G1473" morph="P-1AP" lemma="ἐγώ" text="ἡμᾶς">us.</w>
+			</verse>
+			<verse name="2 Thessalonians 3:10">
+				<Greek>καὶ γὰρ ὅτε ἦμεν πρὸς ὑμᾶς τοῦτο παρηγγέλλομεν ὑμῖν ὅτι Εἴ τις οὐ θέλει ἐργάζεσθαι μηδὲ ἐσθιέτω</Greek>
+				<preText>\s5 \v 10</preText>
+				<ULB>For when we were with you, we commanded you, "The one who is unwilling to labor must not eat."</ULB>
+				<residue>For when we were with you, we  you, "The one who is unwilling to  must not eat."</residue>
+				<w OGNTsort="111680" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">√</w>
+				<w OGNTsort="111681" strongs="G1063" morph="CONJ" lemma="γάρ" text="γὰρ">For</w>
+				<w OGNTsort="111682" strongs="G3753" morph="CONJ" lemma="ὅτε" text="ὅτε">when</w>
+				<w OGNTsort="111683" strongs="G1510" morph="V-IAI-1P" lemma="εἰμί" text="ἦμεν">we were</w>
+				<w OGNTsort="111684" strongs="G4314" morph="PREP" lemma="πρός" text="πρὸς">with</w>
+				<w OGNTsort="111685" strongs="G4771" morph="P-2AP" lemma="σύ" text="ὑμᾶς">you,</w>
+				<w OGNTsort="111686" strongs="G3778" morph="D-ASN" lemma="οὗτος" text="τοῦτο">√</w>
+				<w OGNTsort="111687" strongs="G3853" morph="V-IAI-1P" lemma="παραγγέλλω" text="παρηγγέλλομεν">we commanded</w>
+				<w OGNTsort="111688" strongs="G4771" morph="P-2DP" lemma="σύ" text="ὑμῖν">you,</w>
+				<w OGNTsort="111689" strongs="G3754" morph="ADV" lemma="ὅτι" text="ὅτι">√</w>
+				<w OGNTsort="111690" strongs="G1487" morph="CONJ" lemma="εἰ" text="Εἴ">√</w>
+				<w OGNTsort="111691" strongs="G5100" morph="X-NSM" lemma="τις" text="τις">"The one who</w>
+				<phrase>
+					<w OGNTsort="111692" strongs="G3756" morph="PRT-N" lemma="οὐ" text="οὐ">√</w>
+					<w OGNTsort="111693" strongs="G2309" morph="V-PAI-3S" lemma="θέλω" text="θέλει">√</w>
+					<phraseWords>is unwilling</phraseWords>
+				</phrase>
+				<w OGNTsort="111694" strongs="G2038" morph="V-PNN" lemma="ἐργάζομαι" text="ἐργάζεσθαι">to labor</w>
+				<w OGNTsort="111695" strongs="G3366" morph="ADV" lemma="μηδέ" sub="[1]" text="μηδὲ">not</w>
+				<w OGNTsort="111696" strongs="G2068" morph="V-PAM-3S" lemma="ἐσθίω" text="ἐσθιέτω">must [1] eat."</w>
+			</verse>
+			<verse name="2 Thessalonians 3:11">
+				<Greek>Ἀκούομεν γάρ τινας περιπατοῦντας ἐν ὑμῖν ἀτάκτως μηδὲν ἐργαζομένους ἀλλὰ περιεργαζομένους</Greek>
+				<preText>\v 11</preText>
+				<ULB>For we hear that some among you are idle, not busy at labor, but busybodies.</ULB>
+				<residue>For we  that some among you are idle, not busy at  , but busybodies.</residue>
+				<w OGNTsort="111698" strongs="G1063" morph="CONJ" lemma="γάρ" text="γάρ">For</w>
+				<w OGNTsort="111697" strongs="G191" morph="V-PAI-1P" lemma="ἀκούω" text="Ἀκούομεν">we hear</w>
+				<w>that</w>
+				<w OGNTsort="111699" strongs="G5100" morph="X-APM" lemma="τις" text="τινας">some</w>
+				<w OGNTsort="111701" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">among</w>
+				<w OGNTsort="111702" strongs="G4771" morph="P-2DP" lemma="σύ" text="ὑμῖν">you</w>
+				<w OGNTsort="111700" strongs="G4043" morph="V-PAP-APM" lemma="περιπατέω" text="περιπατοῦντας">are</w>
+				<w OGNTsort="111703" strongs="G814" morph="ADV" lemma="ἀτάκτως" text="ἀτάκτως">idle,</w>
+				<w OGNTsort="111704" strongs="G3367" morph="A-ASN" lemma="μηδείς" text="μηδὲν">not</w>
+				<w OGNTsort="111705" strongs="G2038" morph="V-PNP-APM" lemma="ἐργάζομαι" text="ἐργαζομένους">busy at labor,</w>
+				<w OGNTsort="111706" strongs="G235" morph="CONJ" lemma="ἀλλά" text="ἀλλὰ">but</w>
+				<w OGNTsort="111707" strongs="G4020" morph="V-PNP-APM" lemma="περιεργάζομαι" text="περιεργαζομένους">busybodies.</w>
+			</verse>
+			<verse name="2 Thessalonians 3:12">
+				<Greek>τοῖς δὲ τοιούτοις παραγγέλλομεν καὶ παρακαλοῦμεν ἐν Κυρίῳ Ἰησοῦ Χριστῷ ἵνα μετὰ ἡσυχίας ἐργαζόμενοι τὸν ἑαυτῶν ἄρτον ἐσθίωσιν</Greek>
+				<preText>\v 12</preText>
+				<ULB>Now such ones we command and exhort in the Lord Jesus Christ, that they should labor with quietness and eat their own bread.</ULB>
+				<residue>Now such ones we  and  , that they should  with quietness and eat their own  .</residue>
+				<w OGNTsort="111709" strongs="G1161" morph="CONJ" lemma="δέ" text="δὲ">Now</w>
+				<w OGNTsort="111708" strongs="G3588" morph="T-DPM" lemma="ὁ" text="τοῖς">√</w>
+				<w OGNTsort="111710" strongs="G5108" morph="D-DPM" lemma="τοιοῦτος" text="τοιούτοις">such ones</w>
+				<w OGNTsort="111711" strongs="G3853" morph="V-PAI-1P" lemma="παραγγέλλω" text="παραγγέλλομεν">we command</w>
+				<w OGNTsort="111712" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">and</w>
+				<w OGNTsort="111713" strongs="G3870" morph="V-PAI-1P" lemma="παρακαλέω" text="παρακαλοῦμεν">exhort</w>
+				<w OGNTsort="111714" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">in</w>
+				<w OGNTsort="111715" strongs="G2962" morph="N-DSM" lemma="κύριος" text="Κυρίῳ">the Lord</w>
+				<w OGNTsort="111716" strongs="G2424" morph="N-DSM-P" lemma="Ἰησοῦς" text="Ἰησοῦ">Jesus</w>
+				<w OGNTsort="111717" strongs="G5547" morph="N-DSM-T" lemma="Χριστός" text="Χριστῷ">Christ,</w>
+				<w OGNTsort="111718" strongs="G2443" morph="CONJ" lemma="ἵνα" text="ἵνα">that</w>
+				<w OGNTsort="111721" strongs="G2038" morph="V-PNP-NPM" lemma="ἐργάζομαι" text="ἐργαζόμενοι">they should labor</w>
+				<w OGNTsort="111719" strongs="G3326" morph="PREP" lemma="μετά" text="μετὰ">with</w>
+				<w OGNTsort="111720" strongs="G2271" morph="N-GSF" lemma="ἡσυχία" text="ἡσυχίας">quietness</w>
+				<w>and</w>
+				<w OGNTsort="111725" strongs="G2068" morph="V-PAS-3P" lemma="ἐσθίω" text="ἐσθίωσιν">eat</w>
+				<w OGNTsort="111723" strongs="G1438" morph="F-3GPM" lemma="ἑαυτοῦ" text="ἑαυτῶν">their own</w>
+				<w OGNTsort="111722" strongs="G3588" morph="T-ASM" lemma="ὁ" text="τὸν">√</w>
+				<w OGNTsort="111724" strongs="G740" morph="N-ASM" lemma="ἄρτος" text="ἄρτον">bread.</w>
+			</verse>
+			<verse name="2 Thessalonians 3:13">
+				<Greek>Ὑμεῖς δέ ἀδελφοί μὴ ἐγκακήσητε καλοποιοῦντες</Greek>
+				<preText>\s5 \v 13</preText>
+				<ULB>But you, brothers, do not become tired of doing well.</ULB>
+				<residue>But you,  , do not become tired of doing well.</residue>
+				<w OGNTsort="111727" strongs="G1161" morph="CONJ" lemma="δέ" text="δέ">But</w>
+				<w OGNTsort="111726" strongs="G4771" morph="P-2NP" lemma="σύ" text="Ὑμεῖς">you,</w>
+				<w OGNTsort="111728" strongs="G80" morph="N-VPM" lemma="ἀδελφός" text="ἀδελφοί">brothers,</w>
+				<w OGNTsort="111729" strongs="G3361" morph="PRT-N" lemma="μή" sub="[1]" text="μὴ">not</w>
+				<w OGNTsort="111730" strongs="G1573" morph="V-AAS-2P" lemma="ἐκκακέω" text="ἐγκακήσητε">do [1] become tired of</w>
+				<w OGNTsort="111731" strongs="G2569" morph="V-PAP-NPM" lemma="καλοποιέω" text="καλοποιοῦντες">doing well.</w>
+			</verse>
+			<verse name="2 Thessalonians 3:14">
+				<Greek>Εἰ δέ τις οὐχ ὑπακούει τῷ λόγῳ ἡμῶν διὰ τῆς ἐπιστολῆς τοῦτον σημειοῦσθε μὴ συναναμίγνυσθαι αὐτῷ ἵνα ἐντραπῇ</Greek>
+				<preText>\v 14</preText>
+				<ULB>And if anyone does not obey our word in this letter, take note of him and have no association with him, so that he may be ashamed.</ULB>
+				<residue>And if anyone does not  our  in this  , take note of him and have no association with him, so that he may be  .</residue>
+				<w OGNTsort="111733" strongs="G1161" morph="CONJ" lemma="δέ" text="δέ">And</w>
+				<w OGNTsort="111732" strongs="G1487" morph="CONJ" lemma="εἰ" text="Εἰ">if</w>
+				<w OGNTsort="111734" strongs="G5100" morph="X-NSM" lemma="τις" text="τις">anyone</w>
+				<w OGNTsort="111735" strongs="G3756" morph="PRT-N" lemma="οὐ" sub="[1]" text="οὐχ">not</w>
+				<w OGNTsort="111736" strongs="G5219" morph="V-PAI-3S" lemma="ὑπακούω" text="ὑπακούει">does [1] obey</w>
+				<w OGNTsort="111739" strongs="G1473" morph="P-1GP" lemma="ἐγώ" text="ἡμῶν">our</w>
+				<w OGNTsort="111737" strongs="G3588" morph="T-DSM" lemma="ὁ" text="τῷ">√</w>
+				<w OGNTsort="111738" strongs="G3056" morph="N-DSM" lemma="λόγος" text="λόγῳ">word</w>
+				<w OGNTsort="111740" strongs="G1223" morph="PREP" lemma="διά" text="διὰ">in</w>
+				<w OGNTsort="111741" strongs="G3588" morph="T-GSF" lemma="ὁ" text="τῆς">this</w>
+				<w OGNTsort="111742" strongs="G1992" morph="N-GSF" lemma="ἐπιστολή" text="ἐπιστολῆς">letter,</w>
+				<w OGNTsort="111744" strongs="G4593" morph="V-PMM-2P" lemma="σημειόω" text="σημειοῦσθε">take note of</w>
+				<w OGNTsort="111743" strongs="G3778" morph="D-ASM" lemma="οὗτος" text="τοῦτον">him</w>
+				<w>and</w>
+				<w OGNTsort="111745" strongs="G3361" morph="PRT-N" lemma="μή" sub="[2]" text="μὴ">no</w>
+				<w OGNTsort="111746" strongs="G4874" morph="V-PMN" lemma="συναναμίγνυμι" text="συναναμίγνυσθαι">have [2] association</w>
+				<w OGNTsort="111747" strongs="G846" morph="P-DSM" lemma="αὐτός" text="αὐτῷ">with him,</w>
+				<w OGNTsort="111748" strongs="G2443" morph="CONJ" lemma="ἵνα" text="ἵνα">so that</w>
+				<w OGNTsort="111749" strongs="G1788" morph="V-2APS-3S" lemma="ἐντρέπω" text="ἐντραπῇ">he may be ashamed.</w>
+			</verse>
+			<verse name="2 Thessalonians 3:15">
+				<Greek>καὶ μὴ ὡς ἐχθρὸν ἡγεῖσθε ἀλλὰ νουθετεῖτε ὡς ἀδελφόν</Greek>
+				<preText>\v 15</preText>
+				<ULB>Yet do not consider him as an enemy, but warn him as a brother.</ULB>
+				<residue>Yet do not  him as an  , but  him as a  .</residue>
+				<w OGNTsort="111750" strongs="G2532" morph="CONJ" lemma="καί" text="καὶ">Yet</w>
+				<w OGNTsort="111751" strongs="G3361" morph="PRT-N" lemma="μή" sub="[1]" text="μὴ">not</w>
+				<w OGNTsort="111754" strongs="G2233" morph="V-PNM-2P" lemma="ἡγέομαι" text="ἡγεῖσθε">do [1] consider</w>
+				<w>him</w>
+				<w OGNTsort="111752" strongs="G5613" morph="CONJ" lemma="ὡς" text="ὡς">as</w>
+				<w OGNTsort="111753" strongs="G2190" morph="A-ASM" lemma="ἐχθρός" text="ἐχθρὸν">an enemy,</w>
+				<w OGNTsort="111755" strongs="G235" morph="CONJ" lemma="ἀλλά" text="ἀλλὰ">but</w>
+				<w OGNTsort="111756" strongs="G3560" morph="V-PAM-2P" lemma="νουθετέω" text="νουθετεῖτε">warn</w>
+				<w>him</w>
+				<w OGNTsort="111757" strongs="G5613" morph="CONJ" lemma="ὡς" text="ὡς">as</w>
+				<w OGNTsort="111758" strongs="G80" morph="N-ASM" lemma="ἀδελφός" text="ἀδελφόν">a brother.</w>
+			</verse>
+			<verse name="2 Thessalonians 3:16">
+				<Greek>Αὐτὸς δὲ ὁ Κύριος τῆς εἰρήνης δῴη ὑμῖν τὴν εἰρήνην διὰ παντὸς ἐν παντὶ τρόπῳ ὁ Κύριος μετὰ πάντων ὑμῶν</Greek>
+				<preText>\s5 \p \v 16</preText>
+				<ULB>Now may the Lord of peace himself give you peace at all times in all ways. The Lord be with you all.</ULB>
+				<residue>Now may the  of  himself give you  at all times in all ways. The  be with you all.</residue>
+				<w OGNTsort="111760" strongs="G1161" morph="CONJ" lemma="δέ" text="δὲ">Now</w>
+				<w OGNTsort="111761" strongs="G3588" morph="T-NSM" lemma="ὁ" sub="[1]" text="ὁ">the</w>
+				<w OGNTsort="111762" strongs="G2962" morph="N-NSM" lemma="κύριος" sub="[2]" text="Κύριος">Lord</w>
+				<w OGNTsort="111763" strongs="G3588" morph="T-GSF" lemma="ὁ" text="τῆς">√</w>
+				<w OGNTsort="111764" strongs="G1515" morph="N-GSF" lemma="εἰρήνη" sub="[3]" text="εἰρήνης">of peace</w>
+				<w OGNTsort="111759" strongs="G846" morph="P-NSM" lemma="αὐτός" sub="[4]" text="Αὐτὸς">himself</w>
+				<w OGNTsort="111765" strongs="G1325" morph="V-2AAO-3S" lemma="δίδωμι" text="δῴη">may [1] [2] [3] [4] give</w>
+				<w OGNTsort="111766" strongs="G4771" morph="P-2DP" lemma="σύ" text="ὑμῖν">you</w>
+				<w OGNTsort="111767" strongs="G3588" morph="T-ASF" lemma="ὁ" text="τὴν">√</w>
+				<w OGNTsort="111768" strongs="G1515" morph="N-ASF" lemma="εἰρήνη" text="εἰρήνην">peace</w>
+				<w OGNTsort="111769" strongs="G1223" morph="PREP" lemma="διά" text="διὰ">at</w>
+				<w OGNTsort="111770" strongs="G3956" morph="A-GSM" lemma="πᾶς" text="παντὸς">all</w>
+				<w>times</w>
+				<w OGNTsort="111771" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">in</w>
+				<w OGNTsort="111772" strongs="G3956" morph="A-DSM" lemma="πᾶς" text="παντὶ">all</w>
+				<w OGNTsort="111773" strongs="G5158" morph="N-DSM" lemma="τρόπος" text="τρόπῳ">ways.</w>
+				<w OGNTsort="111774" strongs="G3588" morph="T-NSM" lemma="ὁ" text="ὁ">The</w>
+				<w OGNTsort="111775" strongs="G2962" morph="N-NSM" lemma="κύριος" text="Κύριος">Lord</w>
+				<w>be</w>
+				<w OGNTsort="111776" strongs="G3326" morph="PREP" lemma="μετά" text="μετὰ">with</w>
+				<w OGNTsort="111778" strongs="G4771" morph="P-2GP" lemma="σύ" text="ὑμῶν">you</w>
+				<w OGNTsort="111777" strongs="G3956" morph="A-GPM" lemma="πᾶς" text="πάντων">all.</w>
+			</verse>
+			<verse name="2 Thessalonians 3:17">
+				<Greek>Ὁ ἀσπασμὸς τῇ ἐμῇ χειρὶ Παύλου ὅ ἐστιν σημεῖον ἐν πάσῃ ἐπιστολῇ οὕτως γράφω</Greek>
+				<preText>\v 17</preText>
+				<ULB>I, Paul, write this with my own hand, which is the mark on every letter I write.</ULB>
+				<residue>I,  , write this with my own  , which is the  on every  I write.</residue>
+				<w>I,</w>
+				<w OGNTsort="111784" strongs="G3972" morph="N-GSM-P" lemma="Παῦλος" text="Παύλου">Paul,</w>
+				<w>write</w>
+				<w OGNTsort="111779" strongs="G3588" morph="T-NSM" lemma="ὁ" text="Ὁ">√</w>
+				<w OGNTsort="111780" strongs="G783" morph="N-NSM" lemma="ἀσπασμός" text="ἀσπασμὸς">this</w>
+				<w OGNTsort="111782" strongs="G1699" morph="S-1SDSF" lemma="ἐμός" text="ἐμῇ">with my own</w>
+				<w OGNTsort="111781" strongs="G3588" morph="T-DSF" lemma="ὁ" text="τῇ">√</w>
+				<w OGNTsort="111783" strongs="G5495" morph="N-DSF" lemma="χείρ" text="χειρὶ">hand,</w>
+				<w OGNTsort="111785" strongs="G3739" morph="R-NSN" lemma="ὅς, ἥ" text="ὅ">which</w>
+				<w OGNTsort="111786" strongs="G1510" morph="V-PAI-3S" lemma="εἰμί" text="ἐστιν">is</w>
+				<w>the</w>
+				<w OGNTsort="111787" strongs="G4592" morph="N-NSN" lemma="σημεῖον" text="σημεῖον">mark</w>
+				<w OGNTsort="111788" strongs="G1722" morph="PREP" lemma="ἐν" text="ἐν">on</w>
+				<w OGNTsort="111789" strongs="G3956" morph="A-DSF" lemma="πᾶς" text="πάσῃ">every</w>
+				<w OGNTsort="111790" strongs="G1992" morph="N-DSF" lemma="ἐπιστολή" text="ἐπιστολῇ">letter</w>
+				<w OGNTsort="111791" strongs="G3779" morph="ADV" lemma="οὕτω, οὕτως" text="οὕτως">√</w>
+				<w OGNTsort="111792" strongs="G1125" morph="V-PAI-1S" lemma="γράφω" text="γράφω">I write.</w>
+			</verse>
+			<verse name="2 Thessalonians 3:18">
+				<Greek>Ἡ χάρις τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ μετὰ πάντων ὑμῶν</Greek>
+				<preText>\v 18</preText>
+				<ULB>The grace of our Lord Jesus Christ be with you all. Amen.</ULB>
+				<residue>The  of our  be with you all. Amen.</residue>
+				<w OGNTsort="111793" strongs="G3588" morph="T-NSF" lemma="ὁ" text="Ἡ">The</w>
+				<w OGNTsort="111794" strongs="G5485" morph="N-NSF" lemma="χάρις" text="χάρις">grace</w>
+				<w OGNTsort="111797" strongs="G1473" morph="P-1GP" lemma="ἐγώ" sub="[1]" text="ἡμῶν">our</w>
+				<w OGNTsort="111795" strongs="G3588" morph="T-GSM" lemma="ὁ" text="τοῦ">√</w>
+				<w OGNTsort="111796" strongs="G2962" morph="N-GSM" lemma="κύριος" text="Κυρίου">of [1] Lord</w>
+				<w OGNTsort="111798" strongs="G2424" morph="N-GSM-P" lemma="Ἰησοῦς" text="Ἰησοῦ">Jesus</w>
+				<w OGNTsort="111799" strongs="G5547" morph="N-GSM-T" lemma="Χριστός" text="Χριστοῦ">Christ</w>
+				<w>be</w>
+				<w OGNTsort="111800" strongs="G3326" morph="PREP" lemma="μετά" text="μετὰ">with</w>
+				<w OGNTsort="111802" strongs="G4771" morph="P-2GP" lemma="σύ" text="ὑμῶν">you</w>
+				<w OGNTsort="111801" strongs="G3956" morph="A-GPM" lemma="πᾶς" text="πάντων">all.</w>
+				<w>Amen.</w>
+			</verse>
+		</chapter>
+	</book>
+</xml>
