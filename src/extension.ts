@@ -50,27 +50,40 @@ export function activate(context: vscode.ExtensionContext) {
 
                         console.log("Showing value " + value.verseRef + " " + bookMap.enULBTagged);
 
-						// TODO: fetch corresponding book XML file here. 
+						// Get path to resource on disk
+						const onDiskPath = vscode.Uri.joinPath(context.extensionUri, 'media/ulb_tagged_checked', bookMap.enULBTagged + '.xml');
 
-						// // Get path to resource on disk
-						const onDiskPath = vscode.Uri.joinPath(context.extensionUri, 'media/ulb_tagged_checked', bookMap.enULBTagged.xml);
-
-						// // Get the special URI to use with the webview
+						// Get the special URI to use with the webview
 						const textSrc = currentPanel?.webview.asWebviewUri(onDiskPath);
 
 						// // Read the text file synchronously
-						const fileContent = fs.readFileSync(onDiskPath.fsPath, 'utf8');
-
-						console.log(fileContent);
+						const xmlFileContent = fs.readFileSync(onDiskPath.fsPath, 'utf8');
 
 
-						// parseXml(xmlData)
-						// .then((result) => {
-						// 	console.log(result);
-						// })
-						// .catch((err) => {
-						// 	console.error(err);
-						// });
+
+						// Define the regular expression pattern
+						const regex = /(\d+):(\d+)/;
+
+						// Use the exec() method to extract chapter and verse numbers
+						const match = regex.exec(value.verseRef);
+
+						if (match !== null) {
+							const chapter = match[1]; // Extracted chapter number
+							const verse = match[2]; // Extracted verse number
+							console.log("Chapter:", chapter);
+							console.log("Verse:", verse);
+						} else {
+							console.log("No match found.");
+						}
+
+
+						parseXml(xmlFileContent)
+						.then((result) => {
+							console.log(result);
+						})
+						.catch((err) => {
+							console.error(err);
+						});
 
 
                         updateWebviewContent(currentPanel!!, value.verseRef);
@@ -131,6 +144,8 @@ function parseXml(xmlData: string): Promise<WordData[]> {
                 reject(err);
             } else {
                 const words: WordData[] = [];
+
+				// TODO: have this go to the correct chapter/verse that is passed in. 
                 const wTags = result.xml.book[0].chapter[0].verse[0].w;
 
                 if (wTags) {
