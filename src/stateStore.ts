@@ -42,6 +42,8 @@ export async function initializeStateStore() {
     if (!api) {
       console.log(`Extension ${extensionId} does not expose an API.`);
     } else {
+
+      console.log("Found state extrnsion")
       storeListener = api.storeListener;
 
       updateStoreState = api.updateStoreState;

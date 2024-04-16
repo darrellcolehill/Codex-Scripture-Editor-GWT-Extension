@@ -1,4 +1,5 @@
 import * as vscode from 'vscode';
+import { initializeStateStore } from './stateStore';
 
 export function activate(context: vscode.ExtensionContext) {
 	// Track the current panel with a webview
@@ -15,6 +16,8 @@ export function activate(context: vscode.ExtensionContext) {
 		  // If we already have a panel, show it in the target column
 		  currentPanel.reveal(columnToShowIn);
 		} else {
+
+		  initializeStateStore(); 
 		  // Otherwise, create a new panel
 		  currentPanel = vscode.window.createWebviewPanel(
 			'greek-words-view',

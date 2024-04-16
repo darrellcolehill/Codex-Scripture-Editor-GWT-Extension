@@ -12,13 +12,13 @@
     "views": {
       "greek-words-view": [
         {
-            "type": "webview",
-            "id": "greek-words-view",
-            "name": "Greek Wrods for Translators",
-            "icon": "$(eye)",
-            "contextualTitle": "GWT"
+          "type": "webview",
+          "id": "greek-words-view",
+          "name": "Greek Words for Translators",
+          "icon": "$(eye)",
+          "contextualTitle": "GWT"
         }
-    ]
+      ]
     },
     "commands": [
       {
@@ -48,5 +48,5 @@
   },
   "extensionDependencies": [
     "project-accelerate.shared-state-store"
-]
+  ]
 }
