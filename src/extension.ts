@@ -15,24 +15,22 @@ export function activate(context: vscode.ExtensionContext) {
             if (!currentPanel) {
                 console.log("initializing state store");
 
-                const { storeListener } = await initializeStateStore();
-                disposeFunction = storeListener("verseRef", (value) => {
-                    if (value) {
-                        console.log("Showing value " + value.verseRef);
-                        currentPanel?.webview.postMessage({
-                            command: "reload",
-                            data: { verseRef: value.verseRef, uri: value.uri },
-                        });
-                    }
-                });
-
                 currentPanel = vscode.window.createWebviewPanel(
                     'greek-words-view',
                     'Greek Words for Translators',
                     columnToShowIn || vscode.ViewColumn.One,
                     {}
                 );
-                currentPanel.webview.html = getWebviewContent();
+
+				const { storeListener } = await initializeStateStore();
+                disposeFunction = storeListener("verseRef", (value) => {
+                    if (value) {
+                        console.log("Showing value " + value.verseRef);
+                        updateWebviewContent(currentPanel!!, value.verseRef);
+                    }
+                });
+
+                currentPanel.webview.html = getWebviewContent("");
 
                 currentPanel.onDidDispose(() => {
                     currentPanel = undefined;
@@ -45,7 +43,7 @@ export function activate(context: vscode.ExtensionContext) {
     );
 }
 
-function getWebviewContent() {
+function getWebviewContent(verseRef: string): string {
     return `<!DOCTYPE html>
     <html lang="en">
     <head>
@@ -55,6 +53,11 @@ function getWebviewContent() {
     </head>
     <body>
         <h1>Hello, Custom Panel!</h1>
+        <p>Verse Reference: ${verseRef}</p>
     </body>
     </html>`;
+}
+
+function updateWebviewContent(panel: vscode.WebviewPanel, verseRef: string) {
+    panel.webview.html = getWebviewContent(verseRef);
 }
