@@ -40,10 +40,11 @@ export async function initializeStateStore() {
   if (extension) {
     const api = await extension.activate();
     if (!api) {
+      console.log("Did not find state extension");
       console.log(`Extension ${extensionId} does not expose an API.`);
     } else {
 
-      console.log("Found state extrnsion")
+      console.log("Found state extension");
       storeListener = api.storeListener;
 
       updateStoreState = api.updateStoreState;

@@ -7,7 +7,7 @@ export function activate(context: vscode.ExtensionContext) {
   
 	context.subscriptions.push(
 	  vscode.commands.registerCommand('greek-words-for-translators.start', () => {
-
+		console.log("starting");
 		const columnToShowIn = vscode.window.activeTextEditor
 		  ? vscode.window.activeTextEditor.viewColumn
 		  : undefined;
@@ -16,8 +16,16 @@ export function activate(context: vscode.ExtensionContext) {
 		  // If we already have a panel, show it in the target column
 		  currentPanel.reveal(columnToShowIn);
 		} else {
+		  console.log("initializing state store");
 
-		  initializeStateStore(); 
+		  initializeStateStore().then(({ storeListener }) => {
+            const disposeFunction = storeListener("verseRef", (value) => {
+                if (value) {
+                    console.log("Showing value " + value.verseRef);
+                }
+            });
+          });
+
 		  // Otherwise, create a new panel
 		  currentPanel = vscode.window.createWebviewPanel(
 			'greek-words-view',
