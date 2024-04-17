@@ -88,15 +88,36 @@ export function activate(context: vscode.ExtensionContext) {
                         var greekWords : GreekWordData[] = [];
 						parseXml(xmlFileContent, chapter, verse)
 						.then(async (result) => {
-							console.log(result);                            
-                            result.forEach(async (word: WordData) => {
+							console.log(result);       
+                            const withStrongs =  await Promise.all(result.map(async (word: WordData) => {
                                 if(word.strongs) {
                                     let gwtData = await getGreekWord(word.strongs);
                                     console.log(gwtData?.data);
                                     greekWords.push({strongs: word.strongs!!, text: word.text, markdown: gwtData?.data});
-                                    updateWebviewContent(currentPanel!!, value.verseRef, greekWords);
+                                    return {markdown: gwtData?.data, ...word}
+                                    // updateWebviewContent(currentPanel!!, value.verseRef, greekWords);
                                 }
-                            });
+                            })); 
+                            const markup = greekWords.reduce((acc, curr) => {
+                                const template = `
+                                <div> 
+                                ${curr.text} - ${curr.strongs}
+                                <p> ${curr.markdown} </p>
+                                <hr style="height:2px;">
+                                </div>
+                                `; 
+                                acc += template; 
+                                return acc
+                            }, ""); 
+                            updateWebviewContent(currentPanel!!, value.verseRef, markup);
+                            // result.forEach(async (word: WordData) => {
+                            //     if(word.strongs) {
+                            //         let gwtData = await getGreekWord(word.strongs);
+                            //         console.log(gwtData?.data);
+                            //         greekWords.push({strongs: word.strongs!!, text: word.text, markdown: gwtData?.data});
+                            //         updateWebviewContent(currentPanel!!, value.verseRef, greekWords);
+                            //     }
+                            // });
 
 						})
 						.catch((err) => {
@@ -107,7 +128,7 @@ export function activate(context: vscode.ExtensionContext) {
                     }
                 });
 
-                currentPanel.webview.html = getWebviewContent("", []);
+                currentPanel.webview.html = getWebviewContent("", "no word clicked yet");
 
                 currentPanel.onDidDispose(() => {
                     currentPanel = undefined;
@@ -120,7 +141,7 @@ export function activate(context: vscode.ExtensionContext) {
     );
 }
 
-function getWebviewContent(verseRef: string, greekWords: GreekWordData[]): string {
+function getWebviewContent(verseRef: string, greekWords:string): string {
     return `<!DOCTYPE html>
     <html lang="en">
     <head>
@@ -130,12 +151,15 @@ function getWebviewContent(verseRef: string, greekWords: GreekWordData[]): strin
     </head>
     <body>
         <h1>Hello, Custom Panel!</h1>
-        <p>Verse Reference: ${verseRef} ${greekWords[0]?.markdown}</p>
+        <p>Verse Reference: ${verseRef}</p>
+        <div>
+        ${greekWords}
+        </div>
     </body>
     </html>`;
 }
 
-function updateWebviewContent(panel: vscode.WebviewPanel, verseRef: string, greekWords: GreekWordData[]) {
+function updateWebviewContent(panel: vscode.WebviewPanel, verseRef: string, greekWords: string) {
     panel.webview.html = getWebviewContent(verseRef, greekWords);
 }
 
@@ -170,7 +194,7 @@ function parseXml(xmlData: string, chapter?: number, verse?: number): Promise<Wo
                         if(wTag['$'] !== undefined) {
                             const strongs = wTag['$']['strongs'];
                             if(strongs !== undefined && text !== undefined) {
-                                words.push({ text, strongs });
+                                words.push( wTag['$']);
                             }
                         }
                     });
