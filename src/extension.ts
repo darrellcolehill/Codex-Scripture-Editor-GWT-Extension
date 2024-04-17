@@ -4,7 +4,6 @@ import * as fs from 'fs';
 import * as xml2js from 'xml2js';
 import { bookNameMap } from './newTestamentBookNameMap';
 import axios from 'axios';
-import { workerData } from 'worker_threads';
 
 interface WordData {
     text: string;
