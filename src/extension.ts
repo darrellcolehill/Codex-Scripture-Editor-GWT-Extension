@@ -3,6 +3,7 @@ import { initializeStateStore } from './stateStore';
 import * as fs from 'fs';
 import * as xml2js from 'xml2js';
 import { bookNameMap } from './newTestamentBookNameMap';
+import axios from 'axios';
 
 interface WordData {
     text: string;
@@ -84,7 +85,8 @@ export function activate(context: vscode.ExtensionContext) {
                             
                             // TODO: iterate over results and get data from en_gwt
 
-                            
+                            // let gwtData = getGreekWord(result[1].strongs!!);
+                            // console.log(gwtData);
 
 						})
 						.catch((err) => {
@@ -151,14 +153,15 @@ function parseXml(xmlData: string, chapter?: number, verse?: number): Promise<Wo
             } else {
                 const words: WordData[] = [];
 
-				// TODO: have this go to the correct chapter/verse that is passed in. 
                 const wTags = result.xml.book[0].chapter[chapter - 1].verse[verse - 1].w;
 
                 if (wTags) {
                     wTags.forEach((wTag: any) => {
                         const text = wTag['_'];
                         const strongs = wTag['$']['strongs'];
-                        words.push({ text, strongs });
+                        if(strongs !== undefined ) {
+                            words.push({ text, strongs });
+                        }
                     });
                 }
 
@@ -190,7 +193,7 @@ const xmlData = `
 
 // Takes the target strongs number and calculates its parent folder in the en_gwt repo
 // This is greatly dependent on the current structure of the en_gwt
-function getStrongsRange(strongs : String) {
+export function getStrongsRange(strongs : String) {
 	let thousandsDigit = strongs.charAt(1);
 	let hundredsDigit = strongs.charAt(2);
 	let tensDigit = strongs.charAt(3);
@@ -257,4 +260,25 @@ function stringInsert(str: string, index : number, value : string, replace : boo
 	}
 
 	return res;
+}
+
+
+
+async function getGreekWord(strongs : string) {
+	strongs = await makeFourDigitStrongs(
+		strongs
+	).toLocaleLowerCase();
+	let folder = await getStrongsRange(strongs);
+
+	let greekWordInfo;
+
+	try {
+		greekWordInfo = await axios.get(
+			`https://content.bibletranslationtools.org/WycliffeAssociates/en_gwt/raw/branch/master/${folder}/${strongs}.md`
+		);
+		return greekWordInfo;
+	} catch (error) {
+		console.error(error);
+		return undefined;
+	}
 }
