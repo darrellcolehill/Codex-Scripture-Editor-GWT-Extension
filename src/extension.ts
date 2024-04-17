@@ -4,6 +4,7 @@ import * as fs from 'fs';
 import * as xml2js from 'xml2js';
 import { bookNameMap } from './newTestamentBookNameMap';
 import axios from 'axios';
+import { workerData } from 'worker_threads';
 
 interface WordData {
     text: string;
@@ -84,9 +85,14 @@ export function activate(context: vscode.ExtensionContext) {
 							console.log(result);
                             
                             // TODO: iterate over results and get data from en_gwt
+                            
+                            result.forEach((word: WordData) => {
+                                if(workerData.strongs !== undefined) {
+                                    let gwtData = getGreekWord(result[1].strongs!!);
+                                    console.log(gwtData);
+                                }
+                            });
 
-                            // let gwtData = getGreekWord(result[1].strongs!!);
-                            // console.log(gwtData);
 
 						})
 						.catch((err) => {
@@ -159,7 +165,7 @@ function parseXml(xmlData: string, chapter?: number, verse?: number): Promise<Wo
                     wTags.forEach((wTag: any) => {
                         const text = wTag['_'];
                         const strongs = wTag['$']['strongs'];
-                        if(strongs !== undefined ) {
+                        if(strongs !== undefined && text !== undefined) {
                             words.push({ text, strongs });
                         }
                     });
