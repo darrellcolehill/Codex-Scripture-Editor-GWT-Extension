@@ -94,7 +94,10 @@ export function activate(context: vscode.ExtensionContext) {
                                 if(word.strongs) {
                                     let gwtData = await getGreekWord(word.strongs);
                                     console.log(gwtData?.data);
-                                    greekWords.push({strongs: word.strongs!!, text: word.text, markdown: gwtData?.data});
+
+                                    if(isGreekWordToIgnore(word.text) === false) {
+                                        greekWords.push({strongs: word.strongs!!, text: word.text, markdown: gwtData?.data});
+                                    }
                                     updateWebviewContent(currentPanel!!, value.verseRef, greekWords);
                                 }
                             });
@@ -293,4 +296,9 @@ async function getGreekWord(strongs : string) {
 		console.error(error);
 		return undefined;
 	}
+}
+
+// Returns false when text corresponds to a Greek word with no English backing, or if it contains sub words
+function isGreekWordToIgnore(text: string) {
+    return !(text.includes("√") || text.includes("["));
 }
