@@ -85,7 +85,7 @@ export function activate(context: vscode.ExtensionContext) {
 						}
 
 
-                        var greekWords : GreekWordData[] = [];
+                        var greekWords : any = [];
 						parseXml(xmlFileContent, chapter, verse)
 						.then(async (result) => {
 							console.log(result);       
@@ -93,15 +93,16 @@ export function activate(context: vscode.ExtensionContext) {
                                 if(word.strongs) {
                                     let gwtData = await getGreekWord(word.strongs);
                                     console.log(gwtData?.data);
-                                    greekWords.push({strongs: word.strongs!!, text: word.text, markdown: gwtData?.data});
+                                    greekWords.push({markdown: gwtData?.data, ...word});
                                     return {markdown: gwtData?.data, ...word}
                                     // updateWebviewContent(currentPanel!!, value.verseRef, greekWords);
                                 }
                             })); 
-                            const markup = greekWords.reduce((acc, curr) => {
+                            const markup = greekWords.reduce((acc:string, curr:Record<string,string>) => {
                                 const template = `
                                 <div> 
                                 ${curr.text} - ${curr.strongs}
+                                <p> Morph: ${curr.morph} </p>
                                 <p> ${curr.markdown} </p>
                                 <hr style="height:2px;">
                                 </div>
