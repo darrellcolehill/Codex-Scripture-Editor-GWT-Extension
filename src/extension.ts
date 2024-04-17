@@ -11,6 +11,12 @@ interface WordData {
     strongs?: string;
 }
 
+interface GreekWordData {
+    text: string;
+    strongs: string;
+    markdown: string
+}
+
 export function activate(context: vscode.ExtensionContext) {
     let currentPanel: vscode.WebviewPanel | undefined = undefined;
     let disposeFunction: (() => void) | undefined = undefined;
@@ -82,18 +88,13 @@ export function activate(context: vscode.ExtensionContext) {
 
 						parseXml(xmlFileContent, chapter, verse)
 						.then((result) => {
-							console.log(result);
-                            
-                            // TODO: iterate over results and get data from en_gwt
-                            
-                            result.forEach((word: WordData) => {
-                                if(workerData.strongs !== undefined) {
-                                    let gwtData = getGreekWord(result[1].strongs!!);
-                                    console.log(gwtData);
+							console.log(result);                            
+                            result.forEach(async (word: WordData) => {
+                                if(word.strongs) {
+                                    let gwtData = await getGreekWord(word.strongs);
+                                    console.log(gwtData?.data);
                                 }
                             });
-
-
 						})
 						.catch((err) => {
 							console.error(err);
@@ -164,9 +165,11 @@ function parseXml(xmlData: string, chapter?: number, verse?: number): Promise<Wo
                 if (wTags) {
                     wTags.forEach((wTag: any) => {
                         const text = wTag['_'];
-                        const strongs = wTag['$']['strongs'];
-                        if(strongs !== undefined && text !== undefined) {
-                            words.push({ text, strongs });
+                        if(wTag['$'] !== undefined) {
+                            const strongs = wTag['$']['strongs'];
+                            if(strongs !== undefined && text !== undefined) {
+                                words.push({ text, strongs });
+                            }
                         }
                     });
                 }
