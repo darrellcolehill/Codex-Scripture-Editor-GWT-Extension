@@ -86,26 +86,29 @@ export function activate(context: vscode.ExtensionContext) {
 						}
 
 
+                        var greekWords : GreekWordData[] = [];
 						parseXml(xmlFileContent, chapter, verse)
-						.then((result) => {
+						.then(async (result) => {
 							console.log(result);                            
                             result.forEach(async (word: WordData) => {
                                 if(word.strongs) {
                                     let gwtData = await getGreekWord(word.strongs);
                                     console.log(gwtData?.data);
+                                    greekWords.push({strongs: word.strongs!!, text: word.text, markdown: gwtData?.data});
+                                    updateWebviewContent(currentPanel!!, value.verseRef, greekWords);
                                 }
                             });
+
 						})
 						.catch((err) => {
 							console.error(err);
 						});
 
 
-                        updateWebviewContent(currentPanel!!, value.verseRef);
                     }
                 });
 
-                currentPanel.webview.html = getWebviewContent("");
+                currentPanel.webview.html = getWebviewContent("", []);
 
                 currentPanel.onDidDispose(() => {
                     currentPanel = undefined;
@@ -118,7 +121,7 @@ export function activate(context: vscode.ExtensionContext) {
     );
 }
 
-function getWebviewContent(verseRef: string): string {
+function getWebviewContent(verseRef: string, greekWords: GreekWordData[]): string {
     return `<!DOCTYPE html>
     <html lang="en">
     <head>
@@ -128,13 +131,13 @@ function getWebviewContent(verseRef: string): string {
     </head>
     <body>
         <h1>Hello, Custom Panel!</h1>
-        <p>Verse Reference: ${verseRef}</p>
+        <p>Verse Reference: ${verseRef} ${greekWords[0]?.markdown}</p>
     </body>
     </html>`;
 }
 
-function updateWebviewContent(panel: vscode.WebviewPanel, verseRef: string) {
-    panel.webview.html = getWebviewContent(verseRef);
+function updateWebviewContent(panel: vscode.WebviewPanel, verseRef: string, greekWords: GreekWordData[]) {
+    panel.webview.html = getWebviewContent(verseRef, greekWords);
 }
 
 
