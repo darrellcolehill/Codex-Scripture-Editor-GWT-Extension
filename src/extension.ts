@@ -60,7 +60,6 @@ export function activate(context: vscode.ExtensionContext) {
 						const xmlFileContent = fs.readFileSync(onDiskPath.fsPath, 'utf8');
 
 
-
 						// Define the regular expression pattern
 						const regex = /(\d+):(\d+)/;
 
