@@ -5,6 +5,7 @@ import * as xml2js from 'xml2js';
 import { bookNameMap } from './newTestamentBookNameMap';
 import axios from 'axios';
 import { workerData } from 'worker_threads';
+import path from 'path';
 
 interface WordData {
     text: string;
@@ -22,110 +23,116 @@ export function activate(context: vscode.ExtensionContext) {
     let disposeFunction: (() => void) | undefined = undefined;
     context.subscriptions.push(
         vscode.commands.registerCommand('greek-words-for-translators.start', async () => {
-            console.log("starting");
-            const columnToShowIn = vscode.window.activeTextEditor
-                ? vscode.window.activeTextEditor.viewColumn
-                : undefined;
 
-            if (!currentPanel) {
-                console.log("initializing state store");
+            let pdfPath = "C:\\Users\\hilld\\Documents\\GitHub\\Codex-Scripture-Editor-GWT-Extension\\media\\test.pdf";
+            const absolutePath = path.resolve(pdfPath);
+            await vscode.commands.executeCommand('vscode.open', vscode.Uri.file(absolutePath));
+        
 
-                currentPanel = vscode.window.createWebviewPanel(
-                    'greek-words-view',
-                    'Greek Words for Translators',
-                    columnToShowIn || vscode.ViewColumn.One,
-                    {}
-                );
+            // console.log("starting");
+            // const columnToShowIn = vscode.window.activeTextEditor
+            //     ? vscode.window.activeTextEditor.viewColumn
+            //     : undefined;
 
-				const { storeListener } = await initializeStateStore();
-                disposeFunction = storeListener("verseRef", (value) => {
-                    if (value) {
+            // if (!currentPanel) {
+            //     console.log("initializing state store");
 
-						const scribeBookeName = value.verseRef.substring(0, 3);
-						console.log("Scribe book name: " + scribeBookeName);
-						let bookMap: any | null = null;
+            //     currentPanel = vscode.window.createWebviewPanel(
+            //         'greek-words-view',
+            //         'Greek Words for Translators',
+            //         columnToShowIn || vscode.ViewColumn.One,
+            //         {}
+            //     );
 
-						// Iterate over the bookNameMap to find the first object with scribe equal to "REV"
-						for (const key in bookNameMap) {
-							if (Object.prototype.hasOwnProperty.call(bookNameMap, key)) {
-								const book = bookNameMap[key];
-								if (book.scribe === scribeBookeName) {
-									bookMap = book;
-									break; // Stop searching once the first match is found
-								}
-							}
-						}
+			// 	const { storeListener } = await initializeStateStore();
+            //     disposeFunction = storeListener("verseRef", (value) => {
+            //         if (value) {
 
-                        console.log("Showing value " + value.verseRef + " " + bookMap.enULBTagged);
+			// 			const scribeBookeName = value.verseRef.substring(0, 3);
+			// 			console.log("Scribe book name: " + scribeBookeName);
+			// 			let bookMap: any | null = null;
 
-						// Get path to resource on disk
-						const onDiskPath = vscode.Uri.joinPath(context.extensionUri, 'media/ulb_tagged_checked', bookMap.enULBTagged + '.xml');
+			// 			// Iterate over the bookNameMap to find the first object with scribe equal to "REV"
+			// 			for (const key in bookNameMap) {
+			// 				if (Object.prototype.hasOwnProperty.call(bookNameMap, key)) {
+			// 					const book = bookNameMap[key];
+			// 					if (book.scribe === scribeBookeName) {
+			// 						bookMap = book;
+			// 						break; // Stop searching once the first match is found
+			// 					}
+			// 				}
+			// 			}
 
-						// Get the special URI to use with the webview
-						const textSrc = currentPanel?.webview.asWebviewUri(onDiskPath);
+            //             console.log("Showing value " + value.verseRef + " " + bookMap.enULBTagged);
 
-						// // Read the text file synchronously
-						const xmlFileContent = fs.readFileSync(onDiskPath.fsPath, 'utf8');
+			// 			// Get path to resource on disk
+			// 			const onDiskPath = vscode.Uri.joinPath(context.extensionUri, 'media/ulb_tagged_checked', bookMap.enULBTagged + '.xml');
 
+			// 			// Get the special URI to use with the webview
+			// 			const textSrc = currentPanel?.webview.asWebviewUri(onDiskPath);
 
-						// Define the regular expression pattern
-						const regex = /(\d+):(\d+)/;
-
-						// Use the exec() method to extract chapter and verse numbers
-						const match = regex.exec(value.verseRef);
-						var chapter: number | undefined;
-						var verse: number | undefined; 
-
-						if (match !== null) {
-							chapter = parseInt(match[1]); // Extracted chapter number
-							verse = parseInt(match[2]); // Extracted verse number
-							console.log("Chapter:", chapter);
-							console.log("Verse:", verse);
-						} else {
-							console.log("No match found.");
-						}
+			// 			// // Read the text file synchronously
+			// 			const xmlFileContent = fs.readFileSync(onDiskPath.fsPath, 'utf8');
 
 
-                        var greekWords : GreekWordData[] = [];
-						parseXml(xmlFileContent, chapter, verse)
-						.then(async (result) => {
-							console.log(result);                            
-                            result.forEach(async (word: WordData) => {
-                                if(word.strongs) {
-                                    let gwtData = await getGreekWord(word.strongs);
-                                    console.log(gwtData?.data);
-                                    greekWords.push({strongs: word.strongs!!, text: word.text, markdown: gwtData?.data});
+			// 			// Define the regular expression pattern
+			// 			const regex = /(\d+):(\d+)/;
 
-                                    // const pdfBase64 = pdfToBase64(context.extensionPath + '/media/test.pdf');
+			// 			// Use the exec() method to extract chapter and verse numbers
+			// 			const match = regex.exec(value.verseRef);
+			// 			var chapter: number | undefined;
+			// 			var verse: number | undefined; 
 
-                                    // updateWebviewContent(currentPanel!!, value.verseRef, greekWords, pdfBase64);
-                                }
-                            });
+			// 			if (match !== null) {
+			// 				chapter = parseInt(match[1]); // Extracted chapter number
+			// 				verse = parseInt(match[2]); // Extracted verse number
+			// 				console.log("Chapter:", chapter);
+			// 				console.log("Verse:", verse);
+			// 			} else {
+			// 				console.log("No match found.");
+			// 			}
 
-                            const PDFonDiskPath = vscode.Uri.joinPath(context.extensionUri, 'media/', 'test.pdf');
-                            const specialBase64Path = currentPanel?.webview.asWebviewUri(PDFonDiskPath);
-                            const pdfBase64 = pdfToBase64(specialBase64Path?.path!!);
-                            updateWebviewContent(currentPanel!!, value.verseRef, greekWords, pdfBase64);
+
+            //             var greekWords : GreekWordData[] = [];
+			// 			parseXml(xmlFileContent, chapter, verse)
+			// 			.then(async (result) => {
+			// 				console.log(result);                            
+            //                 result.forEach(async (word: WordData) => {
+            //                     if(word.strongs) {
+            //                         let gwtData = await getGreekWord(word.strongs);
+            //                         console.log(gwtData?.data);
+            //                         greekWords.push({strongs: word.strongs!!, text: word.text, markdown: gwtData?.data});
+
+            //                         // const pdfBase64 = pdfToBase64(context.extensionPath + '/media/test.pdf');
+
+            //                         // updateWebviewContent(currentPanel!!, value.verseRef, greekWords, pdfBase64);
+            //                     }
+            //                 });
+
+            //                 const PDFonDiskPath = vscode.Uri.joinPath(context.extensionUri, 'media/', 'test.pdf');
+            //                 // const specialBase64Path = currentPanel?.webview.asWebviewUri(PDFonDiskPath);
+            //                 const pdfBase64 = pdfToBase64(PDFonDiskPath.fsPath);
+            //                 updateWebviewContent(currentPanel!!, value.verseRef, greekWords, pdfBase64);
                                 
 
-						})
-						.catch((err) => {
-							console.error(err);
-						});
+			// 			})
+			// 			.catch((err) => {
+			// 				console.error(err);
+			// 			});
 
 
-                    }
-                });
+            //         }
+            //     });
 
-                currentPanel.webview.html = getWebviewContent("", [], "");
+            //     currentPanel.webview.html = getWebviewContent("", [], "");
 
-                currentPanel.onDidDispose(() => {
-                    currentPanel = undefined;
-                    disposeFunction?.();
-                }, null, context.subscriptions);
-            } else {
-                currentPanel.reveal(columnToShowIn);
-            }
+            //     currentPanel.onDidDispose(() => {
+            //         currentPanel = undefined;
+            //         disposeFunction?.();
+            //     }, null, context.subscriptions);
+            // } else {
+            //     currentPanel.reveal(columnToShowIn);
+            // }
         })
     );
 }
