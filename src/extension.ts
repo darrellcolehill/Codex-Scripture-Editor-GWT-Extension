@@ -95,9 +95,18 @@ export function activate(context: vscode.ExtensionContext) {
                                     let gwtData = await getGreekWord(word.strongs);
                                     console.log(gwtData?.data);
                                     greekWords.push({strongs: word.strongs!!, text: word.text, markdown: gwtData?.data});
-                                    updateWebviewContent(currentPanel!!, value.verseRef, greekWords);
+
+                                    // const pdfBase64 = pdfToBase64(context.extensionPath + '/media/test.pdf');
+
+                                    // updateWebviewContent(currentPanel!!, value.verseRef, greekWords, pdfBase64);
                                 }
                             });
+
+                            const PDFonDiskPath = vscode.Uri.joinPath(context.extensionUri, 'media/', 'test.pdf');
+                            const specialBase64Path = currentPanel?.webview.asWebviewUri(PDFonDiskPath);
+                            const pdfBase64 = pdfToBase64(specialBase64Path?.path!!);
+                            updateWebviewContent(currentPanel!!, value.verseRef, greekWords, pdfBase64);
+                                
 
 						})
 						.catch((err) => {
@@ -108,7 +117,7 @@ export function activate(context: vscode.ExtensionContext) {
                     }
                 });
 
-                currentPanel.webview.html = getWebviewContent("", []);
+                currentPanel.webview.html = getWebviewContent("", [], "");
 
                 currentPanel.onDidDispose(() => {
                     currentPanel = undefined;
@@ -121,7 +130,8 @@ export function activate(context: vscode.ExtensionContext) {
     );
 }
 
-function getWebviewContent(verseRef: string, greekWords: GreekWordData[]): string {
+function getWebviewContent(verseRef: string, greekWords: GreekWordData[], pdfBase64: string): string {
+    const pdfEmbed = pdfBase64 ? `<embed src="data:application/pdf;base64,${pdfBase64}" width="100%" height="600px" />` : 'PDF data not available';
     return `<!DOCTYPE html>
     <html lang="en">
     <head>
@@ -132,12 +142,13 @@ function getWebviewContent(verseRef: string, greekWords: GreekWordData[]): strin
     <body>
         <h1>Hello, Custom Panel!</h1>
         <p>Verse Reference: ${verseRef} ${greekWords[0]?.markdown}</p>
+        <h1>${pdfEmbed}</h1>
     </body>
     </html>`;
 }
 
-function updateWebviewContent(panel: vscode.WebviewPanel, verseRef: string, greekWords: GreekWordData[]) {
-    panel.webview.html = getWebviewContent(verseRef, greekWords);
+function updateWebviewContent(panel: vscode.WebviewPanel, verseRef: string, greekWords: GreekWordData[], pdfBase64: string) {
+    panel.webview.html = getWebviewContent(verseRef, greekWords, pdfBase64);
 }
 
 
@@ -293,4 +304,10 @@ async function getGreekWord(strongs : string) {
 		console.error(error);
 		return undefined;
 	}
+}
+
+
+function pdfToBase64(filePath: string): string {
+    const pdfBuffer = fs.readFileSync(filePath);
+    return pdfBuffer.toString('base64');
 }
