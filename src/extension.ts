@@ -10,25 +10,19 @@ import path from 'path';
 
 
 export function activate(context: vscode.ExtensionContext) {
+    
     let disposable = vscode.commands.registerCommand('greek-words-for-translators.start', async () => {
-        const pdfPath = await vscode.window.showInputBox({
-            prompt: "Enter the path to the PDF file",
-            ignoreFocusOut: true
+        const { storeListener } = await initializeStateStore();
+
+        storeListener("verseRef", (value) => {
+            let pdfPath = "C:\\Users\\hilld\\Documents\\GitHub\\Codex-Scripture-Editor-GWT-Extension\\media\\test.pdf";
+
+            if (pdfPath) {
+                const absolutePath = path.resolve(pdfPath);
+                const uri = vscode.Uri.file(absolutePath);
+                vscode.commands.executeCommand('vscode.open', uri, vscode.ViewColumn.Two);
+            }
         });
-
-        if (pdfPath) {
-            const absolutePath = path.resolve(pdfPath);
-            const panel = vscode.window.createWebviewPanel(
-                'pdfViewer', // Identifies the type of the webview. Used internally
-                'PDF Viewer', // Title of the panel displayed to the user
-                vscode.ViewColumn.Two, // Editor column to show the webview panel in
-                {
-                    enableScripts: true // Enable JavaScript in the webview
-                }
-            );
-
-            panel.webview.html = getWebviewContent(absolutePath);
-        }
     });
 
     context.subscriptions.push(disposable);
