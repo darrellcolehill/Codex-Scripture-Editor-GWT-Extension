@@ -11,17 +11,6 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
-    "views": {
-      "greek-words-view": [
-        {
-          "type": "webview",
-          "id": "greek-words-view",
-          "name": "Greek Words for Translators",
-          "icon": "$(eye)",
-          "contextualTitle": "GWT"
-        }
-      ]
-    },
     "commands": [
       {
         "command": "greek-words-for-translators.start",
