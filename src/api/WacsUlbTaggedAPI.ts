@@ -5,7 +5,35 @@ import * as fs from 'fs';
 import * as vscode from 'vscode';
 
 class WacsUlbTaggedAPI {
-    getUlbFileOnDisk(scribeVerseRef: string, extensionUri: vscode.Uri) {
+
+    async getUlbXmlFileFromWacs(scribeVerseRef: string) {
+        const scribeBookeName = scribeVerseRef.substring(0, 3);
+        let bookMap: any | null = null;
+
+        for (const key in bookNameMap) {
+            if (Object.prototype.hasOwnProperty.call(bookNameMap, key)) {
+                const book = bookNameMap[key];
+                if (book.scribe === scribeBookeName) {
+                    bookMap = book;
+                    break; // Stop searching once the first match is found
+                }
+            }
+        }
+
+        const response = await fetch(`https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb_tagged/raw/branch/master/Checked/${bookMap.enULBTagged}.xml`);
+
+        if (!response.ok) {
+            throw new Error('Network response was not ok.');
+          }
+
+        let ulbContent = await response.text();
+
+        return ulbContent;
+
+    }
+
+    // Used to fetch en_ulb files from media folder
+    private getUlbFileFromDisk(scribeVerseRef: string, extensionUri: vscode.Uri) {
 
         const scribeBookeName = scribeVerseRef.substring(0, 3);
         let bookMap: any | null = null;
@@ -29,7 +57,7 @@ class WacsUlbTaggedAPI {
         return xmlFileContent;
     }
 
-    padStrongsWithZeros(words: WordData[]): void {
+    private padStrongsWithZeros(words: WordData[]): void {
         words.forEach((word) => {
             if (word.strongs && word.strongs.startsWith('G')) {
                 const num = parseInt(word.strongs.substring(1));
