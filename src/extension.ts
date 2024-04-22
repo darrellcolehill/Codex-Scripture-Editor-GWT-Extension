@@ -4,11 +4,12 @@ import * as fs from 'fs';
 import * as xml2js from 'xml2js';
 import { bookNameMap } from './newTestamentBookNameMap';
 import axios from 'axios';
-import { workerData } from 'worker_threads';
+import { marked } from 'marked';
 
 interface WordData {
     text: string;
     strongs?: string;
+    OGNTsort?: string;
 }
 
 interface GreekWordData {
@@ -22,7 +23,6 @@ export function activate(context: vscode.ExtensionContext) {
     let disposeFunction: (() => void) | undefined = undefined;
     context.subscriptions.push(
         vscode.commands.registerCommand('greek-words-for-translators.start', async () => {
-            console.log("starting");
             const columnToShowIn = vscode.window.activeTextEditor
                 ? vscode.window.activeTextEditor.viewColumn
                 : undefined;
@@ -42,10 +42,8 @@ export function activate(context: vscode.ExtensionContext) {
                     if (value) {
 
 						const scribeBookeName = value.verseRef.substring(0, 3);
-						console.log("Scribe book name: " + scribeBookeName);
 						let bookMap: any | null = null;
 
-						// Iterate over the bookNameMap to find the first object with scribe equal to "REV"
 						for (const key in bookNameMap) {
 							if (Object.prototype.hasOwnProperty.call(bookNameMap, key)) {
 								const book = bookNameMap[key];
@@ -56,13 +54,8 @@ export function activate(context: vscode.ExtensionContext) {
 							}
 						}
 
-                        console.log("Showing value " + value.verseRef + " " + bookMap.enULBTagged);
-
 						// Get path to resource on disk
 						const onDiskPath = vscode.Uri.joinPath(context.extensionUri, 'media/ulb_tagged_checked', bookMap.enULBTagged + '.xml');
-
-						// Get the special URI to use with the webview
-						const textSrc = currentPanel?.webview.asWebviewUri(onDiskPath);
 
 						// // Read the text file synchronously
 						const xmlFileContent = fs.readFileSync(onDiskPath.fsPath, 'utf8');
@@ -79,26 +72,53 @@ export function activate(context: vscode.ExtensionContext) {
 						if (match !== null) {
 							chapter = parseInt(match[1]); // Extracted chapter number
 							verse = parseInt(match[2]); // Extracted verse number
-							console.log("Chapter:", chapter);
-							console.log("Verse:", verse);
 						} else {
 							console.log("No match found.");
 						}
 
 
-                        var greekWords : GreekWordData[] = [];
+                        var greekWords : any = [];
 						parseXml(xmlFileContent, chapter, verse)
 						.then(async (result) => {
-							console.log(result);                            
-                            result.forEach(async (word: WordData) => {
-                                if(word.strongs) {
+							console.log(result);       
+                            const withStrongs =  await Promise.all(result.map(async (word: WordData) => {
+                                if(word.strongs && word.OGNTsort) {
+                                    let ogntSort = parseInt(word.OGNTsort); 
                                     let gwtData = await getGreekWord(word.strongs);
-                                    console.log(gwtData?.data);
-                                    greekWords.push({strongs: word.strongs!!, text: word.text, markdown: gwtData?.data});
-                                    updateWebviewContent(currentPanel!!, value.verseRef, greekWords);
+                                    greekWords.push({markdown: gwtData?.data, ...word});
+                                    return {markdown: gwtData?.data, ...word};
                                 }
-                            });
+                            })); 
 
+                            greekWords.sort((a: WordData, b: WordData) => {
+
+                                let aSort : string | number | any = a.OGNTsort ? a.OGNTsort : 1;
+                                let bSort : string | number | any = b.OGNTsort ? b.OGNTsort : 1;
+
+                                return aSort - bSort;
+                        }   );
+                            const markup = greekWords.reduce((acc:string, curr:Record<string,string>) => {
+
+                                // Convert Markdown to HTML using marked
+                                let htmlContent: any = undefined;
+                                if(curr.markdown !== null && curr.markdown !== undefined) {
+                                    htmlContent = marked(curr.markdown);
+                                }
+
+
+                                const template = `
+                                <div> 
+                                ${htmlContent}
+                                ${curr.text} - ${curr.strongs}
+                                <hr style="height:2px;">
+                                </div>
+                                `; 
+                                acc += template; 
+                                return acc;
+                            }, ""); 
+
+                    
+                            updateWebviewContent(currentPanel!!, value.verseRef, markup);
 						})
 						.catch((err) => {
 							console.error(err);
@@ -108,7 +128,7 @@ export function activate(context: vscode.ExtensionContext) {
                     }
                 });
 
-                currentPanel.webview.html = getWebviewContent("", []);
+                currentPanel.webview.html = getWebviewContent("", "no word clicked yet");
 
                 currentPanel.onDidDispose(() => {
                     currentPanel = undefined;
@@ -121,7 +141,7 @@ export function activate(context: vscode.ExtensionContext) {
     );
 }
 
-function getWebviewContent(verseRef: string, greekWords: GreekWordData[]): string {
+function getWebviewContent(verseRef: string, greekWords:string): string {
     return `<!DOCTYPE html>
     <html lang="en">
     <head>
@@ -130,13 +150,15 @@ function getWebviewContent(verseRef: string, greekWords: GreekWordData[]): strin
         <title>Greek Words for Translators</title>
     </head>
     <body>
-        <h1>Hello, Custom Panel!</h1>
-        <p>Verse Reference: ${verseRef} ${greekWords[0]?.markdown}</p>
+        <h1>Verse Reference: ${verseRef}</h1>
+        <div>
+        ${greekWords}
+        </div>
     </body>
     </html>`;
 }
 
-function updateWebviewContent(panel: vscode.WebviewPanel, verseRef: string, greekWords: GreekWordData[]) {
+function updateWebviewContent(panel: vscode.WebviewPanel, verseRef: string, greekWords: string) {
     panel.webview.html = getWebviewContent(verseRef, greekWords);
 }
 
@@ -168,10 +190,10 @@ function parseXml(xmlData: string, chapter?: number, verse?: number): Promise<Wo
                 if (wTags) {
                     wTags.forEach((wTag: any) => {
                         const text = wTag['_'];
-                        if(wTag['$'] !== undefined) {
+                        if(wTag['$'] !== undefined && text !== "√") {
                             const strongs = wTag['$']['strongs'];
                             if(strongs !== undefined && text !== undefined) {
-                                words.push({ text, strongs });
+                                words.push( wTag['$']);
                             }
                         }
                     });
@@ -183,24 +205,6 @@ function parseXml(xmlData: string, chapter?: number, verse?: number): Promise<Wo
         });
     });
 }
-
-// Example usage
-const xmlData = `
-<xml xsi:schemaLocation="wa_ulb.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <book osisID="rom">
-        <chapter osisID="rom.1">
-            <verse name="Romans 1:1">
-                <w OGNTsort="083218" strongs="G3972" morph="N-NSM-P" lemma="Παῦλος" text="Παῦλος">Paul,</w>
-                <w OGNTsort="083219" strongs="G1401" morph="N-NSM" lemma="δοῦλος" text="δοῦλος">a servant</w>
-                <w OGNTsort="083221" strongs="G2424" morph="N-GSM-P" lemma="Ἰησοῦς" text="Ἰησοῦ">of Jesus</w>
-                <w OGNTsort="083220" strongs="G5547" morph="N-GSM-T" lemma="Χριστός" text="Χριστοῦ">Christ,</w>
-                <w OGNTsort="083222" strongs="G2" morph="A-NSM" lemma="κλητός" text="κλητὸς">called</w>
-            </verse>
-        </chapter>
-    </book>
-</xml>
-`;
-
 
 
 // Takes the target strongs number and calculates its parent folder in the en_gwt repo
