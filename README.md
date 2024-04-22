@@ -22,7 +22,7 @@ Based on [BIEL Greek Words for Translators](https://gwt.bibleineverylanguage.org
 
 # Goals
 
-- Allow users to see Greek word data on a word basis, similar functionality as shown on the [BIEL Greek Words for Translators](https://gwt.bibleineverylanguage.org/) site.
+- Allow users to see Greek word data on a word basis, similar to functionality shown on the [BIEL Greek Words for Translators](https://gwt.bibleineverylanguage.org/) site.
 - Allow users to use different aligned source material. 
 
 ## Version History
