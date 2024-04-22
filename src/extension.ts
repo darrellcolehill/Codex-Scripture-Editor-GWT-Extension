@@ -1,20 +1,18 @@
 import * as vscode from 'vscode';
 import { initializeStateStore } from './stateStore';
-import * as fs from 'fs';
-import * as xml2js from 'xml2js';
-import { bookNameMap } from './newTestamentBookNameMap';
+import { marked } from 'marked';
+import { getGreekWord } from './api/gwt';
+import { ChapterVerseNumbers, WordData } from './types';
+import { WacsUlbTaggedAPI } from './api/WacsUlbTaggedAPI';
 
-interface WordData {
-    text: string;
-    strongs?: string;
-}
+const wacsUlbTaggedAPI = new WacsUlbTaggedAPI(); 
+let currentVerseRef: string = "";
 
 export function activate(context: vscode.ExtensionContext) {
     let currentPanel: vscode.WebviewPanel | undefined = undefined;
     let disposeFunction: (() => void) | undefined = undefined;
     context.subscriptions.push(
         vscode.commands.registerCommand('greek-words-for-translators.start', async () => {
-            console.log("starting");
             const columnToShowIn = vscode.window.activeTextEditor
                 ? vscode.window.activeTextEditor.viewColumn
                 : undefined;
@@ -31,68 +29,68 @@ export function activate(context: vscode.ExtensionContext) {
 
 				const { storeListener } = await initializeStateStore();
                 disposeFunction = storeListener("verseRef", (value) => {
-                    if (value) {
+                    if (value && value.verseRef !== currentVerseRef) {
+                        currentVerseRef = value.verseRef;
+                        
+                        const xmlFileContent = wacsUlbTaggedAPI.getUlbFileOnDisk(value.verseRef, context.extensionUri);
+                        
+                        let chapterVerseNumbers = getChapterAndVerseNumber(value.verseRef);
 
-						const scribeBookeName = value.verseRef.substring(0, 3);
-						console.log("Scribe book name: " + scribeBookeName);
-						let bookMap: any | null = null;
+                        if(!chapterVerseNumbers) {
+                            return;
+                        } 
 
-						// Iterate over the bookNameMap to find the first object with scribe equal to "REV"
-						for (const key in bookNameMap) {
-							if (Object.prototype.hasOwnProperty.call(bookNameMap, key)) {
-								const book = bookNameMap[key];
-								if (book.scribe === scribeBookeName) {
-									bookMap = book;
-									break; // Stop searching once the first match is found
-								}
-							}
-						}
+                        var greekWords : any = [];
+						wacsUlbTaggedAPI.parse(xmlFileContent, chapterVerseNumbers.chapter, chapterVerseNumbers.verse)
+						.then(async (result) => {
+							console.log(result);       
+                            const withStrongs =  await Promise.all(result.map(async (word: WordData) => {
+                                if(word.strongs && word.OGNTsort) {
+                                    let gwtData = await getGreekWord(word.strongs);
+                                    greekWords.push({markdown: gwtData, ...word});
+                                    return {markdown: gwtData, ...word};
+                                }
+                            })); 
 
-                        console.log("Showing value " + value.verseRef + " " + bookMap.enULBTagged);
+                            greekWords.sort((a: WordData, b: WordData) => {
 
-						// Get path to resource on disk
-						const onDiskPath = vscode.Uri.joinPath(context.extensionUri, 'media/ulb_tagged_checked', bookMap.enULBTagged + '.xml');
+                                let aSort : string | number | any = a.OGNTsort ? a.OGNTsort : 1;
+                                let bSort : string | number | any = b.OGNTsort ? b.OGNTsort : 1;
 
-						// Get the special URI to use with the webview
-						const textSrc = currentPanel?.webview.asWebviewUri(onDiskPath);
+                                return aSort - bSort;
+                            });
 
-						// // Read the text file synchronously
-						const xmlFileContent = fs.readFileSync(onDiskPath.fsPath, 'utf8');
+                            const markup = greekWords.reduce((acc:string, curr:Record<string,string>) => {
 
-
-
-						// Define the regular expression pattern
-						const regex = /(\d+):(\d+)/;
-
-						// Use the exec() method to extract chapter and verse numbers
-						const match = regex.exec(value.verseRef);
-						var chapter: number | undefined;
-						var verse: number | undefined; 
-
-						if (match !== null) {
-							chapter = parseInt(match[1]); // Extracted chapter number
-							verse = parseInt(match[2]); // Extracted verse number
-							console.log("Chapter:", chapter);
-							console.log("Verse:", verse);
-						} else {
-							console.log("No match found.");
-						}
+                                // Convert Markdown to HTML using marked
+                                let htmlContent: any = undefined;
+                                if(curr.markdown !== null && curr.markdown !== undefined) {
+                                    htmlContent = marked(curr.markdown);
+                                }
 
 
-						parseXml(xmlFileContent, chapter, verse)
-						.then((result) => {
-							console.log(result);
+                                const template = `
+                                <div> 
+                                ${htmlContent}
+                                ${curr.text} - ${curr.strongs}
+                                <hr style="height:2px;">
+                                </div>
+                                `; 
+                                acc += template; 
+                                return acc;
+                            }, ""); 
+
+                            updateWebviewContent(currentPanel!!, value.verseRef, markup);
 						})
 						.catch((err) => {
 							console.error(err);
 						});
 
 
-                        updateWebviewContent(currentPanel!!, value.verseRef);
                     }
                 });
 
-                currentPanel.webview.html = getWebviewContent("");
+                currentPanel.webview.html = getWebviewContent("", "no word clicked yet");
 
                 currentPanel.onDidDispose(() => {
                     currentPanel = undefined;
@@ -105,7 +103,7 @@ export function activate(context: vscode.ExtensionContext) {
     );
 }
 
-function getWebviewContent(verseRef: string): string {
+function getWebviewContent(verseRef: string, greekWords:string): string {
     return `<!DOCTYPE html>
     <html lang="en">
     <head>
@@ -114,70 +112,32 @@ function getWebviewContent(verseRef: string): string {
         <title>Greek Words for Translators</title>
     </head>
     <body>
-        <h1>Hello, Custom Panel!</h1>
-        <p>Verse Reference: ${verseRef}</p>
+        <h1>Verse Reference: ${verseRef}</h1>
+        <div>
+        ${greekWords}
+        </div>
     </body>
     </html>`;
 }
 
-function updateWebviewContent(panel: vscode.WebviewPanel, verseRef: string) {
-    panel.webview.html = getWebviewContent(verseRef);
+function updateWebviewContent(panel: vscode.WebviewPanel, verseRef: string, greekWords: string) {
+    panel.webview.html = getWebviewContent(verseRef, greekWords);
 }
 
 
-function padStrongsWithZeros(words: WordData[]): void {
-    words.forEach((word) => {
-        if (word.strongs && word.strongs.startsWith('G')) {
-            const num = parseInt(word.strongs.substring(1));
-            if (num < 1000) {
-                const paddedStrong = `G${num.toString().padStart(4, '0')}`;
-                word.strongs = paddedStrong;
-            }
-        }
-    });
+function getChapterAndVerseNumber(scribeVerseRef: string) : ChapterVerseNumbers | undefined {
+    // Define the regular expression pattern
+    const regex = /(\d+):(\d+)/;
+
+    // Use the exec() method to extract chapter and verse numbers
+    const match = regex.exec(scribeVerseRef);
+
+    if (match !== null) {
+        let chapterNum = parseInt(match[1]); // Extracted chapter number
+        let verseNum = parseInt(match[2]); // Extracted verse number
+        return {chapter: chapterNum, verse: verseNum};
+    } else {
+        console.log("No match found.");
+        return undefined;
+    }
 }
-
-function parseXml(xmlData: string, chapter?: number, verse?: number): Promise<WordData[]> {
-    return new Promise((resolve, reject) => {
-        const parser = new xml2js.Parser();
-
-        parser.parseString(xmlData, (err, result) => {
-            if (err || chapter === undefined || verse === undefined) {
-                reject(err);
-            } else {
-                const words: WordData[] = [];
-
-				// TODO: have this go to the correct chapter/verse that is passed in. 
-                const wTags = result.xml.book[0].chapter[chapter - 1].verse[verse - 1].w;
-
-                if (wTags) {
-                    wTags.forEach((wTag: any) => {
-                        const text = wTag['_'];
-                        const strongs = wTag['$']['strongs'];
-                        words.push({ text, strongs });
-                    });
-                }
-
-                padStrongsWithZeros(words);
-                resolve(words);
-            }
-        });
-    });
-}
-
-// Example usage
-const xmlData = `
-<xml xsi:schemaLocation="wa_ulb.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <book osisID="rom">
-        <chapter osisID="rom.1">
-            <verse name="Romans 1:1">
-                <w OGNTsort="083218" strongs="G3972" morph="N-NSM-P" lemma="Παῦλος" text="Παῦλος">Paul,</w>
-                <w OGNTsort="083219" strongs="G1401" morph="N-NSM" lemma="δοῦλος" text="δοῦλος">a servant</w>
-                <w OGNTsort="083221" strongs="G2424" morph="N-GSM-P" lemma="Ἰησοῦς" text="Ἰησοῦ">of Jesus</w>
-                <w OGNTsort="083220" strongs="G5547" morph="N-GSM-T" lemma="Χριστός" text="Χριστοῦ">Christ,</w>
-                <w OGNTsort="083222" strongs="G2" morph="A-NSM" lemma="κλητός" text="κλητὸς">called</w>
-            </verse>
-        </chapter>
-    </book>
-</xml>
-`;
