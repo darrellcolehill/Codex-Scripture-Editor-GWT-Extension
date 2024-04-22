@@ -1,71 +1,25 @@
-# greek-words-for-translators README
+# Greek-Words-for-Translators README
 
-This is the README for your extension "greek-words-for-translators". After writing up a brief description, we recommend including the following sections.
+**"greek-words-for-translators"** is a Visual Studio Code extension designed specifically for Bible translators using the Codex Scripture Editor extension. This tool enhances the translation workflow by providing access to Greek word data directly within the editor interface.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **View Greek Word Data:** Quickly access Greek word data relevant to the verse being translated.
+- **Integration with Codex Scripture Editor:** Integrates with Codex Scripture Editor for a cohesive translation experience.
 
-For example if there is an image subfolder under your extension project workspace:
+## How to Use
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+1. Clone this repo, open in Visual Studio Code, and run the extension. 
+2. Open a project in which you are using the Codex Scripture Editor extension.
+3. While working on a verse, run the command `GWT: Open` to fetch and display the Greek word data.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- **Codex Scripture Editor Extension:** Ensure you have the Codex Scripture Editor extension installed and activated in your Visual Studio Code environment.
+- **Dependent Module:** This extension depends on the `project-accelerate.shared-state-store` module. Make sure it is installed and configured properly.
 
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
+## Version History
 
 ### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+- Fetches Greek word data from the [WACS en_gwt repository](https://content.bibletranslationtools.org/WycliffeAssociates/en_gwt/src/commit/ddf4e6135ed4df2e259cdb592375d626aee37489/g3701-g3710) based on the verse reference provided by `project-accelerate.shared-state-store`.
+- Utilizes verse data from the [WACS en_ulb_tagged checked repository](https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb_tagged/src/branch/master/Checked).
