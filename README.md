@@ -2,6 +2,8 @@
 
 **"greek-words-for-translators"** is a Visual Studio Code extension designed specifically for Bible translators using the Codex Scripture Editor extension. This tool enhances the translation workflow by providing access to Greek word data directly within the editor interface.
 
+Based on [BIEL Greek Words for Translators](https://gwt.bibleineverylanguage.org/)
+
 ## Features
 
 - **View Greek Word Data:** Quickly access Greek word data relevant to the verse being translated.
@@ -17,6 +19,11 @@
 
 - **Codex Scripture Editor Extension:** Ensure you have the Codex Scripture Editor extension installed and activated in your Visual Studio Code environment.
 - **Dependent Module:** This extension depends on the `project-accelerate.shared-state-store` module. Make sure it is installed and configured properly.
+
+# Goals
+
+- Allow users to see Greek word data on a word basis, similar functionality as shown on the [BIEL Greek Words for Translators](https://gwt.bibleineverylanguage.org/) site.
+- Allow users to use different aligned source material. 
 
 ## Version History
 
