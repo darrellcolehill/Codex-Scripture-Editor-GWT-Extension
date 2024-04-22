@@ -28,11 +28,11 @@ export function activate(context: vscode.ExtensionContext) {
                 );
 
 				const { storeListener } = await initializeStateStore();
-                disposeFunction = storeListener("verseRef", (value) => {
+                disposeFunction = storeListener("verseRef", async (value) => {
                     if (value && value.verseRef !== currentVerseRef) {
                         currentVerseRef = value.verseRef;
                         
-                        const xmlFileContent = wacsUlbTaggedAPI.getUlbFileOnDisk(value.verseRef, context.extensionUri);
+                        let ulbContent = await wacsUlbTaggedAPI.getUlbXmlFileFromWacs(value.verseRef);
                         
                         let chapterVerseNumbers = getChapterAndVerseNumber(value.verseRef);
 
@@ -41,7 +41,7 @@ export function activate(context: vscode.ExtensionContext) {
                         } 
 
                         var greekWords : any = [];
-						wacsUlbTaggedAPI.parse(xmlFileContent, chapterVerseNumbers.chapter, chapterVerseNumbers.verse)
+						wacsUlbTaggedAPI.parse(ulbContent, chapterVerseNumbers.chapter, chapterVerseNumbers.verse)
 						.then(async (result) => {
 							console.log(result);       
                             const withStrongs =  await Promise.all(result.map(async (word: WordData) => {
@@ -85,8 +85,6 @@ export function activate(context: vscode.ExtensionContext) {
 						.catch((err) => {
 							console.error(err);
 						});
-
-
                     }
                 });
 
