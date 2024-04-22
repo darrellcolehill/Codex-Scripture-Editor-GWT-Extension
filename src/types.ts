@@ -9,4 +9,4 @@ interface ChapterVerseNumbers {
     verse: number;
 }
 
-export type { WordData, ChapterVerseNumbers }
+export type { WordData, ChapterVerseNumbers };
